@@ -1,0 +1,5097 @@
+{
+  "metadata": {
+    "title": "Voynich Codex Five-Scribe & Dual-Supply-Chain Synthesis",
+    "paleographic_source": "Lisa Fagin Davis (2020) Five-Hand Partition",
+    "normalization_rules": [
+      "(6|7|8)?9$ -> 89 (Currier pedestal-plume unification)",
+      "ap$ -> ay (Scribe 5 terminal variant unification)",
+      "^(4o|o) -> stripped canonical root stem"
+    ]
+  },
+  "five_scribe_matrix": [
+    {
+      "scribe_id": 1,
+      "dialect": "Currier A",
+      "role": "Upstream Botanical & Apothecary Jar Catalog",
+      "folio_sides": 114,
+      "total_tokens": 12514,
+      "class_1_upstream_nouns": 4829,
+      "class_1_pct": 38.59,
+      "class_2_procedural_ops": 1118,
+      "class_2_pct": 8.93,
+      "total_covered_pct": 47.52
+    },
+    {
+      "scribe_id": 2,
+      "dialect": "Currier B",
+      "role": "Balneological Prose & Rosettes Hub (Supply Chain B Target)",
+      "folio_sides": 44,
+      "total_tokens": 11835,
+      "class_1_upstream_nouns": 4572,
+      "class_1_pct": 38.63,
+      "class_2_procedural_ops": 2216,
+      "class_2_pct": 18.72,
+      "total_covered_pct": 57.36
+    },
+    {
+      "scribe_id": 3,
+      "dialect": "Currier B",
+      "role": "Starred Recipe Compiler (Balanced Nouns + Procedural)",
+      "folio_sides": 23,
+      "total_tokens": 11605,
+      "class_1_upstream_nouns": 3975,
+      "class_1_pct": 34.25,
+      "class_2_procedural_ops": 2480,
+      "class_2_pct": 21.37,
+      "total_covered_pct": 55.62
+    },
+    {
+      "scribe_id": 4,
+      "dialect": "Currier B",
+      "role": "Astronomical & Zodiac Roundels (Supply Chain B Source)",
+      "folio_sides": 14,
+      "total_tokens": 3142,
+      "class_1_upstream_nouns": 856,
+      "class_1_pct": 27.24,
+      "class_2_procedural_ops": 364,
+      "class_2_pct": 11.58,
+      "total_covered_pct": 38.83
+    },
+    {
+      "scribe_id": 5,
+      "dialect": "Currier B",
+      "role": "High-Density Procedural Copyist (Folio 115v, 57r, 66r-v, 41r-v)",
+      "folio_sides": 6,
+      "total_tokens": 1144,
+      "class_1_upstream_nouns": 304,
+      "class_1_pct": 26.57,
+      "class_2_procedural_ops": 315,
+      "class_2_pct": 27.53,
+      "total_covered_pct": 54.11
+    }
+  ],
+  "supply_chain_a_summary": {
+    "source": "Scribe 1 (Herbal A & Apothecary Jars 87r-102v)",
+    "target": "Scribe 3 & Scribe 5 (Starred Recipes 103r-116r)",
+    "class_1_master_nouns": 125,
+    "class_2_procedural_operators": 146,
+    "recipe_codex_coverage_pct": 59.6
+  },
+  "supply_chain_b_summary": {
+    "source": "Scribe 4 (Zodiac Roundels 70r-73v)",
+    "target": "Scribe 2 (Balneological Bathing Pools 75r-84v)",
+    "total_shared_stems": 220,
+    "direct_o_to_4o_activated_stems": [
+      "h989",
+      "k1s89",
+      "eae",
+      "eoe",
+      "kAy",
+      "hccs",
+      "k2c89",
+      "hc89",
+      "kAe",
+      "hc8ae",
+      "hAe",
+      "kc89",
+      "kCs",
+      "oe",
+      "hae",
+      "kae89",
+      "1c89",
+      "kcc89",
+      "kco",
+      "hae89",
+      "hC89",
+      "kC89",
+      "j1c89",
+      "hc1c89",
+      "kc8ay",
+      "hCs",
+      "jae",
+      "kay89",
+      "kan",
+      "kae",
+      "hoe89",
+      "g1c89",
+      "h89",
+      "k89",
+      "hcc89",
+      "hccc89",
+      "ham",
+      "kCoe",
+      "koe",
+      "hay",
+      "kd89",
+      "89",
+      "hcay",
+      "C89",
+      "kay",
+      "haZ",
+      "hoe",
+      "hcae",
+      "kcoy",
+      "hc189",
+      "k1c89",
+      "hcoy",
+      "kam",
+      "h1c89",
+      "hay89",
+      "h189",
+      "ho89",
+      "hd89",
+      "kaz",
+      "hoy",
+      "Hoe",
+      "k189",
+      "koy",
+      "hcoe",
+      "hCo"
+    ]
+  },
+  "class_2_procedural_operators": [
+    {
+      "stem": "hC89",
+      "scribe_3_hits": 320,
+      "scribe_5_hits": 6,
+      "total_recipe_hits": 326
+    },
+    {
+      "stem": "ae",
+      "scribe_3_hits": 193,
+      "scribe_5_hits": 6,
+      "total_recipe_hits": 199
+    },
+    {
+      "stem": "hc89",
+      "scribe_3_hits": 149,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 152
+    },
+    {
+      "stem": "hcc89",
+      "scribe_3_hits": 140,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 143
+    },
+    {
+      "stem": "kam",
+      "scribe_3_hits": 128,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 130
+    },
+    {
+      "stem": "kc89",
+      "scribe_3_hits": 115,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 118
+    },
+    {
+      "stem": "kan",
+      "scribe_3_hits": 84,
+      "scribe_5_hits": 4,
+      "total_recipe_hits": 88
+    },
+    {
+      "stem": "h1c89",
+      "scribe_3_hits": 72,
+      "scribe_5_hits": 6,
+      "total_recipe_hits": 78
+    },
+    {
+      "stem": "1C89",
+      "scribe_3_hits": 68,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 69
+    },
+    {
+      "stem": "k1c89",
+      "scribe_3_hits": 57,
+      "scribe_5_hits": 6,
+      "total_recipe_hits": 63
+    },
+    {
+      "stem": "ehC89",
+      "scribe_3_hits": 54,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 57
+    },
+    {
+      "stem": "g1c89",
+      "scribe_3_hits": 52,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 53
+    },
+    {
+      "stem": "eham",
+      "scribe_3_hits": 47,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 48
+    },
+    {
+      "stem": "k89",
+      "scribe_3_hits": 41,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 43
+    },
+    {
+      "stem": "1cc89",
+      "scribe_3_hits": 39,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 40
+    },
+    {
+      "stem": "h189",
+      "scribe_3_hits": 33,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 35
+    },
+    {
+      "stem": "hCo",
+      "scribe_3_hits": 28,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 30
+    },
+    {
+      "stem": "8az",
+      "scribe_3_hits": 28,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 29
+    },
+    {
+      "stem": "ehcc89",
+      "scribe_3_hits": 28,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 29
+    },
+    {
+      "stem": "ehay",
+      "scribe_3_hits": 27,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 28
+    },
+    {
+      "stem": "yam",
+      "scribe_3_hits": 25,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 27
+    },
+    {
+      "stem": "c89",
+      "scribe_3_hits": 25,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 26
+    },
+    {
+      "stem": "2cc89",
+      "scribe_3_hits": 22,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 25
+    },
+    {
+      "stem": "ehan",
+      "scribe_3_hits": 23,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 25
+    },
+    {
+      "stem": "aM",
+      "scribe_3_hits": 23,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 24
+    },
+    {
+      "stem": "1K89",
+      "scribe_3_hits": 22,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 24
+    },
+    {
+      "stem": "1c8ay",
+      "scribe_3_hits": 22,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 23
+    },
+    {
+      "stem": "j1c89",
+      "scribe_3_hits": 19,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 20
+    },
+    {
+      "stem": "eoy",
+      "scribe_3_hits": 18,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 20
+    },
+    {
+      "stem": "eh1c89",
+      "scribe_3_hits": 14,
+      "scribe_5_hits": 6,
+      "total_recipe_hits": 20
+    },
+    {
+      "stem": "kco",
+      "scribe_3_hits": 17,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 19
+    },
+    {
+      "stem": "2co",
+      "scribe_3_hits": 18,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 19
+    },
+    {
+      "stem": "9hC89",
+      "scribe_3_hits": 17,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 18
+    },
+    {
+      "stem": "1Co",
+      "scribe_3_hits": 16,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 17
+    },
+    {
+      "stem": "1e",
+      "scribe_3_hits": 15,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 17
+    },
+    {
+      "stem": "2ay",
+      "scribe_3_hits": 15,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 16
+    },
+    {
+      "stem": "2coe",
+      "scribe_3_hits": 14,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 15
+    },
+    {
+      "stem": "yan",
+      "scribe_3_hits": 14,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 15
+    },
+    {
+      "stem": "eh89",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 14
+    },
+    {
+      "stem": "ehd89",
+      "scribe_3_hits": 13,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 14
+    },
+    {
+      "stem": "1c8an",
+      "scribe_3_hits": 12,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 13
+    },
+    {
+      "stem": "hCo89",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 12
+    },
+    {
+      "stem": "2o",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 12
+    },
+    {
+      "stem": "om",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 12
+    },
+    {
+      "stem": "2co89",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 12
+    },
+    {
+      "stem": "kco89",
+      "scribe_3_hits": 11,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 12
+    },
+    {
+      "stem": "18ay",
+      "scribe_3_hits": 9,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 10
+    },
+    {
+      "stem": "18am",
+      "scribe_3_hits": 8,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 9
+    },
+    {
+      "stem": "co",
+      "scribe_3_hits": 8,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 9
+    },
+    {
+      "stem": "op",
+      "scribe_3_hits": 8,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 9
+    },
+    {
+      "stem": "1cos",
+      "scribe_3_hits": 7,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 9
+    },
+    {
+      "stem": "81c89",
+      "scribe_3_hits": 8,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 9
+    },
+    {
+      "stem": "ehe",
+      "scribe_3_hits": 7,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 8
+    },
+    {
+      "stem": "9kcc89",
+      "scribe_3_hits": 7,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 8
+    },
+    {
+      "stem": "9kay",
+      "scribe_3_hits": 7,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 8
+    },
+    {
+      "stem": "18ae",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "1an",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "eh189",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 3,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "ean",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "ey",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "4ok",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "h2c89",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "1hae",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "h1co",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "aie",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "kcc8",
+      "scribe_3_hits": 6,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 7
+    },
+    {
+      "stem": "e1o",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "92c89",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "kc189",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "k1c8",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "kCoe",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "ds",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "e1c8",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "1han",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "e1cc89",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "9k1c89",
+      "scribe_3_hits": 5,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 6
+    },
+    {
+      "stem": "9kan",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "kcco",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "aiy",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "ax",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "ej1c89",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "1cco89",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "yaz",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "1l89",
+      "scribe_3_hits": 4,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 5
+    },
+    {
+      "stem": "92cc89",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "3c8",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "2c8an",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "HC89",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "goy",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "28ay",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "4os",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "ehc1c89",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "9h1c89",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "1ccs",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "1okan",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "1o8an",
+      "scribe_3_hits": 3,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 4
+    },
+    {
+      "stem": "1ck89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "g1o89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "yayay",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "oj",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "2C",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "1ohc89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "e1ay",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "2cHc89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "8ay89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "k18",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "ehCo89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "aq",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "k1co89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "ehcm",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "9h",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "8ae189",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "18an",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "yo8ay",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "g1co",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "y1C89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 2,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "1Jc89",
+      "scribe_3_hits": 2,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 3
+    },
+    {
+      "stem": "k1c8oy",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "goeoy",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "g18ay",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "82coe",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ah89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "3cc89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ehc7an",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "1ccos",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "e8ay",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "1cKc89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "Way",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "2Ck",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "1og189",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ahay",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "e1an",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "3os",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "1ohC89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "sAn",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "1J89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "aV89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "e8",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "g1o8an",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ek189",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "92co",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ehcco",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "k2c8",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "ehc189",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "eh5c89",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    },
+    {
+      "stem": "soyam",
+      "scribe_3_hits": 1,
+      "scribe_5_hits": 1,
+      "total_recipe_hits": 2
+    }
+  ],
+  "zodiac_to_bathing_bridges": [
+    {
+      "stem": "h989",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:oh989",
+        "72v1:oh979"
+      ],
+      "bathing_samples": [
+        "75v:4oh989",
+        "84v:4oh989"
+      ]
+    },
+    {
+      "stem": "2ckc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:2ckc9"
+      ],
+      "bathing_samples": [
+        "76v:2ckc9"
+      ]
+    },
+    {
+      "stem": "2e89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71v:2e89"
+      ],
+      "bathing_samples": [
+        "83v:2e89"
+      ]
+    },
+    {
+      "stem": "4ckae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:4ckae"
+      ],
+      "bathing_samples": [
+        "83r:4ckae"
+      ]
+    },
+    {
+      "stem": "9hccs",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:9hccs"
+      ],
+      "bathing_samples": [
+        "79v:9hccs"
+      ]
+    },
+    {
+      "stem": "ae1c",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:oae1c"
+      ],
+      "bathing_samples": [
+        "76v:ae1c"
+      ]
+    },
+    {
+      "stem": "ae289",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v1:ae289"
+      ],
+      "bathing_samples": [
+        "76r:ae29"
+      ]
+    },
+    {
+      "stem": "hoe289",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:ohoe29"
+      ],
+      "bathing_samples": [
+        "84r:ohoe29"
+      ]
+    },
+    {
+      "stem": "k1s89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 0,
+      "nymph_pair_exclusivity_pct": 100.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ok1s9"
+      ],
+      "bathing_samples": [
+        "84r:4ok1s79"
+      ]
+    },
+    {
+      "stem": "1cae89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 75.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1cae9"
+      ],
+      "bathing_samples": [
+        "75v:1cae9",
+        "77r:1cae9"
+      ]
+    },
+    {
+      "stem": "1cck89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 75.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v1:1cck9"
+      ],
+      "bathing_samples": [
+        "77r:1cck9",
+        "80r:1cck9"
+      ]
+    },
+    {
+      "stem": "kcs",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 75.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:okcs",
+        "72v2:okcs"
+      ],
+      "bathing_samples": [
+        "84v:okcs"
+      ]
+    },
+    {
+      "stem": "soe89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 75.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:soe9"
+      ],
+      "bathing_samples": [
+        "83r:soe69",
+        "84v:soe9"
+      ]
+    },
+    {
+      "stem": "5c89",
+      "zodiac_hits": 3,
+      "bathing_hits": 65,
+      "other_section_hits": 23,
+      "nymph_pair_exclusivity_pct": 74.73,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:5c9",
+        "72r2:5c9",
+        "73v:5c89"
+      ],
+      "bathing_samples": [
+        "75r:5c9",
+        "75r:5c79",
+        "75r:5c89",
+        "75v:5c9",
+        "76r:5c89",
+        "76r:5c9",
+        "76v:5c89",
+        "77r:5c89"
+      ]
+    },
+    {
+      "stem": "1cS",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1cS"
+      ],
+      "bathing_samples": [
+        "76v:1cS"
+      ]
+    },
+    {
+      "stem": "1oj1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1oj1c89"
+      ],
+      "bathing_samples": [
+        "82r:1oj1c89"
+      ]
+    },
+    {
+      "stem": "2ohae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r2:2ohae"
+      ],
+      "bathing_samples": [
+        "80v:2ohae"
+      ]
+    },
+    {
+      "stem": "bam",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:bam"
+      ],
+      "bathing_samples": [
+        "77r:bam"
+      ]
+    },
+    {
+      "stem": "ca",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ca"
+      ],
+      "bathing_samples": [
+        "79v:ca"
+      ]
+    },
+    {
+      "stem": "hCae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 1,
+      "nymph_pair_exclusivity_pct": 66.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:ohCae"
+      ],
+      "bathing_samples": [
+        "78r:ohCae"
+      ]
+    },
+    {
+      "stem": "eae",
+      "zodiac_hits": 2,
+      "bathing_hits": 6,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 61.54,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:eae",
+        "72v2:oeae"
+      ],
+      "bathing_samples": [
+        "76r:4oeae",
+        "76v:eae",
+        "82v:eae",
+        "83r:eae",
+        "83v:oeae",
+        "83v:eae"
+      ]
+    },
+    {
+      "stem": "2cK89",
+      "zodiac_hits": 1,
+      "bathing_hits": 10,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 61.11,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v3:2cK9"
+      ],
+      "bathing_samples": [
+        "75r:2cK9",
+        "76r:2cK9",
+        "76v:2cK9",
+        "80r:2cK9",
+        "80v:2cK9",
+        "83r:2cK9"
+      ]
+    },
+    {
+      "stem": "eoe",
+      "zodiac_hits": 1,
+      "bathing_hits": 31,
+      "other_section_hits": 21,
+      "nymph_pair_exclusivity_pct": 60.38,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r3:oeoe"
+      ],
+      "bathing_samples": [
+        "75r:eoe",
+        "75v:4oeoe",
+        "75v:oeoe",
+        "75v:eoe",
+        "76r:eoe",
+        "76v:eoe",
+        "77r:eoe",
+        "77v:eoe"
+      ]
+    },
+    {
+      "stem": "1c",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 2,
+      "nymph_pair_exclusivity_pct": 60.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1c",
+        "72v2:1c"
+      ],
+      "bathing_samples": [
+        "83r:1c"
+      ]
+    },
+    {
+      "stem": "Ae",
+      "zodiac_hits": 1,
+      "bathing_hits": 18,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 57.58,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:Ae"
+      ],
+      "bathing_samples": [
+        "75v:Ae",
+        "76r:Ae",
+        "77v:Ae",
+        "78r:Ae",
+        "79r:Ae",
+        "80r:Ae",
+        "80v:Ae",
+        "82v:Ae"
+      ]
+    },
+    {
+      "stem": "ayoe",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 57.14,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71v:ayoe"
+      ],
+      "bathing_samples": [
+        "78v:ayoe",
+        "80v:ayoe",
+        "81r:ayoe"
+      ]
+    },
+    {
+      "stem": "2H89",
+      "zodiac_hits": 1,
+      "bathing_hits": 21,
+      "other_section_hits": 21,
+      "nymph_pair_exclusivity_pct": 51.16,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:2H9"
+      ],
+      "bathing_samples": [
+        "75r:2H9",
+        "75v:2H9",
+        "76r:2H9",
+        "78v:2H9",
+        "79r:2H9",
+        "80r:2H9",
+        "80v:2H9",
+        "81v:2H9"
+      ]
+    },
+    {
+      "stem": "kAy",
+      "zodiac_hits": 1,
+      "bathing_hits": 6,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71v:okAy"
+      ],
+      "bathing_samples": [
+        "76v:okAy",
+        "78r:okAy",
+        "79r:4okAy",
+        "80r:4okAy",
+        "80v:kAy",
+        "83r:okAy"
+      ]
+    },
+    {
+      "stem": "hccs",
+      "zodiac_hits": 4,
+      "bathing_hits": 2,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:ohccs",
+        "72r1:ohccs",
+        "73r:ohccs",
+        "73v:hccs"
+      ],
+      "bathing_samples": [
+        "76r:ohccs",
+        "84v:4ohccs"
+      ]
+    },
+    {
+      "stem": "hcoe89",
+      "zodiac_hits": 4,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:ohcoe79",
+        "72v1:ohcoe9",
+        "73v:hcoe9",
+        "73v:4ohcoe9"
+      ],
+      "bathing_samples": [
+        "77v:hcoe9"
+      ]
+    },
+    {
+      "stem": "Way",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:Way"
+      ],
+      "bathing_samples": [
+        "78r:Wap",
+        "79v:Way",
+        "82r:Wap"
+      ]
+    },
+    {
+      "stem": "e1cay",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:oe1cay"
+      ],
+      "bathing_samples": [
+        "77r:e1cay",
+        "79v:e1cap"
+      ]
+    },
+    {
+      "stem": "kcoe89",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:okcoe89",
+        "72v1:okcoe9"
+      ],
+      "bathing_samples": [
+        "76v:okcoe79"
+      ]
+    },
+    {
+      "stem": "yoe89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:oyoe79"
+      ],
+      "bathing_samples": [
+        "80v:yoe9",
+        "84r:oyoe9"
+      ]
+    },
+    {
+      "stem": "1cj1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 2,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1cj1c9"
+      ],
+      "bathing_samples": [
+        "83v:1cj1c89"
+      ]
+    },
+    {
+      "stem": "8aeae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 2,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v1:8aeae"
+      ],
+      "bathing_samples": [
+        "81v:8aeae"
+      ]
+    },
+    {
+      "stem": "on",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 2,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:on"
+      ],
+      "bathing_samples": [
+        "77r:on"
+      ]
+    },
+    {
+      "stem": "yay89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 2,
+      "nymph_pair_exclusivity_pct": 50.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r2:oyay9"
+      ],
+      "bathing_samples": [
+        "82r:yay9"
+      ]
+    },
+    {
+      "stem": "sae",
+      "zodiac_hits": 5,
+      "bathing_hits": 18,
+      "other_section_hits": 25,
+      "nymph_pair_exclusivity_pct": 47.92,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:sae",
+        "70v2:sae",
+        "71r:sae",
+        "72r1:sae"
+      ],
+      "bathing_samples": [
+        "75r:sae",
+        "75v:sae",
+        "76r:sae",
+        "77r:sae",
+        "77v:sae",
+        "78r:osae",
+        "78v:sae",
+        "79r:sae"
+      ]
+    },
+    {
+      "stem": "k2c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 9,
+      "other_section_hits": 11,
+      "nymph_pair_exclusivity_pct": 47.62,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v2:ok2c79"
+      ],
+      "bathing_samples": [
+        "77v:k2c89",
+        "79r:k2c9",
+        "79r:ok2c9",
+        "79r:k2c89",
+        "79r:4ok2c89",
+        "80v:k2c89",
+        "80v:4ok2c9",
+        "82r:k2c9"
+      ]
+    },
+    {
+      "stem": "hc89",
+      "zodiac_hits": 9,
+      "bathing_hits": 270,
+      "other_section_hits": 311,
+      "nymph_pair_exclusivity_pct": 47.29,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:hc9",
+        "70v2:ohc9",
+        "70v1:ohc9",
+        "72v3:ohc9",
+        "72v3:ohc89",
+        "72v2:ohc79"
+      ],
+      "bathing_samples": [
+        "75r:ohc9",
+        "75r:4ohc89",
+        "75r:4ohc79",
+        "75r:4ohc9",
+        "75r:ohc79",
+        "75r:ohc89",
+        "75v:4ohc89",
+        "75v:ohc79"
+      ]
+    },
+    {
+      "stem": "2c89",
+      "zodiac_hits": 10,
+      "bathing_hits": 236,
+      "other_section_hits": 282,
+      "nymph_pair_exclusivity_pct": 46.59,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:2c69",
+        "70r2:2c9",
+        "70v2:2c9",
+        "72r3:2c9",
+        "72v3:2c89",
+        "72v2:2c9"
+      ],
+      "bathing_samples": [
+        "75r:2c9",
+        "75r:2c89",
+        "75r:2c79",
+        "75v:2c89",
+        "75v:2c79",
+        "75v:2c9",
+        "76r:2c89",
+        "76r:2c9"
+      ]
+    },
+    {
+      "stem": "kAe",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 46.15,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:okAe",
+        "70v1:okAe"
+      ],
+      "bathing_samples": [
+        "79r:okAe",
+        "79v:okAe",
+        "79v:4okAe",
+        "80v:kAe"
+      ]
+    },
+    {
+      "stem": "5coe",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 45.45,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:5coe"
+      ],
+      "bathing_samples": [
+        "76r:5coe",
+        "80r:5coe",
+        "81r:5coe",
+        "84v:5coe"
+      ]
+    },
+    {
+      "stem": "1chay",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 44.44,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:1chay"
+      ],
+      "bathing_samples": [
+        "75r:1chap",
+        "75r:1chay",
+        "84r:1chay"
+      ]
+    },
+    {
+      "stem": "hc8ae",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 44.44,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r2:ohc8ae",
+        "73v:ohc8ae"
+      ],
+      "bathing_samples": [
+        "82v:4ohc8ae",
+        "83r:4ohc8ae"
+      ]
+    },
+    {
+      "stem": "y89",
+      "zodiac_hits": 1,
+      "bathing_hits": 14,
+      "other_section_hits": 19,
+      "nymph_pair_exclusivity_pct": 44.12,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:oy9"
+      ],
+      "bathing_samples": [
+        "75r:y9",
+        "75v:oy9",
+        "77v:oy9",
+        "79r:oy9",
+        "79r:y9",
+        "79v:oy9",
+        "80r:oy9",
+        "81r:y9"
+      ]
+    },
+    {
+      "stem": "hAe",
+      "zodiac_hits": 1,
+      "bathing_hits": 6,
+      "other_section_hits": 9,
+      "nymph_pair_exclusivity_pct": 43.75,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v1:ohAe"
+      ],
+      "bathing_samples": [
+        "75v:4ohAe",
+        "75v:ohAe",
+        "79v:4ohAe",
+        "80r:4ohAe",
+        "82r:4ohAe",
+        "83v:4ohAe"
+      ]
+    },
+    {
+      "stem": "kc89",
+      "zodiac_hits": 18,
+      "bathing_hits": 147,
+      "other_section_hits": 218,
+      "nymph_pair_exclusivity_pct": 43.08,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:okc9",
+        "71r:okc9",
+        "72r1:okc9",
+        "72r2:kc9",
+        "72r2:okc9",
+        "72r3:okc9"
+      ],
+      "bathing_samples": [
+        "75r:okc9",
+        "75r:kc89",
+        "75r:okc79",
+        "75r:okc89",
+        "75r:4okc79",
+        "75v:okc89",
+        "75v:4okc89",
+        "75v:okc79"
+      ]
+    },
+    {
+      "stem": "5oe",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 42.86,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:5oe"
+      ],
+      "bathing_samples": [
+        "81r:5oe",
+        "81v:5oe"
+      ]
+    },
+    {
+      "stem": "j1C89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 42.86,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:oj1C9"
+      ],
+      "bathing_samples": [
+        "76v:oj1C9"
+      ]
+    },
+    {
+      "stem": "kCs",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 42.86,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v2:okCs"
+      ],
+      "bathing_samples": [
+        "76v:4okCs",
+        "78r:kCs"
+      ]
+    },
+    {
+      "stem": "oe",
+      "zodiac_hits": 8,
+      "bathing_hits": 306,
+      "other_section_hits": 420,
+      "nymph_pair_exclusivity_pct": 42.78,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:oe",
+        "70r2:oe",
+        "70v2:oe",
+        "72r2:oe",
+        "72r3:oe",
+        "72v2:oe"
+      ],
+      "bathing_samples": [
+        "75r:oe",
+        "75v:oe",
+        "76r:oe",
+        "76r:4ooe",
+        "76v:oe",
+        "77r:oe",
+        "77v:oe",
+        "78r:oe"
+      ]
+    },
+    {
+      "stem": "hae",
+      "zodiac_hits": 17,
+      "bathing_hits": 141,
+      "other_section_hits": 218,
+      "nymph_pair_exclusivity_pct": 42.02,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:ohae",
+        "70r1:4ohae",
+        "70r2:4ohae",
+        "71v:ohae",
+        "71v:hae",
+        "72r2:ohae"
+      ],
+      "bathing_samples": [
+        "75r:hae",
+        "75r:4ohae",
+        "75r:ohae",
+        "75v:4ohae",
+        "75v:ohae",
+        "76r:4ohae",
+        "76r:ohae",
+        "76r:hae"
+      ]
+    },
+    {
+      "stem": "1ckc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 41.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:1ckc9"
+      ],
+      "bathing_samples": [
+        "77r:1ckc9",
+        "81v:1ckc89",
+        "82v:1ckc89",
+        "84r:1ckc9"
+      ]
+    },
+    {
+      "stem": "ae89",
+      "zodiac_hits": 12,
+      "bathing_hits": 7,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 41.3,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ae9",
+        "70v1:ae9",
+        "71v:ae9",
+        "72r2:ae89",
+        "72r2:ae9",
+        "72v3:ae89"
+      ],
+      "bathing_samples": [
+        "75r:ae9",
+        "76v:ae9",
+        "80v:ae9",
+        "82v:ae9",
+        "84r:ae9",
+        "84v:ae9"
+      ]
+    },
+    {
+      "stem": "1c7am",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1c7am"
+      ],
+      "bathing_samples": [
+        "77r:1c7am",
+        "83r:1c7am"
+      ]
+    },
+    {
+      "stem": "1Ae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1Ae"
+      ],
+      "bathing_samples": [
+        "82v:1Ae"
+      ]
+    },
+    {
+      "stem": "6ay",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:6ay"
+      ],
+      "bathing_samples": [
+        "75r:6ay"
+      ]
+    },
+    {
+      "stem": "89s",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73v:89s"
+      ],
+      "bathing_samples": [
+        "84v:89s"
+      ]
+    },
+    {
+      "stem": "k5c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:k5c9"
+      ],
+      "bathing_samples": [
+        "84r:ok5c89"
+      ]
+    },
+    {
+      "stem": "kccoe",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 3,
+      "nymph_pair_exclusivity_pct": 40.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:okccoe"
+      ],
+      "bathing_samples": [
+        "82v:kccoe"
+      ]
+    },
+    {
+      "stem": "1cs",
+      "zodiac_hits": 6,
+      "bathing_hits": 9,
+      "other_section_hits": 23,
+      "nymph_pair_exclusivity_pct": 39.47,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:o1cs",
+        "70r2:1cs",
+        "72r3:1cs",
+        "72v3:1cs",
+        "73r:1cs"
+      ],
+      "bathing_samples": [
+        "76r:1cs",
+        "76v:1cs",
+        "77r:1cs",
+        "77v:1cs",
+        "80v:1cs",
+        "81r:1cs",
+        "82r:1cs",
+        "83v:1cs"
+      ]
+    },
+    {
+      "stem": "kae89",
+      "zodiac_hits": 8,
+      "bathing_hits": 6,
+      "other_section_hits": 22,
+      "nymph_pair_exclusivity_pct": 38.89,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:okae9",
+        "70v2:okae79",
+        "70v1:okae9",
+        "71v:okae9",
+        "72r2:okae9",
+        "72v3:okae9"
+      ],
+      "bathing_samples": [
+        "76r:4okae9",
+        "78r:kae9",
+        "78v:okae9",
+        "80r:okae9",
+        "82v:okae9",
+        "84r:okae9"
+      ]
+    },
+    {
+      "stem": "1c89",
+      "zodiac_hits": 14,
+      "bathing_hits": 340,
+      "other_section_hits": 590,
+      "nymph_pair_exclusivity_pct": 37.5,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:1c79",
+        "70r2:1c9",
+        "70r2:1c89",
+        "70v2:1c79",
+        "71v:o1c9",
+        "71v:1c9"
+      ],
+      "bathing_samples": [
+        "75r:1c9",
+        "75r:1c79",
+        "75r:1c89",
+        "75v:1c89",
+        "75v:1c9",
+        "76r:1c79",
+        "76r:1c9",
+        "76r:1c89"
+      ]
+    },
+    {
+      "stem": "8ae89",
+      "zodiac_hits": 3,
+      "bathing_hits": 12,
+      "other_section_hits": 25,
+      "nymph_pair_exclusivity_pct": 37.5,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:8ae9",
+        "70v1:8ae9",
+        "73v:8ae9"
+      ],
+      "bathing_samples": [
+        "75r:8ae9",
+        "75v:8ae89",
+        "75v:8ae9",
+        "76r:8ae9",
+        "77v:8ae9",
+        "79v:8ae89",
+        "80r:8ae9",
+        "80v:8ae9"
+      ]
+    },
+    {
+      "stem": "cc89",
+      "zodiac_hits": 3,
+      "bathing_hits": 3,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 37.5,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:cc9",
+        "72r3:cc89",
+        "72v3:occ69"
+      ],
+      "bathing_samples": [
+        "79v:occ89",
+        "84r:cc89"
+      ]
+    },
+    {
+      "stem": "1y",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 37.5,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v3:1y"
+      ],
+      "bathing_samples": [
+        "77r:1y",
+        "77v:1y"
+      ]
+    },
+    {
+      "stem": "7ae",
+      "zodiac_hits": 6,
+      "bathing_hits": 10,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 37.21,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:7ae",
+        "70v2:7ae",
+        "71v:7ae",
+        "72r2:7ae",
+        "73r:7ae"
+      ],
+      "bathing_samples": [
+        "75v:7ae",
+        "77r:7ae",
+        "77v:7ae",
+        "78r:7ae",
+        "78v:7ae",
+        "80v:7ae",
+        "82r:7ae",
+        "82v:7ae"
+      ]
+    },
+    {
+      "stem": "kcc89",
+      "zodiac_hits": 18,
+      "bathing_hits": 39,
+      "other_section_hits": 98,
+      "nymph_pair_exclusivity_pct": 36.77,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:okcc9",
+        "70v2:okcc9",
+        "70v2:kcc9",
+        "70v1:okcc89",
+        "70v1:okcc9",
+        "71r:okcc9"
+      ],
+      "bathing_samples": [
+        "75v:4okcc89",
+        "75v:okcc9",
+        "76v:okcc89",
+        "76v:okcc79",
+        "76v:4okcc89",
+        "76v:4okcc79",
+        "77r:4okcc89",
+        "77v:kcc79"
+      ]
+    },
+    {
+      "stem": "kco",
+      "zodiac_hits": 14,
+      "bathing_hits": 1,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 35.71,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:okco",
+        "70r2:okco",
+        "70v2:okco",
+        "70v1:okco",
+        "71r:okco",
+        "71v:okco"
+      ],
+      "bathing_samples": [
+        "78v:4okco"
+      ]
+    },
+    {
+      "stem": "hae89",
+      "zodiac_hits": 9,
+      "bathing_hits": 12,
+      "other_section_hits": 38,
+      "nymph_pair_exclusivity_pct": 35.59,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:ohae9",
+        "72r2:ohae9",
+        "72r2:ohae89",
+        "72r2:hae9",
+        "72v3:ohae9",
+        "72v3:ohae79"
+      ],
+      "bathing_samples": [
+        "75r:ohae79",
+        "75v:4ohae9",
+        "77r:4ohae9",
+        "78r:ohae9",
+        "78r:4ohae9",
+        "79r:4ohae89",
+        "80r:ohae9",
+        "82r:4ohae9"
+      ]
+    },
+    {
+      "stem": "gay",
+      "zodiac_hits": 3,
+      "bathing_hits": 3,
+      "other_section_hits": 11,
+      "nymph_pair_exclusivity_pct": 35.29,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71v:gay",
+        "72v1:gay",
+        "72v1:ogay"
+      ],
+      "bathing_samples": [
+        "79v:ogay",
+        "81r:gay",
+        "81v:gay"
+      ]
+    },
+    {
+      "stem": "hC89",
+      "zodiac_hits": 12,
+      "bathing_hits": 227,
+      "other_section_hits": 441,
+      "nymph_pair_exclusivity_pct": 35.15,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:ohC9",
+        "70r2:hC9",
+        "70r2:ohC9",
+        "71r:ohC9",
+        "71v:hC9",
+        "72r1:ohC9"
+      ],
+      "bathing_samples": [
+        "75r:ohC9",
+        "75r:4ohC9",
+        "75r:4ohC89",
+        "75r:hC89",
+        "75r:hC9",
+        "75r:ohC89",
+        "75r:4ohC79",
+        "75r:ohC79"
+      ]
+    },
+    {
+      "stem": "kC89",
+      "zodiac_hits": 20,
+      "bathing_hits": 64,
+      "other_section_hits": 160,
+      "nymph_pair_exclusivity_pct": 34.43,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:okC9",
+        "70r2:okC79",
+        "70r2:okC9",
+        "70r2:okC89",
+        "70v2:okC89",
+        "70v2:okC9"
+      ],
+      "bathing_samples": [
+        "75r:okC89",
+        "75r:4okC9",
+        "75r:4okC79",
+        "75v:okC89",
+        "75v:4okC89",
+        "75v:okC9",
+        "76r:okC9",
+        "76r:okC89"
+      ]
+    },
+    {
+      "stem": "2coe",
+      "zodiac_hits": 4,
+      "bathing_hits": 24,
+      "other_section_hits": 55,
+      "nymph_pair_exclusivity_pct": 33.73,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:2coe",
+        "72r3:2coe",
+        "73v:2coe"
+      ],
+      "bathing_samples": [
+        "75r:2coe",
+        "75v:2coe",
+        "76v:2coe",
+        "77r:2coe",
+        "77v:2coe",
+        "78v:2coe",
+        "79r:2coe",
+        "80r:2coe"
+      ]
+    },
+    {
+      "stem": "j1c89",
+      "zodiac_hits": 2,
+      "bathing_hits": 18,
+      "other_section_hits": 40,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "73v:4oj1c9",
+        "73v:oj1c9"
+      ],
+      "bathing_samples": [
+        "75v:oj1c89",
+        "76r:4oj1c89",
+        "76r:4oj1c9",
+        "76r:oj1c89",
+        "76r:oj1c9",
+        "76v:oj1c89",
+        "78r:4oj1c89",
+        "78r:4oj1c79"
+      ]
+    },
+    {
+      "stem": "1Kc89",
+      "zodiac_hits": 2,
+      "bathing_hits": 3,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1Kc9",
+        "72v3:1Kc9"
+      ],
+      "bathing_samples": [
+        "75r:1Kc69",
+        "76v:1Kc89",
+        "82r:1Kc9"
+      ]
+    },
+    {
+      "stem": "hc1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v3:ohc1c79"
+      ],
+      "bathing_samples": [
+        "79v:4ohc1c9",
+        "81r:4ohc1c79",
+        "82v:hc1c9",
+        "82v:4ohc1c79"
+      ]
+    },
+    {
+      "stem": "kc8ay",
+      "zodiac_hits": 2,
+      "bathing_hits": 3,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r3:okc8ay",
+        "72v3:okc8ay"
+      ],
+      "bathing_samples": [
+        "75v:kc8ay",
+        "83v:4okc8ay",
+        "84v:okc8ay"
+      ]
+    },
+    {
+      "stem": "1c7",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 8,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73v:1c7"
+      ],
+      "bathing_samples": [
+        "77r:1c7",
+        "78r:1c7",
+        "83v:1c7"
+      ]
+    },
+    {
+      "stem": "2ae",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 8,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:2ae"
+      ],
+      "bathing_samples": [
+        "79r:2ae",
+        "79v:2ae",
+        "83v:2ae"
+      ]
+    },
+    {
+      "stem": "hCs",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ohCs"
+      ],
+      "bathing_samples": [
+        "76r:ohCs",
+        "79v:4ohCs"
+      ]
+    },
+    {
+      "stem": "jae",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v3:ojae"
+      ],
+      "bathing_samples": [
+        "75v:ojae",
+        "80v:4ojae"
+      ]
+    },
+    {
+      "stem": "kay89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "73r:okay9"
+      ],
+      "bathing_samples": [
+        "77r:4okay9",
+        "78r:kay9"
+      ]
+    },
+    {
+      "stem": "8ae189",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r2:8ae179"
+      ],
+      "bathing_samples": [
+        "83r:8ae189"
+      ]
+    },
+    {
+      "stem": "8aeoe",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:8aeoe"
+      ],
+      "bathing_samples": [
+        "83v:8aeoe"
+      ]
+    },
+    {
+      "stem": "Ahae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 4,
+      "nymph_pair_exclusivity_pct": 33.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:Ahae"
+      ],
+      "bathing_samples": [
+        "76v:Ahae"
+      ]
+    },
+    {
+      "stem": "kan",
+      "zodiac_hits": 1,
+      "bathing_hits": 55,
+      "other_section_hits": 115,
+      "nymph_pair_exclusivity_pct": 32.75,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r1:okan"
+      ],
+      "bathing_samples": [
+        "75r:okan",
+        "75v:4okan",
+        "75v:okan",
+        "76r:4okan",
+        "76r:okan",
+        "76v:okan",
+        "76v:kan",
+        "76v:4okan"
+      ]
+    },
+    {
+      "stem": "kae",
+      "zodiac_hits": 13,
+      "bathing_hits": 61,
+      "other_section_hits": 153,
+      "nymph_pair_exclusivity_pct": 32.6,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:okae",
+        "70r2:kae",
+        "70r2:4okae",
+        "70v2:okae",
+        "70v1:okae",
+        "71r:okae"
+      ],
+      "bathing_samples": [
+        "75v:kae",
+        "75v:okae",
+        "76r:4okae",
+        "76r:okae",
+        "76v:4okae",
+        "77r:4okae",
+        "77r:kae",
+        "77v:4okae"
+      ]
+    },
+    {
+      "stem": "1H89",
+      "zodiac_hits": 1,
+      "bathing_hits": 45,
+      "other_section_hits": 96,
+      "nymph_pair_exclusivity_pct": 32.39,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:1H9"
+      ],
+      "bathing_samples": [
+        "75r:1H9",
+        "75v:1H9",
+        "76r:1H9",
+        "76v:1H9",
+        "77r:1H9",
+        "77v:1H9",
+        "78r:1H79",
+        "78r:1H89"
+      ]
+    },
+    {
+      "stem": "9hc89",
+      "zodiac_hits": 3,
+      "bathing_hits": 6,
+      "other_section_hits": 19,
+      "nymph_pair_exclusivity_pct": 32.14,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:9hc9",
+        "73v:9hc9"
+      ],
+      "bathing_samples": [
+        "75v:9hc79",
+        "78r:9hc69",
+        "78r:9hc79",
+        "81v:9hc79",
+        "84r:9hc79",
+        "84v:9hc79"
+      ]
+    },
+    {
+      "stem": "8ae",
+      "zodiac_hits": 16,
+      "bathing_hits": 62,
+      "other_section_hits": 165,
+      "nymph_pair_exclusivity_pct": 32.1,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:8ae",
+        "70r2:8ae",
+        "70v2:8ae",
+        "70v1:8ae",
+        "72r2:8ae",
+        "72v1:o8ae"
+      ],
+      "bathing_samples": [
+        "75r:8ae",
+        "75v:8ae",
+        "76r:8ae",
+        "76v:8ae",
+        "77r:8ae",
+        "77v:o8ae",
+        "77v:8ae",
+        "78r:8ae"
+      ]
+    },
+    {
+      "stem": "1K89",
+      "zodiac_hits": 2,
+      "bathing_hits": 26,
+      "other_section_hits": 60,
+      "nymph_pair_exclusivity_pct": 31.82,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1K9",
+        "70v1:1K9"
+      ],
+      "bathing_samples": [
+        "75r:1K9",
+        "76r:1K9",
+        "77r:1K9",
+        "78v:1K9",
+        "79r:1K9",
+        "80r:1K9",
+        "80v:1K9",
+        "81r:1K9"
+      ]
+    },
+    {
+      "stem": "hoe89",
+      "zodiac_hits": 3,
+      "bathing_hits": 4,
+      "other_section_hits": 15,
+      "nymph_pair_exclusivity_pct": 31.82,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v1:ohoe9",
+        "72r3:hoe9",
+        "72v3:ohoe9"
+      ],
+      "bathing_samples": [
+        "75r:hoe89",
+        "75r:ohoe89",
+        "82r:ohoe89",
+        "82v:4ohoe89"
+      ]
+    },
+    {
+      "stem": "g1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 30,
+      "other_section_hits": 67,
+      "nymph_pair_exclusivity_pct": 31.63,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v1:og1c9"
+      ],
+      "bathing_samples": [
+        "75r:g1c9",
+        "75r:g1c89",
+        "76r:g1c89",
+        "76r:g1c79",
+        "77r:4og1c89",
+        "77r:g1c89",
+        "78v:g1c89",
+        "78v:og1c89"
+      ]
+    },
+    {
+      "stem": "sam",
+      "zodiac_hits": 4,
+      "bathing_hits": 27,
+      "other_section_hits": 67,
+      "nymph_pair_exclusivity_pct": 31.63,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:sam",
+        "72r2:sam",
+        "72v1:sam",
+        "73r:osam"
+      ],
+      "bathing_samples": [
+        "75r:sam",
+        "75v:sam",
+        "76r:sam",
+        "76v:sam",
+        "77r:sam",
+        "77v:sam",
+        "78r:sam",
+        "79v:sam"
+      ]
+    },
+    {
+      "stem": "eam",
+      "zodiac_hits": 7,
+      "bathing_hits": 8,
+      "other_section_hits": 33,
+      "nymph_pair_exclusivity_pct": 31.25,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:oeam",
+        "72r2:oeam",
+        "72r3:oeam",
+        "72v3:oeam"
+      ],
+      "bathing_samples": [
+        "75r:oeam",
+        "76r:oeam",
+        "77r:eam",
+        "77r:oeam",
+        "79r:oeam",
+        "82r:oeam",
+        "84r:oeam"
+      ]
+    },
+    {
+      "stem": "2cae",
+      "zodiac_hits": 3,
+      "bathing_hits": 2,
+      "other_section_hits": 11,
+      "nymph_pair_exclusivity_pct": 31.25,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:2cae",
+        "70v1:2cae",
+        "72r3:2cae"
+      ],
+      "bathing_samples": [
+        "80r:2cae",
+        "82v:2cae"
+      ]
+    },
+    {
+      "stem": "1C89",
+      "zodiac_hits": 8,
+      "bathing_hits": 40,
+      "other_section_hits": 107,
+      "nymph_pair_exclusivity_pct": 30.97,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1C9",
+        "71v:1C9",
+        "72r1:1C79",
+        "72r3:1C9",
+        "72v3:1C9",
+        "72v1:1C79"
+      ],
+      "bathing_samples": [
+        "75r:1C9",
+        "75v:1C89",
+        "76r:1C89",
+        "76v:1C89",
+        "77r:1C89",
+        "77r:1C9",
+        "77v:1C9",
+        "78v:1C9"
+      ]
+    },
+    {
+      "stem": "1cc89",
+      "zodiac_hits": 4,
+      "bathing_hits": 26,
+      "other_section_hits": 68,
+      "nymph_pair_exclusivity_pct": 30.61,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1cc9",
+        "70v1:1cc9",
+        "72v2:1cc9"
+      ],
+      "bathing_samples": [
+        "75v:1cc9",
+        "76v:1cc9",
+        "76v:1cc89",
+        "76v:1cc79",
+        "77r:1cc9",
+        "77v:1cc9",
+        "79r:1cc9",
+        "79r:1cc89"
+      ]
+    },
+    {
+      "stem": "h89",
+      "zodiac_hits": 4,
+      "bathing_hits": 79,
+      "other_section_hits": 189,
+      "nymph_pair_exclusivity_pct": 30.51,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:oh9",
+        "71r:oh9",
+        "72v3:oh9",
+        "73r:oh9"
+      ],
+      "bathing_samples": [
+        "75r:4oh9",
+        "75v:h9",
+        "75v:4oh9",
+        "76r:h9",
+        "76r:4oh9",
+        "76r:oh9",
+        "76v:4oh9",
+        "77r:4oh9"
+      ]
+    },
+    {
+      "stem": "k89",
+      "zodiac_hits": 10,
+      "bathing_hits": 58,
+      "other_section_hits": 157,
+      "nymph_pair_exclusivity_pct": 30.22,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:ok9",
+        "70v2:ok9",
+        "71v:ok9",
+        "72v3:ok9",
+        "72v2:ok9",
+        "73v:ok9"
+      ],
+      "bathing_samples": [
+        "75r:4ok9",
+        "75r:ok9",
+        "75v:ok9",
+        "75v:k9",
+        "76r:4ok9",
+        "76r:ok9",
+        "76v:ok9",
+        "77r:4ok9"
+      ]
+    },
+    {
+      "stem": "k3c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 30.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v1:ok3c89"
+      ],
+      "bathing_samples": [
+        "79v:k3c9",
+        "82v:ok3c89"
+      ]
+    },
+    {
+      "stem": "2C89",
+      "zodiac_hits": 2,
+      "bathing_hits": 30,
+      "other_section_hits": 76,
+      "nymph_pair_exclusivity_pct": 29.63,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:2C9",
+        "72r3:2C79"
+      ],
+      "bathing_samples": [
+        "75r:2C89",
+        "75r:2C79",
+        "75v:2C89",
+        "75v:2C79",
+        "75v:2C9",
+        "76r:2C89",
+        "76r:2C9",
+        "76v:2C89"
+      ]
+    },
+    {
+      "stem": "c89",
+      "zodiac_hits": 2,
+      "bathing_hits": 18,
+      "other_section_hits": 48,
+      "nymph_pair_exclusivity_pct": 29.41,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:c9",
+        "72v1:c89"
+      ],
+      "bathing_samples": [
+        "75v:c89",
+        "76r:c89",
+        "76v:c79",
+        "76v:c89",
+        "77v:c89",
+        "77v:c9",
+        "78r:c89",
+        "80v:c89"
+      ]
+    },
+    {
+      "stem": "hcc89",
+      "zodiac_hits": 8,
+      "bathing_hits": 78,
+      "other_section_hits": 214,
+      "nymph_pair_exclusivity_pct": 28.67,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71v:ohcc9",
+        "72r1:ohcc79",
+        "72r3:ohcc9",
+        "72v3:ohcc9",
+        "72v2:ohcc89",
+        "72v1:ohcc9"
+      ],
+      "bathing_samples": [
+        "75r:ohcc89",
+        "75r:hcc89",
+        "75r:4ohcc79",
+        "75r:4ohcc89",
+        "75v:ohcc89",
+        "75v:4ohcc9",
+        "75v:ohcc9",
+        "76r:4ohcc9"
+      ]
+    },
+    {
+      "stem": "eay",
+      "zodiac_hits": 1,
+      "bathing_hits": 7,
+      "other_section_hits": 20,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73v:eap"
+      ],
+      "bathing_samples": [
+        "75r:oeay",
+        "76r:eay",
+        "77v:eap",
+        "80r:eay",
+        "80v:oeay",
+        "82r:eay",
+        "84r:oeay"
+      ]
+    },
+    {
+      "stem": "kcco89",
+      "zodiac_hits": 3,
+      "bathing_hits": 1,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:okcco89",
+        "72r1:kcco79",
+        "72r2:4okcco89"
+      ],
+      "bathing_samples": [
+        "83v:okcco89"
+      ]
+    },
+    {
+      "stem": "1ay89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73v:1ay9"
+      ],
+      "bathing_samples": [
+        "83r:1ay9"
+      ]
+    },
+    {
+      "stem": "7e",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:7e"
+      ],
+      "bathing_samples": [
+        "81v:7e"
+      ]
+    },
+    {
+      "stem": "9s",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:9s"
+      ],
+      "bathing_samples": [
+        "84v:9s"
+      ]
+    },
+    {
+      "stem": "hccc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71r:ohccc79"
+      ],
+      "bathing_samples": [
+        "82r:4ohccc9"
+      ]
+    },
+    {
+      "stem": "hccoy",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 5,
+      "nymph_pair_exclusivity_pct": 28.57,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:ohccoy"
+      ],
+      "bathing_samples": [
+        "82r:ohccoy"
+      ]
+    },
+    {
+      "stem": "ay89",
+      "zodiac_hits": 5,
+      "bathing_hits": 3,
+      "other_section_hits": 21,
+      "nymph_pair_exclusivity_pct": 27.59,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ay9",
+        "70r2:ay9",
+        "72r1:ay9",
+        "72r2:ay9"
+      ],
+      "bathing_samples": [
+        "78v:ay9",
+        "80r:ay9",
+        "84r:ay9"
+      ]
+    },
+    {
+      "stem": "9hC89",
+      "zodiac_hits": 3,
+      "bathing_hits": 14,
+      "other_section_hits": 46,
+      "nymph_pair_exclusivity_pct": 26.98,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:9hC9",
+        "72v1:9hC79",
+        "73r:9hC79"
+      ],
+      "bathing_samples": [
+        "75r:9hC9",
+        "78r:9hC89",
+        "79r:9hC9",
+        "79v:9hC9",
+        "79v:9hC89",
+        "80r:9hC9",
+        "81r:9hC89",
+        "81v:9hC89"
+      ]
+    },
+    {
+      "stem": "1Cs",
+      "zodiac_hits": 2,
+      "bathing_hits": 3,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 26.32,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r2:1Cs",
+        "72v3:1Cs"
+      ],
+      "bathing_samples": [
+        "76v:1Cs",
+        "77v:1Cs",
+        "81r:1Cs"
+      ]
+    },
+    {
+      "stem": "d89",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 26.32,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:d89"
+      ],
+      "bathing_samples": [
+        "76v:d79",
+        "76v:4od89",
+        "77r:d79",
+        "82r:d79"
+      ]
+    },
+    {
+      "stem": "ham",
+      "zodiac_hits": 9,
+      "bathing_hits": 125,
+      "other_section_hits": 388,
+      "nymph_pair_exclusivity_pct": 25.67,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:oham",
+        "71v:ham",
+        "71v:oham",
+        "72r1:ham",
+        "72r1:oham",
+        "72r2:oham"
+      ],
+      "bathing_samples": [
+        "75r:oham",
+        "75v:oham",
+        "76r:ham",
+        "76r:4oham",
+        "76r:oham",
+        "76v:oham",
+        "76v:4oham",
+        "77r:4oham"
+      ]
+    },
+    {
+      "stem": "1cae",
+      "zodiac_hits": 1,
+      "bathing_hits": 8,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:1cae"
+      ],
+      "bathing_samples": [
+        "76r:1cae",
+        "77r:1cae",
+        "82r:1cae",
+        "82v:1cae",
+        "83r:1cae",
+        "83v:1cae"
+      ]
+    },
+    {
+      "stem": "koe89",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 18,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v3:okoe9",
+        "73v:koe9"
+      ],
+      "bathing_samples": [
+        "75v:okoe9",
+        "79r:okoe89",
+        "82v:okoe89",
+        "84r:okoe9"
+      ]
+    },
+    {
+      "stem": "9kae",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 12,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v1:9kae"
+      ],
+      "bathing_samples": [
+        "76r:9kae",
+        "77v:9kae"
+      ]
+    },
+    {
+      "stem": "Cs",
+      "zodiac_hits": 3,
+      "bathing_hits": 1,
+      "other_section_hits": 12,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:Cs",
+        "72v3:oCs",
+        "72v1:oCs"
+      ],
+      "bathing_samples": [
+        "76v:Cs"
+      ]
+    },
+    {
+      "stem": "kCoe",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 9,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71r:okCoe"
+      ],
+      "bathing_samples": [
+        "78v:kCoe",
+        "82r:4okCoe"
+      ]
+    },
+    {
+      "stem": "1ae89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 6,
+      "nymph_pair_exclusivity_pct": 25.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:1ae9"
+      ],
+      "bathing_samples": [
+        "76r:1ae9"
+      ]
+    },
+    {
+      "stem": "koe",
+      "zodiac_hits": 9,
+      "bathing_hits": 33,
+      "other_section_hits": 132,
+      "nymph_pair_exclusivity_pct": 24.14,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:okoe",
+        "70r2:okoe",
+        "70r2:koe",
+        "71r:okoe",
+        "72v2:okoe",
+        "72v1:okoe"
+      ],
+      "bathing_samples": [
+        "75r:koe",
+        "75v:koe",
+        "75v:okoe",
+        "76v:okoe",
+        "77r:okoe",
+        "77r:koe",
+        "77r:4okoe",
+        "77v:okoe"
+      ]
+    },
+    {
+      "stem": "8e",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 16,
+      "nymph_pair_exclusivity_pct": 23.81,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:8e"
+      ],
+      "bathing_samples": [
+        "75v:8e",
+        "76v:8e",
+        "81v:8e"
+      ]
+    },
+    {
+      "stem": "1ae",
+      "zodiac_hits": 6,
+      "bathing_hits": 8,
+      "other_section_hits": 46,
+      "nymph_pair_exclusivity_pct": 23.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1ae",
+        "71v:1ae",
+        "72r1:1ae",
+        "72v2:1ae"
+      ],
+      "bathing_samples": [
+        "75r:1ae",
+        "76r:1ae",
+        "77v:1ae",
+        "81v:1ae",
+        "83v:1ae",
+        "84v:1ae"
+      ]
+    },
+    {
+      "stem": "Am",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 23.08,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:oAm"
+      ],
+      "bathing_samples": [
+        "76v:Am",
+        "81v:Am"
+      ]
+    },
+    {
+      "stem": "Kcoe",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 23.08,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:oKcoe",
+        "72v2:Kcoe"
+      ],
+      "bathing_samples": [
+        "82r:oKcoe"
+      ]
+    },
+    {
+      "stem": "hay",
+      "zodiac_hits": 8,
+      "bathing_hits": 81,
+      "other_section_hits": 297,
+      "nymph_pair_exclusivity_pct": 23.06,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:hap",
+        "70r2:ohay",
+        "71v:ohap",
+        "72r2:ohay",
+        "72r2:ohap",
+        "72r3:ohay"
+      ],
+      "bathing_samples": [
+        "75r:4ohay",
+        "75r:ohay",
+        "75r:4ohap",
+        "75r:hay",
+        "75v:4ohay",
+        "75v:ohay",
+        "76r:4ohay",
+        "76r:ohay"
+      ]
+    },
+    {
+      "stem": "9kc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 7,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 22.86,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:9kc9"
+      ],
+      "bathing_samples": [
+        "75v:9kc89",
+        "78r:9kc89",
+        "78v:9kc79",
+        "81v:9kc89",
+        "81v:9kc79",
+        "81v:9kc9",
+        "84r:9kc89"
+      ]
+    },
+    {
+      "stem": "kd89",
+      "zodiac_hits": 3,
+      "bathing_hits": 2,
+      "other_section_hits": 17,
+      "nymph_pair_exclusivity_pct": 22.73,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71v:kd9",
+        "72r2:okd9"
+      ],
+      "bathing_samples": [
+        "77r:4okd89",
+        "79r:okd89"
+      ]
+    },
+    {
+      "stem": "89",
+      "zodiac_hits": 41,
+      "bathing_hits": 139,
+      "other_section_hits": 618,
+      "nymph_pair_exclusivity_pct": 22.56,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:o89",
+        "70r1:89",
+        "70r1:9",
+        "70r1:79",
+        "70r2:89",
+        "70r2:o89"
+      ],
+      "bathing_samples": [
+        "75r:89",
+        "75r:79",
+        "75v:9",
+        "75v:89",
+        "76r:89",
+        "76r:9",
+        "76v:9",
+        "76v:89"
+      ]
+    },
+    {
+      "stem": "18ay",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 22.22,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:18ay"
+      ],
+      "bathing_samples": [
+        "76r:18ap",
+        "76v:18ay",
+        "78r:18ay"
+      ]
+    },
+    {
+      "stem": "1c8am",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 22.22,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:1c8am",
+        "72r3:1c8am"
+      ],
+      "bathing_samples": [
+        "76v:1c8am",
+        "77r:1c8am"
+      ]
+    },
+    {
+      "stem": "1s",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 22.22,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:1s",
+        "72r2:1s"
+      ],
+      "bathing_samples": [
+        "77v:1s",
+        "83r:1s"
+      ]
+    },
+    {
+      "stem": "hcay",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 22.22,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ohcay",
+        "72v3:ohcay"
+      ],
+      "bathing_samples": [
+        "75v:4ohcay",
+        "83v:4ohcay"
+      ]
+    },
+    {
+      "stem": "1ccoy",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 7,
+      "nymph_pair_exclusivity_pct": 22.22,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:1ccoy"
+      ],
+      "bathing_samples": [
+        "80v:1ccoy"
+      ]
+    },
+    {
+      "stem": "say",
+      "zodiac_hits": 1,
+      "bathing_hits": 16,
+      "other_section_hits": 60,
+      "nymph_pair_exclusivity_pct": 22.08,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:sap"
+      ],
+      "bathing_samples": [
+        "76r:say",
+        "76v:say",
+        "77r:say",
+        "79r:say",
+        "79v:say",
+        "80v:say",
+        "81r:say",
+        "81v:say"
+      ]
+    },
+    {
+      "stem": "C89",
+      "zodiac_hits": 2,
+      "bathing_hits": 9,
+      "other_section_hits": 39,
+      "nymph_pair_exclusivity_pct": 22.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v2:oC89",
+        "72v1:oC9"
+      ],
+      "bathing_samples": [
+        "76r:C89",
+        "76r:C9",
+        "76v:4oC79",
+        "77r:4oC79",
+        "80r:C9",
+        "81v:4oC79",
+        "84v:4oC89",
+        "84v:4oC79"
+      ]
+    },
+    {
+      "stem": "8ay",
+      "zodiac_hits": 13,
+      "bathing_hits": 70,
+      "other_section_hits": 298,
+      "nymph_pair_exclusivity_pct": 21.78,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:8ay",
+        "70r1:8ap",
+        "70r2:8ay",
+        "70r2:8ap",
+        "71r:8ay",
+        "71v:8ay"
+      ],
+      "bathing_samples": [
+        "75r:8ay",
+        "75r:o8ay",
+        "75v:8ay",
+        "76r:8ay",
+        "77v:8ay",
+        "78r:8ay",
+        "78v:8ap",
+        "78v:8ay"
+      ]
+    },
+    {
+      "stem": "om",
+      "zodiac_hits": 1,
+      "bathing_hits": 8,
+      "other_section_hits": 33,
+      "nymph_pair_exclusivity_pct": 21.43,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:om"
+      ],
+      "bathing_samples": [
+        "75v:om",
+        "77v:om",
+        "78r:om",
+        "79v:om",
+        "80v:om",
+        "81v:om"
+      ]
+    },
+    {
+      "stem": "1coe",
+      "zodiac_hits": 6,
+      "bathing_hits": 30,
+      "other_section_hits": 138,
+      "nymph_pair_exclusivity_pct": 20.69,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1coe",
+        "71v:1coe",
+        "72r1:1coe",
+        "72r2:1coe",
+        "72r3:1coe",
+        "72v2:1coe"
+      ],
+      "bathing_samples": [
+        "76r:1coe",
+        "76v:1coe",
+        "77r:1coe",
+        "77v:1coe",
+        "78v:1coe",
+        "79r:1coe",
+        "80r:1coe",
+        "80v:1coe"
+      ]
+    },
+    {
+      "stem": "ehay",
+      "zodiac_hits": 1,
+      "bathing_hits": 11,
+      "other_section_hits": 47,
+      "nymph_pair_exclusivity_pct": 20.34,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:oehay"
+      ],
+      "bathing_samples": [
+        "75r:oehay",
+        "75v:ehay",
+        "76r:ehay",
+        "80r:oehay",
+        "80r:oehap",
+        "80r:ehay",
+        "80v:oehay",
+        "81r:oehay"
+      ]
+    },
+    {
+      "stem": "1ch89",
+      "zodiac_hits": 2,
+      "bathing_hits": 11,
+      "other_section_hits": 51,
+      "nymph_pair_exclusivity_pct": 20.31,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:1ch9",
+        "72r1:1ch9"
+      ],
+      "bathing_samples": [
+        "75r:1ch9",
+        "77v:1ch9",
+        "78r:1ch9",
+        "80r:1ch9",
+        "81v:1ch9",
+        "82v:1ch9",
+        "83r:1ch9",
+        "84r:1ch9"
+      ]
+    },
+    {
+      "stem": "ae",
+      "zodiac_hits": 42,
+      "bathing_hits": 31,
+      "other_section_hits": 289,
+      "nymph_pair_exclusivity_pct": 20.17,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ae",
+        "70r2:ae",
+        "70v2:ae",
+        "70v1:ae",
+        "71r:ae",
+        "71v:ae"
+      ],
+      "bathing_samples": [
+        "75r:ae",
+        "76r:ae",
+        "76v:ae",
+        "77r:ae",
+        "78v:ae",
+        "79r:ae",
+        "80r:ae",
+        "80v:ae"
+      ]
+    },
+    {
+      "stem": "kay",
+      "zodiac_hits": 19,
+      "bathing_hits": 44,
+      "other_section_hits": 252,
+      "nymph_pair_exclusivity_pct": 20.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:okay",
+        "70r2:okay",
+        "70v2:okay",
+        "70v1:kay",
+        "71v:okay",
+        "72r1:okap"
+      ],
+      "bathing_samples": [
+        "75r:4okay",
+        "75r:okay",
+        "75r:okap",
+        "75v:4okap",
+        "75v:okay",
+        "75v:4okay",
+        "76r:okay",
+        "76v:okay"
+      ]
+    },
+    {
+      "stem": "1c8ay",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 24,
+      "nymph_pair_exclusivity_pct": 20.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1c8ay"
+      ],
+      "bathing_samples": [
+        "78v:1c8ay",
+        "79r:1c8ay",
+        "81r:o1c8ay",
+        "81r:1c8ay",
+        "82r:1c8ay"
+      ]
+    },
+    {
+      "stem": "haZ",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 8,
+      "nymph_pair_exclusivity_pct": 20.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r1:ohaZ"
+      ],
+      "bathing_samples": [
+        "82v:4ohaZ"
+      ]
+    },
+    {
+      "stem": "jay",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 8,
+      "nymph_pair_exclusivity_pct": 20.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ojay"
+      ],
+      "bathing_samples": [
+        "76r:ojay"
+      ]
+    },
+    {
+      "stem": "1ck89",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 21,
+      "nymph_pair_exclusivity_pct": 19.23,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1ck9"
+      ],
+      "bathing_samples": [
+        "75v:1ck9",
+        "78v:1ck9",
+        "81r:1ck9",
+        "83r:1ck9"
+      ]
+    },
+    {
+      "stem": "oy",
+      "zodiac_hits": 3,
+      "bathing_hits": 83,
+      "other_section_hits": 362,
+      "nymph_pair_exclusivity_pct": 19.2,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:oy",
+        "71v:oy",
+        "72r3:oy"
+      ],
+      "bathing_samples": [
+        "75r:oy",
+        "75v:oy",
+        "76r:oy",
+        "77r:oy",
+        "77v:oy",
+        "78r:oy",
+        "78v:oy",
+        "79r:oy"
+      ]
+    },
+    {
+      "stem": "1c8",
+      "zodiac_hits": 1,
+      "bathing_hits": 3,
+      "other_section_hits": 17,
+      "nymph_pair_exclusivity_pct": 19.05,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1c8"
+      ],
+      "bathing_samples": [
+        "75v:1c8",
+        "76v:1c8",
+        "83r:1c8"
+      ]
+    },
+    {
+      "stem": "hoe",
+      "zodiac_hits": 4,
+      "bathing_hits": 37,
+      "other_section_hits": 176,
+      "nymph_pair_exclusivity_pct": 18.89,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ohoe",
+        "71v:ohoe",
+        "72r1:hoe",
+        "72v3:ohoe"
+      ],
+      "bathing_samples": [
+        "75r:hoe",
+        "75v:4ohoe",
+        "76v:4ohoe",
+        "77r:4ohoe",
+        "77v:4ohoe",
+        "77v:ohoe",
+        "78r:4ohoe",
+        "78v:ohoe"
+      ]
+    },
+    {
+      "stem": "9kC89",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 26,
+      "nymph_pair_exclusivity_pct": 18.75,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:9kC9",
+        "73r:o9kC89"
+      ],
+      "bathing_samples": [
+        "76v:9kC9",
+        "79r:9kC9",
+        "79v:9kC89",
+        "79v:9kC9"
+      ]
+    },
+    {
+      "stem": "1ccs",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 13,
+      "nymph_pair_exclusivity_pct": 18.75,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:1ccs"
+      ],
+      "bathing_samples": [
+        "76v:1ccs",
+        "77r:1ccs"
+      ]
+    },
+    {
+      "stem": "hcae",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 13,
+      "nymph_pair_exclusivity_pct": 18.75,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v1:ohcae",
+        "72v2:ohcae"
+      ],
+      "bathing_samples": [
+        "83r:4ohcae"
+      ]
+    },
+    {
+      "stem": "9hcc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 4,
+      "other_section_hits": 22,
+      "nymph_pair_exclusivity_pct": 18.52,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73v:9hcc9"
+      ],
+      "bathing_samples": [
+        "75v:9hcc89",
+        "78v:9hcc9",
+        "79v:9hcc89",
+        "81v:9hcc9"
+      ]
+    },
+    {
+      "stem": "kcoe",
+      "zodiac_hits": 4,
+      "bathing_hits": 8,
+      "other_section_hits": 53,
+      "nymph_pair_exclusivity_pct": 18.46,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:okcoe",
+        "72r3:okcoe",
+        "72v1:okcoe"
+      ],
+      "bathing_samples": [
+        "76v:okcoe",
+        "79r:kcoe",
+        "80r:kcoe",
+        "81r:okcoe",
+        "81v:kcoe",
+        "84r:kcoe",
+        "84v:okcoe"
+      ]
+    },
+    {
+      "stem": "1chae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 9,
+      "nymph_pair_exclusivity_pct": 18.18,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71r:1chae"
+      ],
+      "bathing_samples": [
+        "81v:1chae"
+      ]
+    },
+    {
+      "stem": "9h",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 9,
+      "nymph_pair_exclusivity_pct": 18.18,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:9h"
+      ],
+      "bathing_samples": [
+        "81v:9h"
+      ]
+    },
+    {
+      "stem": "1coy",
+      "zodiac_hits": 6,
+      "bathing_hits": 10,
+      "other_section_hits": 73,
+      "nymph_pair_exclusivity_pct": 17.98,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1coy",
+        "71v:1coy",
+        "72r3:1coy",
+        "72v3:1coy",
+        "73v:1coy"
+      ],
+      "bathing_samples": [
+        "76v:1coy",
+        "78v:1coy",
+        "79r:1coy",
+        "82r:1coy",
+        "83v:1coy",
+        "84r:1coy"
+      ]
+    },
+    {
+      "stem": "hCoe",
+      "zodiac_hits": 3,
+      "bathing_hits": 2,
+      "other_section_hits": 23,
+      "nymph_pair_exclusivity_pct": 17.86,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v1:4ohCoe",
+        "72r3:ohCoe",
+        "72v3:ohCoe"
+      ],
+      "bathing_samples": [
+        "80v:hCoe",
+        "83r:ohCoe"
+      ]
+    },
+    {
+      "stem": "1c8an",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 14,
+      "nymph_pair_exclusivity_pct": 17.65,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1c8an"
+      ],
+      "bathing_samples": [
+        "76r:1c8an",
+        "83r:1c8an"
+      ]
+    },
+    {
+      "stem": "an",
+      "zodiac_hits": 1,
+      "bathing_hits": 35,
+      "other_section_hits": 169,
+      "nymph_pair_exclusivity_pct": 17.56,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:oan"
+      ],
+      "bathing_samples": [
+        "75r:an",
+        "76r:an",
+        "76v:an",
+        "77r:an",
+        "77v:an",
+        "78r:an",
+        "78v:an",
+        "79r:an"
+      ]
+    },
+    {
+      "stem": "8189",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 29,
+      "nymph_pair_exclusivity_pct": 17.14,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:819"
+      ],
+      "bathing_samples": [
+        "77r:8179",
+        "77v:819",
+        "78v:8189",
+        "79r:819",
+        "84r:8189"
+      ]
+    },
+    {
+      "stem": "2c",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 15,
+      "nymph_pair_exclusivity_pct": 16.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:2c"
+      ],
+      "bathing_samples": [
+        "79r:2c",
+        "80r:2c"
+      ]
+    },
+    {
+      "stem": "kcoy",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 15,
+      "nymph_pair_exclusivity_pct": 16.67,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r1:okcoy",
+        "72v3:okcoy"
+      ],
+      "bathing_samples": [
+        "82r:4okcoy"
+      ]
+    },
+    {
+      "stem": "1hae",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 10,
+      "nymph_pair_exclusivity_pct": 16.67,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1hae"
+      ],
+      "bathing_samples": [
+        "75r:1hae"
+      ]
+    },
+    {
+      "stem": "ay",
+      "zodiac_hits": 63,
+      "bathing_hits": 42,
+      "other_section_hits": 534,
+      "nymph_pair_exclusivity_pct": 16.43,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ay",
+        "70r2:ap",
+        "70r2:ay",
+        "70r2:oay",
+        "70v2:ay",
+        "70v2:ap"
+      ],
+      "bathing_samples": [
+        "75r:ay",
+        "75r:ap",
+        "76r:ay",
+        "76r:ap",
+        "76v:ay",
+        "77r:ay",
+        "77v:ay",
+        "78r:ay"
+      ]
+    },
+    {
+      "stem": "2ay",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 32,
+      "nymph_pair_exclusivity_pct": 15.79,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:2ay"
+      ],
+      "bathing_samples": [
+        "79r:2ay",
+        "80r:2ay",
+        "80v:2ay",
+        "82v:2ay"
+      ]
+    },
+    {
+      "stem": "8aiy",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 16,
+      "nymph_pair_exclusivity_pct": 15.79,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:8aiy",
+        "70v2:8aiy"
+      ],
+      "bathing_samples": [
+        "81v:8aiy"
+      ]
+    },
+    {
+      "stem": "hc189",
+      "zodiac_hits": 2,
+      "bathing_hits": 3,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 15.62,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ohc19",
+        "72v3:ohc189"
+      ],
+      "bathing_samples": [
+        "75r:4ohc189",
+        "78r:hc179",
+        "82r:ohc19"
+      ]
+    },
+    {
+      "stem": "k1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 23,
+      "other_section_hits": 130,
+      "nymph_pair_exclusivity_pct": 15.58,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r2:ok1c9"
+      ],
+      "bathing_samples": [
+        "75r:k1c89",
+        "76v:k1c79",
+        "76v:k1c89",
+        "78r:k1c89",
+        "78r:4ok1c89",
+        "79r:ok1c89",
+        "79r:4ok1c9",
+        "79r:ok1c9"
+      ]
+    },
+    {
+      "stem": "hcoy",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 34,
+      "nymph_pair_exclusivity_pct": 15.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "71v:hcoy",
+        "72r1:ohcoy"
+      ],
+      "bathing_samples": [
+        "75v:4ohcoy",
+        "76r:4ohcoy",
+        "76r:ohcoy"
+      ]
+    },
+    {
+      "stem": "1c8ae",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 17,
+      "nymph_pair_exclusivity_pct": 15.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1c8ae",
+        "72r1:1c8ae"
+      ],
+      "bathing_samples": [
+        "77v:1c8ae"
+      ]
+    },
+    {
+      "stem": "kam",
+      "zodiac_hits": 13,
+      "bathing_hits": 28,
+      "other_section_hits": 234,
+      "nymph_pair_exclusivity_pct": 14.91,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:okam",
+        "70v1:okam",
+        "71v:okam",
+        "72r1:okam",
+        "72r2:okam",
+        "72r3:okam"
+      ],
+      "bathing_samples": [
+        "76v:kam",
+        "76v:okam",
+        "77r:4okam",
+        "78r:4okam",
+        "78v:okam",
+        "79r:4okam",
+        "79r:okam",
+        "79v:okam"
+      ]
+    },
+    {
+      "stem": "7ay",
+      "zodiac_hits": 4,
+      "bathing_hits": 7,
+      "other_section_hits": 63,
+      "nymph_pair_exclusivity_pct": 14.86,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:7ay",
+        "70v2:7ay",
+        "72r1:7ay",
+        "73r:7ap"
+      ],
+      "bathing_samples": [
+        "76r:7ay",
+        "78r:7ap",
+        "80r:7ay",
+        "81r:7ay",
+        "81v:7ay",
+        "82r:7ap",
+        "84r:7ay"
+      ]
+    },
+    {
+      "stem": "1oe89",
+      "zodiac_hits": 3,
+      "bathing_hits": 1,
+      "other_section_hits": 23,
+      "nymph_pair_exclusivity_pct": 14.81,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1oe9",
+        "71r:1oe9",
+        "72v2:1oe89"
+      ],
+      "bathing_samples": [
+        "76r:1oe9"
+      ]
+    },
+    {
+      "stem": "289",
+      "zodiac_hits": 1,
+      "bathing_hits": 14,
+      "other_section_hits": 87,
+      "nymph_pair_exclusivity_pct": 14.71,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:29"
+      ],
+      "bathing_samples": [
+        "75r:29",
+        "76r:289",
+        "76r:29",
+        "78r:289",
+        "78v:289",
+        "79r:29",
+        "79v:29",
+        "80r:29"
+      ]
+    },
+    {
+      "stem": "h1c89",
+      "zodiac_hits": 1,
+      "bathing_hits": 21,
+      "other_section_hits": 131,
+      "nymph_pair_exclusivity_pct": 14.38,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:oh1c79"
+      ],
+      "bathing_samples": [
+        "75v:h1c9",
+        "77v:4oh1c79",
+        "77v:h1c89",
+        "77v:h1c79",
+        "78v:oh1c9",
+        "79r:h1c89",
+        "79r:oh1c9",
+        "79v:4oh1c9"
+      ]
+    },
+    {
+      "stem": "os",
+      "zodiac_hits": 4,
+      "bathing_hits": 1,
+      "other_section_hits": 30,
+      "nymph_pair_exclusivity_pct": 14.29,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:os",
+        "71r:os",
+        "72r3:os"
+      ],
+      "bathing_samples": [
+        "79r:os"
+      ]
+    },
+    {
+      "stem": "hay89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 12,
+      "nymph_pair_exclusivity_pct": 14.29,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72v3:ohay9"
+      ],
+      "bathing_samples": [
+        "75r:4ohay89"
+      ]
+    },
+    {
+      "stem": "189",
+      "zodiac_hits": 11,
+      "bathing_hits": 35,
+      "other_section_hits": 303,
+      "nymph_pair_exclusivity_pct": 13.18,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:19",
+        "70r2:179",
+        "70r2:189",
+        "70v1:o19",
+        "70v1:19",
+        "71r:19"
+      ],
+      "bathing_samples": [
+        "75r:19",
+        "75r:189",
+        "76r:189",
+        "76r:19",
+        "76r:179",
+        "76v:189",
+        "77r:189",
+        "77r:19"
+      ]
+    },
+    {
+      "stem": "7am",
+      "zodiac_hits": 3,
+      "bathing_hits": 12,
+      "other_section_hits": 101,
+      "nymph_pair_exclusivity_pct": 12.93,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r2:7am",
+        "72v3:7am",
+        "72v2:7am"
+      ],
+      "bathing_samples": [
+        "77r:7am",
+        "81v:7am",
+        "84r:7am",
+        "84v:7am"
+      ]
+    },
+    {
+      "stem": "am",
+      "zodiac_hits": 37,
+      "bathing_hits": 63,
+      "other_section_hits": 674,
+      "nymph_pair_exclusivity_pct": 12.92,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:am",
+        "70v2:am",
+        "70v1:am",
+        "71r:am",
+        "71v:am",
+        "72r1:am"
+      ],
+      "bathing_samples": [
+        "75v:am",
+        "76r:4oam",
+        "76r:am",
+        "76v:am",
+        "77r:am",
+        "77v:am",
+        "78r:am",
+        "78v:am"
+      ]
+    },
+    {
+      "stem": "2co",
+      "zodiac_hits": 4,
+      "bathing_hits": 2,
+      "other_section_hits": 41,
+      "nymph_pair_exclusivity_pct": 12.77,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:2co",
+        "70v1:2co",
+        "71v:o2co",
+        "71v:2co"
+      ],
+      "bathing_samples": [
+        "80r:2co",
+        "83v:2co"
+      ]
+    },
+    {
+      "stem": "h189",
+      "zodiac_hits": 2,
+      "bathing_hits": 24,
+      "other_section_hits": 186,
+      "nymph_pair_exclusivity_pct": 12.26,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:oh19",
+        "72r2:oh19"
+      ],
+      "bathing_samples": [
+        "75r:4oh189",
+        "75r:oh189",
+        "75v:4oh189",
+        "76r:4oh179",
+        "76r:oh19",
+        "77v:4oh19",
+        "78r:oh179",
+        "78r:4oh189"
+      ]
+    },
+    {
+      "stem": "yam",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 44,
+      "nymph_pair_exclusivity_pct": 12.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:oyam",
+        "72v2:oyam"
+      ],
+      "bathing_samples": [
+        "76r:yam",
+        "77r:yam",
+        "80r:oyam",
+        "82r:yam"
+      ]
+    },
+    {
+      "stem": "9kcc89",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 22,
+      "nymph_pair_exclusivity_pct": 12.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:9kcc89",
+        "73v:9kcc79"
+      ],
+      "bathing_samples": [
+        "78v:9kcc79"
+      ]
+    },
+    {
+      "stem": "1ay",
+      "zodiac_hits": 4,
+      "bathing_hits": 8,
+      "other_section_hits": 89,
+      "nymph_pair_exclusivity_pct": 11.88,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:1ap",
+        "71r:1ay",
+        "71v:1ay",
+        "72r2:1ap"
+      ],
+      "bathing_samples": [
+        "75r:1ay",
+        "75v:1ay",
+        "76v:1ay",
+        "77r:1ap",
+        "79v:1ap",
+        "82r:1ay",
+        "82v:1ay",
+        "83v:1ay"
+      ]
+    },
+    {
+      "stem": "az",
+      "zodiac_hits": 7,
+      "bathing_hits": 4,
+      "other_section_hits": 84,
+      "nymph_pair_exclusivity_pct": 11.58,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:az",
+        "70r2:az",
+        "70v1:az",
+        "73r:az",
+        "73v:az"
+      ],
+      "bathing_samples": [
+        "79r:az",
+        "83r:az",
+        "84r:az"
+      ]
+    },
+    {
+      "stem": "haz",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 46,
+      "nymph_pair_exclusivity_pct": 11.54,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v2:haz"
+      ],
+      "bathing_samples": [
+        "80r:4ohaz",
+        "80v:haz",
+        "81r:ohaz",
+        "81v:haz",
+        "83r:ohaz"
+      ]
+    },
+    {
+      "stem": "ho89",
+      "zodiac_hits": 3,
+      "bathing_hits": 1,
+      "other_section_hits": 31,
+      "nymph_pair_exclusivity_pct": 11.43,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:oho79",
+        "71r:oho89"
+      ],
+      "bathing_samples": [
+        "75r:4oho9"
+      ]
+    },
+    {
+      "stem": "2oe",
+      "zodiac_hits": 5,
+      "bathing_hits": 11,
+      "other_section_hits": 125,
+      "nymph_pair_exclusivity_pct": 11.35,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:2oe",
+        "70v1:2oe",
+        "72r3:2oe",
+        "72v3:2oe"
+      ],
+      "bathing_samples": [
+        "76r:2oe",
+        "77r:2oe",
+        "78v:2oe",
+        "79r:2oe",
+        "82v:2oe",
+        "83r:2oe",
+        "83v:2oe"
+      ]
+    },
+    {
+      "stem": "hd89",
+      "zodiac_hits": 2,
+      "bathing_hits": 6,
+      "other_section_hits": 64,
+      "nymph_pair_exclusivity_pct": 11.11,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r3:ohd9",
+        "72v3:ohd9"
+      ],
+      "bathing_samples": [
+        "76v:ohd89",
+        "77v:4ohd9",
+        "79v:hd69",
+        "82r:hd89",
+        "82r:4ohd9",
+        "82v:4ohd9"
+      ]
+    },
+    {
+      "stem": "kaz",
+      "zodiac_hits": 3,
+      "bathing_hits": 2,
+      "other_section_hits": 40,
+      "nymph_pair_exclusivity_pct": 11.11,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:okaz",
+        "72r2:okaz",
+        "72v1:okaz"
+      ],
+      "bathing_samples": [
+        "80r:4okaz",
+        "80r:okaz"
+      ]
+    },
+    {
+      "stem": "hco",
+      "zodiac_hits": 5,
+      "bathing_hits": 1,
+      "other_section_hits": 50,
+      "nymph_pair_exclusivity_pct": 10.71,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "71v:ohco",
+        "72r1:ohco",
+        "72r2:ohco",
+        "72r2:hco"
+      ],
+      "bathing_samples": [
+        "76r:ohco"
+      ]
+    },
+    {
+      "stem": "8am",
+      "zodiac_hits": 14,
+      "bathing_hits": 72,
+      "other_section_hits": 726,
+      "nymph_pair_exclusivity_pct": 10.59,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:8am",
+        "70v2:8am",
+        "70v1:8am",
+        "71r:8am",
+        "71v:8am",
+        "72r2:8am"
+      ],
+      "bathing_samples": [
+        "75v:8am",
+        "76r:8am",
+        "76v:8am",
+        "77r:8am",
+        "77v:8am",
+        "78r:8am",
+        "78v:8am",
+        "79r:8am"
+      ]
+    },
+    {
+      "stem": "hoy",
+      "zodiac_hits": 1,
+      "bathing_hits": 7,
+      "other_section_hits": 68,
+      "nymph_pair_exclusivity_pct": 10.53,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r3:ohoy"
+      ],
+      "bathing_samples": [
+        "76v:ohoy",
+        "77r:4ohoy",
+        "78r:4ohoy",
+        "84r:4ohoy",
+        "84v:hoy",
+        "84v:4ohoy"
+      ]
+    },
+    {
+      "stem": "1cay",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 52,
+      "nymph_pair_exclusivity_pct": 10.34,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1cay"
+      ],
+      "bathing_samples": [
+        "76r:1cay",
+        "79r:1cay",
+        "83v:1cay"
+      ]
+    },
+    {
+      "stem": "9kay",
+      "zodiac_hits": 2,
+      "bathing_hits": 2,
+      "other_section_hits": 35,
+      "nymph_pair_exclusivity_pct": 10.26,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:9kay",
+        "70r2:9kay"
+      ],
+      "bathing_samples": [
+        "79v:9kap",
+        "81r:9kay"
+      ]
+    },
+    {
+      "stem": "Hoe",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 27,
+      "nymph_pair_exclusivity_pct": 10.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "72r3:Hoe",
+        "72v2:oHoe"
+      ],
+      "bathing_samples": [
+        "83r:4oHoe"
+      ]
+    },
+    {
+      "stem": "Kc89",
+      "zodiac_hits": 1,
+      "bathing_hits": 6,
+      "other_section_hits": 65,
+      "nymph_pair_exclusivity_pct": 9.72,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70v2:Kc9"
+      ],
+      "bathing_samples": [
+        "75v:Kc89",
+        "75v:oKc9",
+        "76v:Kc89",
+        "81v:4oKc9",
+        "83v:Kc9"
+      ]
+    },
+    {
+      "stem": "k1o",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 22,
+      "nymph_pair_exclusivity_pct": 8.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:ok1o"
+      ],
+      "bathing_samples": [
+        "77v:k1o"
+      ]
+    },
+    {
+      "stem": "8az",
+      "zodiac_hits": 2,
+      "bathing_hits": 5,
+      "other_section_hits": 80,
+      "nymph_pair_exclusivity_pct": 8.05,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:8az",
+        "72v3:o8az"
+      ],
+      "bathing_samples": [
+        "75r:8az",
+        "82r:8az",
+        "82v:8az",
+        "83r:8az",
+        "83v:8az"
+      ]
+    },
+    {
+      "stem": "9k89",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 23,
+      "nymph_pair_exclusivity_pct": 8.0,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v3:9k9"
+      ],
+      "bathing_samples": [
+        "79v:9k9"
+      ]
+    },
+    {
+      "stem": "k189",
+      "zodiac_hits": 3,
+      "bathing_hits": 12,
+      "other_section_hits": 173,
+      "nymph_pair_exclusivity_pct": 7.98,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v2:k19",
+        "71v:ok19",
+        "72v3:ok19"
+      ],
+      "bathing_samples": [
+        "75v:4ok189",
+        "76v:ok19",
+        "76v:k19",
+        "77r:ok189",
+        "77v:4ok19",
+        "80r:4ok19",
+        "80v:k189",
+        "83r:ok189"
+      ]
+    },
+    {
+      "stem": "1ok89",
+      "zodiac_hits": 2,
+      "bathing_hits": 1,
+      "other_section_hits": 35,
+      "nymph_pair_exclusivity_pct": 7.89,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r3:1ok9",
+        "73v:1ok9"
+      ],
+      "bathing_samples": [
+        "79r:1ok9"
+      ]
+    },
+    {
+      "stem": "koy",
+      "zodiac_hits": 1,
+      "bathing_hits": 5,
+      "other_section_hits": 71,
+      "nymph_pair_exclusivity_pct": 7.79,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v1:okoy"
+      ],
+      "bathing_samples": [
+        "80r:koy",
+        "83r:okoy",
+        "84r:koy",
+        "84r:4okoy"
+      ]
+    },
+    {
+      "stem": "hcoe",
+      "zodiac_hits": 4,
+      "bathing_hits": 6,
+      "other_section_hits": 120,
+      "nymph_pair_exclusivity_pct": 7.69,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70r1:ohcoe",
+        "70v2:ohcoe",
+        "71r:ohcoe",
+        "72r2:ohcoe"
+      ],
+      "bathing_samples": [
+        "78r:hcoe",
+        "80r:hcoe",
+        "81v:ohcoe",
+        "82r:4ohcoe",
+        "83v:ohcoe",
+        "84v:4ohcoe"
+      ]
+    },
+    {
+      "stem": "9hay",
+      "zodiac_hits": 1,
+      "bathing_hits": 2,
+      "other_section_hits": 36,
+      "nymph_pair_exclusivity_pct": 7.69,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72v3:9hap"
+      ],
+      "bathing_samples": [
+        "76r:9hay",
+        "84r:9hay"
+      ]
+    },
+    {
+      "stem": "1oe",
+      "zodiac_hits": 12,
+      "bathing_hits": 15,
+      "other_section_hits": 381,
+      "nymph_pair_exclusivity_pct": 6.62,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:1oe",
+        "70r2:1oe",
+        "70v2:1oe",
+        "72r1:1oe",
+        "72r1:o1oe",
+        "72r2:1oe"
+      ],
+      "bathing_samples": [
+        "76r:1oe",
+        "76v:1oe",
+        "77r:1oe",
+        "79r:1oe",
+        "79v:1oe",
+        "81r:1oe",
+        "82v:1oe",
+        "84r:1oe"
+      ]
+    },
+    {
+      "stem": "K89",
+      "zodiac_hits": 2,
+      "bathing_hits": 4,
+      "other_section_hits": 124,
+      "nymph_pair_exclusivity_pct": 4.62,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:K9",
+        "72v1:oK9"
+      ],
+      "bathing_samples": [
+        "78r:K89",
+        "78v:K79",
+        "81v:K89",
+        "84v:K9"
+      ]
+    },
+    {
+      "stem": "k1oy",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 44,
+      "nymph_pair_exclusivity_pct": 4.35,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "72r1:ok1oy"
+      ],
+      "bathing_samples": [
+        "77v:k1oy"
+      ]
+    },
+    {
+      "stem": "hCo",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 48,
+      "nymph_pair_exclusivity_pct": 4.0,
+      "o_to_4o_activation_observed": true,
+      "zodiac_samples": [
+        "70v1:ohCo"
+      ],
+      "bathing_samples": [
+        "76r:4ohCo"
+      ]
+    },
+    {
+      "stem": "h1oe",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 49,
+      "nymph_pair_exclusivity_pct": 3.92,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r1:oh1oe"
+      ],
+      "bathing_samples": [
+        "78r:h1oe"
+      ]
+    },
+    {
+      "stem": "Koe",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 58,
+      "nymph_pair_exclusivity_pct": 3.33,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "70r2:Koe"
+      ],
+      "bathing_samples": [
+        "82r:Koe"
+      ]
+    },
+    {
+      "stem": "1oy",
+      "zodiac_hits": 1,
+      "bathing_hits": 1,
+      "other_section_hits": 225,
+      "nymph_pair_exclusivity_pct": 0.88,
+      "o_to_4o_activation_observed": false,
+      "zodiac_samples": [
+        "73r:1oy"
+      ],
+      "bathing_samples": [
+        "76r:1oy"
+      ]
+    }
+  ]
+}
