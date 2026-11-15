@@ -66,3 +66,20 @@ python visualize_voynich.py
 python visualize_bridges.py
 python visualize_supply_chain.py
 ```
+
+## New XC Structural, Reduplication & Proto-Recipe Probes (14 Scripts)
+
+1. **`voynich_triad_inspector.xc`** ? Audits all `X X X` triplicate constructions in Starred Recipes (`103r?116v`).
+2. **`voynich_clean_phrasebook.xc`** ? Extracts clean, readable recipe phrases from `voynich_recipe_codex.json`.
+3. **`voynich_reduplication_probe.xc`** ? Maps zero-gap (`X X`) vs. bridged (`X + mid + X`) reduplications across Starred Recipes.
+4. **`voynich_reduplication_cards.xc`** ? Links doubled stems directly to their `voynich_recipe_codex.json` recipe cards.
+5. **`voynich_cluster_cards_inspector.xc`** ? Inspects dense reduplication clusters across `103r?116v`.
+6. **`voynich_separator_audit.xc`** ? Audits 1?2 character connectors (`e`, `o`, `h`, `4o`, `1s`, `ae`, `ay`) inside `X + mid + X` triples.
+7. **`voynich_cross_section_separator.xc`** ? Compares zero-gap vs. bridged reduplications across **Herbal (`1r?66v`)**, **Bathing (`75r?84v`)**, and **Starred Recipes (`103r?116v`)**, proving `X + 4o + X` raw-to-prepared stepping occurs in both Herbal (`56r.3`: `hC9 4o hC9`) and Recipes (`104v.33`: `ham 4o ham`).
+8. **`voynich_herbal_1oe_probe.xc`** ? Analyzes all 19 occurrences of `1oe 1oe` (including `1oe 1oe 1oe` triplicates on `8v.8` and `47r.7`) in Herbal (`1r?66v`).
+9. **`voynich_folio_56v_inspector.xc`** ? Line-by-line audit of Folio `56v` (`56v.1?56v.16`), uncovering three `1oe 1oe` chains and 8 verified 3-way recipe ingredients (`4okC9`, `4oh1c9`, `4ok1c9`, `hcc9`, `1oh9`, `h1oe`, `4oh1o`, `hccoe`).
+10. **`voynich_herbal_currier_b_bridge.xc`** ? Ranks all 118 Herbal folios by `4o-` (`PREPARED`) recipe vocabulary overlap (`112/118` folios share `4o-` recipe tokens, led by `58v` and `66r`).
+11. **`voynich_58v_66r_proto_recipes.xc`** ? Confirms Folios `58v` (`68.32%` recipe overlap) and `66r` (`56.41%` recipe overlap) as full-page proto-recipe instruction pages inside the Herbal section.
+12. **`voynich_66r_margin_mapper.xc`** ? Maps `66r.labels_down_left_side` (`4ohae`, `sam`, `9hcoe`, `yay9`) into Starred Recipes and tests `66r.glyph_column` (`34` symbols, `0` line-initial matches).
+13. **`voynich_glyph_column_scanner.xc`** ? Scans the entire manuscript for single-character key sequences, linking `66r.glyph_column` (`30/34` symbol overlap) directly to Folio `57v`'s concentric cipher rings.
+14. **`voynich_57v_rings_inspector.xc`** ? Audits Folio `57v`'s four concentric rings (`o e 8 y ^ | h p g ? k y ? ? 9 E ?` 4-quadrant cycle) and bridges its outer text rings (`ohae ohae`, `4ohay`, `8am`, `sam`, `okae`) into `58v`, `66r`, and `103r?116v`.
