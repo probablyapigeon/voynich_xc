@@ -19,7 +19,7 @@
   "license": "MIT",
   "related_identifiers": [
     {
-      "identifier": "https://github.com",
+      "identifier": "https://github.com/probablyapigeon/voynich_xc",
       "relation": "isSupplementTo",
       "scheme": "url"
     },

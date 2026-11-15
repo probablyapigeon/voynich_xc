@@ -4,8 +4,8 @@ message: "If you use this software, lexicon dataset, or synthesis report in your
 type: software
 authors:
   - alias: "probablyapigeon"
-repository-code: "https://github.com"
-url: "https://github.com/blob/main/VOYNICH_CODEX_REPORT.md"
+repository-code: "https://github.com/probablyapigeon/voynich_xc"
+url: "https://github.com"
 abstract: >-
   A reproducible suite of 35 computational probes built on the XEMBRA (.xc) morpho-syntactic
   interpreter analyzing the 15th-century Voynich Manuscript. Identifies 135 verified

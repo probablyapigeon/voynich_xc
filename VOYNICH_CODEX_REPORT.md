@@ -1,10 +1,12 @@
 # The Voynich Codex Apothecary & Cosmological Synthesis Report
 
-> **Repository:** [`probablyapigeon/voynich_xc`](https://github.com) | **Engine:** XEMBRA `Ψ` Morpho-Syntactic Interpreter (`xc_interpreter.py`) | **Scope:** 34 Computational Probes & 135-Entry Master Lexicon
+> **Repository:** [`probablyapigeon/voynich_xc`](https://github.com) | **Engine:** XEMBRA `Ψ` Morpho-Syntactic Interpreter (`xc_interpreter.py`) | **Scope:** 35 Computational Probes & 135-Entry Master Lexicon
+
+![Voynich Codex Apothecary Supply-Chain Network](voynich_master_network.png)
 
 ## 1. Executive Summary
 
-Across **34 sequential computational probes** executed in the XEMBRA `.xc` environment over the complete Voynich Manuscript (`data/voynich_raw.txt`), this investigation demonstrates that the **Starred Recipes (`103r–116v`)** operate as a structured multi-source compounding manual. Rather than isolated text blocks, the recipes systematically combine ingredients bottled in the **Pharmaceutical Jars (`88r–102v`)**—with **Folio `93r` (`93r.12–93r.30`)** serving as the primary central dispensary—and trace backward along verified lexical bridges into the **Herbal Illustrations (`1r–66v`)**, the **Rosettes Foldout (`85r–86v`)**, the **Zodiac/Astronomical Diagrams (`67r–73v`)**, and the **Balneological Folios (`75r–84v`)**.
+Across **35 sequential computational probes** executed in the XEMBRA `.xc` environment over the complete Voynich Manuscript (`data/voynich_raw.txt`), this investigation demonstrates that the **Starred Recipes (`103r–116v`)** operate as a structured multi-source compounding manual. Rather than isolated text blocks, the recipes systematically combine ingredients bottled in the **Pharmaceutical Jars (`88r–102v`)**—with **Folio `93r` (`93r.12–93r.30`)** serving as the primary central dispensary—and trace backward along verified lexical bridges into the **Herbal Illustrations (`1r–66v`)**, the **Rosettes Foldout (`85r–86v`)**, the **Zodiac/Astronomical Diagrams (`67r–73v`)**, and the **Balneological Folios (`75r–84v`)**.
 
 ### Key Empirical Findings
 * **135 Verified Apothecary–Recipe Compounds (`voynich_master_lexicon.json` / `.csv`):** Every token shared between Pharmaceutical jar labels (`88r–102v`) and Starred Recipes (`103r–116v`) partitions cleanly into **five provenance classes**, all converging onto a tightly bounded XEMBRA morphological equilibrium (`c = 0.859–0.872`, `Φ = 0.225–0.241`, `𝒯 = 0.146–0.161`).
@@ -113,7 +115,7 @@ python xc_interpreter.py voynich_codex_lexicon_exporter.xc
 python xc_interpreter.py voynich_recipe_reconstructor.xc
 ```
 
-### Chronological Probe Registry (Probes #1–#34)
+### Chronological Probe Registry (Probes #1–#35)
 
 1. **`voynich_triad_inspector.xc`** ? Audits all `X X X` triplicate constructions in Starred Recipes (`103r?116v`).
 2. **`voynich_clean_phrasebook.xc`** ? Extracts clean, readable recipe phrases from `voynich_recipe_codex.json`.
@@ -149,3 +151,4 @@ python xc_interpreter.py voynich_recipe_reconstructor.xc
 32. **`voynich_six_section_provenance.xc`** ? Completes a 6-section provenance matrix (`Herbal`, `Zodiac`, `Balneological`, `Rosettes`, `Pharma`, `Recipes`) for all `19` non-herbal Pharmaceutical jar?recipe tokens, partitioning them into `2` Rosettes-derived (`9kcco89`, `ayo`), `8` Zodiac/Balneological-derived (`91cc9`, `ayoe`, `ochc9`, `ogoe`, `ohc19`, `okayap`, `okcay`, `oyay`), and `9` pure Apothecary-only compounds (`2coh9`, `8am89`, `Jcoy`, `e1c`, `oehCs`, `okCo`, `okaes9`, `oyoy`, `saeo`).
 33. **`voynich_codex_lexicon_exporter.xc`** ? Compiles and exports the `135`-entry Master Voynich Codex Lexicon (`voynich_master_lexicon.json` and `voynich_master_lexicon.csv`), cataloging all `69` 4-Way Bridges, `47` 3-Way Herbal?Pharma?Recipe Bridges, `8` Zodiac/Balneological Bridges, `2` Rosettes?Pharma?Recipe Bridges (`9kcco89`, `ayo`), and `9` Pure Apothecary-Only compounds with full 6-section hit counts, jar coordinates, and XEMBRA `?` states.
 34. **`voynich_recipe_reconstructor.xc`** ? Uses `voynich_master_lexicon.json` to perform token-by-token cross-section reconstructions of Starred Recipes `Card #33` (`104r.1`), `Card #316` (`115r.16`), and `Card #325` (`115r.43`), mapping every ingredient back to its exact Pharmaceutical jar, Herbal folio, and Cosmological/Rosettes source while verifying recipe-level XEMBRA `?` convergence.
+35. **`voynich_full_codex_reconstructor.xc`** & **`voynich_reconstructed_codex.json`** — Audits all `359` Starred Recipe cards (`103r–116v`) against the `135`-entry Master Lexicon (`359/359` cards matched, `0` unbridged, `24.54%` mean ingredient density), ranking top formulas (`Card #89` with `19` unique bridges; `Card #284` at `57.58%` density) and top recipe folios (`104r` at `30.19%`, `113v` at `29.03%`, `106v` with `50` unique bridges).
