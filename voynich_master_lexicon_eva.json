@@ -1,0 +1,1678 @@
+{
+  "metadata": {
+    "probe": "voynich_eva_crosswalk.xc (Probe #36)",
+    "total_entries": 135,
+    "transliteration_target": "Standard EVA (Extensible Voynich Alphabet)",
+    "unmapped_characters": [
+      "3",
+      "A",
+      "N",
+      "g",
+      "z"
+    ]
+  },
+  "entries": [
+    {
+      "xc_token": "189",
+      "eva_token": "shdy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "94r.9"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "19",
+      "eva_token": "shy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1ay",
+      "eva_token": "shai",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.10",
+        "100r.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1c9",
+      "eva_token": "chy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "95v1.5",
+        "99r.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1cHc9",
+      "eva_token": "chckhcy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.11"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1ccoe",
+      "eva_token": "chcol",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93v.10"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1ch9",
+      "eva_token": "chhy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100v.9"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1co",
+      "eva_token": "cho",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.27"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1co89",
+      "eva_token": "chody",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1coK9",
+      "eva_token": "choky",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1coy",
+      "eva_token": "choi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.17",
+        "96v.9",
+        "96v.13",
+        "102v2.labels_top_2",
+        "102v2.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1cs",
+      "eva_token": "chs",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r1.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1k19",
+      "eva_token": "shkshy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1o",
+      "eva_token": "sho",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1o79",
+      "eva_token": "shogy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1o8am",
+      "eva_token": "shodaiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.28"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oH9",
+      "eva_token": "shockhy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.20"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oK9",
+      "eva_token": "shoky",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.24"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oe",
+      "eva_token": "shol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r1.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oes",
+      "eva_token": "shols",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100v.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oh9",
+      "eva_token": "shohy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.17",
+        "99r.labels_middle_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1ohae",
+      "eva_token": "shohal",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.32"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1ohap",
+      "eva_token": "shohap",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1okay",
+      "eva_token": "shokai",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.25"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1os",
+      "eva_token": "shos",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_middle_2",
+        "100r.labels_1",
+        "100v.labels_3"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1oy",
+      "eva_token": "shoi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.7",
+        "99v.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "1s",
+      "eva_token": "shs",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.14",
+        "93v.10"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2C9",
+      "eva_token": "skhy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.4"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2K9",
+      "eva_token": "sky",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.21"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2c89",
+      "eva_token": "scdy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "95v1.5"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2c9",
+      "eva_token": "scy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.12",
+        "94v.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2coh9",
+      "eva_token": "scohy",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.19"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2o89",
+      "eva_token": "sody",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.18",
+        "93r.23",
+        "93r.25"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2o8am",
+      "eva_token": "sodaiin",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.13",
+        "93r.30"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2oe",
+      "eva_token": "sol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "93r.7",
+        "93r.19",
+        "93r.21"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2os",
+      "eva_token": "sos",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "2oy",
+      "eva_token": "soi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "39",
+      "eva_token": "3y",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "4o",
+      "eva_token": "qo",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "94v.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "4oh1o",
+      "eva_token": "qohsho",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.30"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "4ohay",
+      "eva_token": "qohai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.8"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "4ohoy",
+      "eva_token": "qohoi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.12",
+        "93r.16",
+        "93r.27"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "4ok19",
+      "eva_token": "qokshy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.13"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "7an",
+      "eva_token": "gain",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.12"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "7ap",
+      "eva_token": "gap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "7ay",
+      "eva_token": "gai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "89",
+      "eva_token": "dy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "99v.19"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8am",
+      "eva_token": "daiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.21",
+        "93r.22",
+        "96v.8",
+        "100v.9"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8am89",
+      "eva_token": "daiindy",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8an",
+      "eva_token": "dain",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.29"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8as",
+      "eva_token": "das",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8ay",
+      "eva_token": "dai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.5"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "8oe",
+      "eva_token": "dol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.15",
+        "93r.21",
+        "93r.32"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "91c9",
+      "eva_token": "ychy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.14"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "91cc9",
+      "eva_token": "ychcy",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.8"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "91oy",
+      "eva_token": "yshoi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.28",
+        "99r.18"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "9kcco89",
+      "eva_token": "ykccody",
+      "provenance_class": "Rosettes-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "9kcoe",
+      "eva_token": "ykcol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_middle_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "Ay",
+      "eva_token": "Ay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.18"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "H9",
+      "eva_token": "ckhy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93v.10"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "Hc9",
+      "eva_token": "ckhcy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.10"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "Jcoy",
+      "eva_token": "cthcoi",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "K9",
+      "eva_token": "ky",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.22"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "KC9",
+      "eva_token": "kkhy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.13"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "Koe",
+      "eva_token": "kol",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.20",
+        "93r.30"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "aN",
+      "eva_token": "aN",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ae9",
+      "eva_token": "aly",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "am",
+      "eva_token": "aiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.25",
+        "96v.9",
+        "99r.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "an",
+      "eva_token": "ain",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_bottom",
+        "93r.23",
+        "99r.labels_top_1",
+        "102v2.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ap",
+      "eva_token": "ap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ay",
+      "eva_token": "ai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_middle_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ay9",
+      "eva_token": "aiy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ayo",
+      "eva_token": "aio",
+      "provenance_class": "Rosettes-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ayo89",
+      "eva_token": "aiody",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ayoe",
+      "eva_token": "aiol",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "e1c",
+      "eva_token": "ech",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "eos",
+      "eva_token": "eos",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.27"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "h1oe",
+      "eva_token": "hshol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.13"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "h1oy",
+      "eva_token": "hshoi",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.22"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ham",
+      "eva_token": "haiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "94v.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "hcco",
+      "eva_token": "hcco",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.19"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "k1co",
+      "eva_token": "kcho",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "k1oy",
+      "eva_token": "kshoi",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.19"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "o7am",
+      "eva_token": "ogaiin",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.8"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "o89",
+      "eva_token": "ody",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "o8am",
+      "eva_token": "odaiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "95v1.5"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "o8oy",
+      "eva_token": "odoi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ochc9",
+      "eva_token": "ochcy",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oe",
+      "eva_token": "ol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.19"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oe1c9",
+      "eva_token": "olchy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oeam",
+      "eva_token": "olaiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oehCs",
+      "eva_token": "olhkhs",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.18"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oes",
+      "eva_token": "ols",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.18"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "og19",
+      "eva_token": "ogshy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "102v2.labels_top_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ogoe",
+      "eva_token": "ogol",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oh9",
+      "eva_token": "ohy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_top_1",
+        "99r.labels_middle_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oham",
+      "eva_token": "ohaiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.labels_middle",
+        "89r1.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohan",
+      "eva_token": "ohain",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohay",
+      "eva_token": "ohai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_top_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohc19",
+      "eva_token": "ohcshy",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohco89",
+      "eva_token": "ohcody",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "102v1.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohoe",
+      "eva_token": "ohol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88r.labels_middle",
+        "101v2-v1.labels_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ohoy",
+      "eva_token": "ohoi",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "93r.23"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "ok1ay",
+      "eva_token": "okshai",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okAe",
+      "eva_token": "okAe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okC9",
+      "eva_token": "okkhy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "90v2.4"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okCo",
+      "eva_token": "okkho",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96r.13"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okae",
+      "eva_token": "okal",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "95v1.5",
+        "99v.labels_middle_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okae9",
+      "eva_token": "okaly",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88r.labels_top",
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okaes9",
+      "eva_token": "okalsy",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okay",
+      "eva_token": "okai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "94r.9",
+        "99v.labels_top"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okay9",
+      "eva_token": "okaiy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okayap",
+      "eva_token": "okaiap",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okaz",
+      "eva_token": "okaz",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okcay",
+      "eva_token": "okcai",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okcoe",
+      "eva_token": "okcol",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_3"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okcos",
+      "eva_token": "okcos",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "102v2.labels_top_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okoe",
+      "eva_token": "okol",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "102v2.labels_top_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okoe9",
+      "eva_token": "okoly",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "okoy",
+      "eva_token": "okoi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "os",
+      "eva_token": "os",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.11"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oy",
+      "eva_token": "oi",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oy9",
+      "eva_token": "oiy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.7"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oyae",
+      "eva_token": "oial",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.10"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oyap",
+      "eva_token": "oiap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88r.labels_middle"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oyay",
+      "eva_token": "oiai",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oyoe",
+      "eva_token": "oiol",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "100r.labels_4"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "oyoy",
+      "eva_token": "oioi",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "102v2.labels_top_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "s9",
+      "eva_token": "sy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "saeo",
+      "eva_token": "salo",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99r.labels_top_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "sam",
+      "eva_token": "saiin",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "88v.17",
+        "90v2.4"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "say",
+      "eva_token": "sai",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "96v.11",
+        "100r.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "say9",
+      "eva_token": "saiy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "99v.labels_middle_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "sayoe",
+      "eva_token": "saiol",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "102v2.labels_top_2"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    },
+    {
+      "xc_token": "saz",
+      "eva_token": "saz",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_codex_hits": 0,
+      "section_hits": {},
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_recipe_cards": [],
+      "xembra_state": {}
+    }
+  ]
+}

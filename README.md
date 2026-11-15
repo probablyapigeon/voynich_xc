@@ -128,12 +128,4 @@ A summary of Lisa Fagin Davis's five paleographic hands (`Scribes 1â€“5`) o
 * **Cross-Scribal Supply Chain:** Links Scribe 1 botanical catalogs to Scribe 3 and Scribe 2 recipe systems.
 * **Allograph Resolution & Operators:** Incorporates normalizations and shared Class 2 procedural operators (`voynich_procedural_operators.json`) across Scribes 2, 3, and 5.
 * **Supply Chain B:** Connects Scribe 4 astronomical roundels to Scribe 2 balneological prose.
-
-
-
-
-
-
-
-
-
+36. **`voynich_eva_crosswalk.xc`**, **`voynich_master_lexicon_eva.json`**, & **`voynich_master_lexicon_eva.csv`** — Charts the full FSG/numeric-to-Standard EVA (`qo-`, `chedy`, `daiin`, `ky`) transliteration crosswalk for all `135` Master Lexicon bridge tokens so outside researchers can query every jar-to-recipe ingredient directly in EVA.
