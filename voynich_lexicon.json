@@ -1,0 +1,3266 @@
+{
+  "total_entries": 326,
+  "stem_families": 110,
+  "entries": {
+    "4ohan": {
+      "pos": "VERB.ACT",
+      "gloss": "prepare / infuse / decoct (active)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "han",
+        "suffix": "-"
+      },
+      "recipe_count": 71
+    },
+    "ohan": {
+      "pos": "VERB.RAW",
+      "gloss": "prepare / steep (raw)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "han",
+        "suffix": "-"
+      },
+      "recipe_count": 53
+    },
+    "han": {
+      "pos": "VERB.ROOT",
+      "gloss": "prepare / infuse (bare root)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "han",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "4ohc9": {
+      "pos": "VERB.ACT",
+      "gloss": "heat / boil / process",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc",
+        "suffix": "9"
+      },
+      "recipe_count": 34
+    },
+    "4ohc89": {
+      "pos": "VERB.ACT",
+      "gloss": "compound / simmer",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc",
+        "suffix": "89"
+      },
+      "recipe_count": 0
+    },
+    "1c89": {
+      "pos": "NOUN.RES",
+      "gloss": "dose / finished mixture / draught",
+      "morphology": {
+        "prefix": "1",
+        "stem": "c8",
+        "suffix": "9"
+      },
+      "recipe_count": 107
+    },
+    "1c9": {
+      "pos": "NOUN.RES",
+      "gloss": "portion / measure",
+      "morphology": {
+        "prefix": "1",
+        "stem": "c9",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "2c9": {
+      "pos": "NOUN.RES",
+      "gloss": "second portion / measure",
+      "morphology": {
+        "prefix": "2",
+        "stem": "c9",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "oe": {
+      "pos": "PREP",
+      "gloss": "in / with",
+      "morphology": {
+        "prefix": "-",
+        "stem": "oe",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "4oe": {
+      "pos": "PREP",
+      "gloss": "into / onto",
+      "morphology": {
+        "prefix": "-",
+        "stem": "4oe",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "1oe": {
+      "pos": "PART",
+      "gloss": "therein / thus",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oe",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "8am": {
+      "pos": "PART",
+      "gloss": "and / also (clause linker)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "am",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "8ay": {
+      "pos": "PART",
+      "gloss": "then / next",
+      "morphology": {
+        "prefix": "8",
+        "stem": "ay",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "am": {
+      "pos": "PART",
+      "gloss": "of / with",
+      "morphology": {
+        "prefix": "-",
+        "stem": "am",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "ay": {
+      "pos": "PART",
+      "gloss": "to / toward",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ay",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "oeam": {
+      "pos": "PART",
+      "gloss": "therewith",
+      "morphology": {
+        "prefix": "o",
+        "stem": "eam",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "4ohC9": {
+      "pos": "BASE.AQ",
+      "gloss": "decoction-water / primary liquid base (prepared)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hC",
+        "suffix": "9"
+      },
+      "recipe_count": 88
+    },
+    "4ohC89": {
+      "pos": "BASE.AQ",
+      "gloss": "decoction-water / compounded liquid (active)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hC",
+        "suffix": "89"
+      },
+      "recipe_count": 0
+    },
+    "ohC9": {
+      "pos": "BASE.AQ",
+      "gloss": "spring/distilled water base (raw)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hC",
+        "suffix": "9"
+      },
+      "recipe_count": 52
+    },
+    "4oham": {
+      "pos": "BASE.OL",
+      "gloss": "infused oil / ointment base (prepared)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "ham",
+        "suffix": "-"
+      },
+      "recipe_count": 76
+    },
+    "oham": {
+      "pos": "BASE.OL",
+      "gloss": "oil / fat / sap base (raw)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ham",
+        "suffix": "-"
+      },
+      "recipe_count": 63
+    },
+    "okam": {
+      "pos": "BASE.OL",
+      "gloss": "thickened extract / unguent",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kam",
+        "suffix": "-"
+      },
+      "recipe_count": 62
+    },
+    "4okam": {
+      "pos": "BASE.OL",
+      "gloss": "compounded unguent",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kam",
+        "suffix": "-"
+      },
+      "recipe_count": 37
+    },
+    "okay": {
+      "pos": "BASE.EX",
+      "gloss": "honey / syrup excipient",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kay",
+        "suffix": "-"
+      },
+      "recipe_count": 49
+    },
+    "4okay": {
+      "pos": "BASE.EX",
+      "gloss": "clarified honey / syrup",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kay",
+        "suffix": "-"
+      },
+      "recipe_count": 26
+    },
+    "1coe": {
+      "pos": "BASE.JAR",
+      "gloss": "primary jar staple / binder (Jar 87r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "coe",
+        "suffix": "-"
+      },
+      "recipe_count": 47
+    },
+    "2c89": {
+      "pos": "BASE.AQ",
+      "gloss": "secondary liquid medium (Jar 95v1)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "c8",
+        "suffix": "9"
+      },
+      "recipe_count": 57
+    },
+    "1c79": {
+      "pos": "BASE.AQ",
+      "gloss": "clarified decoction medium (Jar 94r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "c7",
+        "suffix": "9"
+      },
+      "recipe_count": 54
+    },
+    "okae": {
+      "pos": "BASE.EX",
+      "gloss": "resin / gum excipient (raw)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kae",
+        "suffix": "-"
+      },
+      "recipe_count": 49
+    },
+    "4ohae": {
+      "pos": "BASE.EX",
+      "gloss": "melted resin / balm (prepared)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hae",
+        "suffix": "-"
+      },
+      "recipe_count": 36
+    },
+    "ohae": {
+      "pos": "BASE.EX",
+      "gloss": "raw gum / pitch",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hae",
+        "suffix": "-"
+      },
+      "recipe_count": 38
+    },
+    "okan": {
+      "pos": "BASE.PW",
+      "gloss": "powdered mineral / ash base",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kan",
+        "suffix": "-"
+      },
+      "recipe_count": 43
+    },
+    "4okan": {
+      "pos": "BASE.PW",
+      "gloss": "calcined / sifted powder",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kan",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "okC89": {
+      "pos": "HERB.41v",
+      "gloss": "Herb-41v (aqueous decoction root/leaf, Jar 95r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kC",
+        "suffix": "89"
+      },
+      "recipe_count": 27
+    },
+    "okaz": {
+      "pos": "HERB.58v",
+      "gloss": "Herb-58v [raw] (oleum/salve herb, Jar 89v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kaz",
+        "suffix": "-"
+      },
+      "recipe_count": 18
+    },
+    "4ohaz": {
+      "pos": "HERB.58v",
+      "gloss": "Herb-58v [prepared] (infused salve herb, Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "haz",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "4okaz": {
+      "pos": "HERB.58v",
+      "gloss": "Herb-58v [prepared k-form] (Jar 89v2/89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kaz",
+        "suffix": "-"
+      },
+      "recipe_count": 0
+    },
+    "ayae": {
+      "pos": "HERB.58v",
+      "gloss": "Herb-58v [variant/seed] (Jar 102r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ay",
+        "suffix": "ae"
+      },
+      "recipe_count": 9
+    },
+    "1o89": {
+      "pos": "HERB.1v",
+      "gloss": "Herb-1v/2v [opening specimen] (Jar 87r.13)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "o8",
+        "suffix": "9"
+      },
+      "recipe_count": 16
+    },
+    "2o89": {
+      "pos": "HERB.1r",
+      "gloss": "Herb-1r/4v [opening specimen] (Jar 87r.13)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "o8",
+        "suffix": "9"
+      },
+      "recipe_count": 10
+    },
+    "ohd9": {
+      "pos": "HERB.17v",
+      "gloss": "Herb-17v (aqueous decoction herb, Jar 101v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hd",
+        "suffix": "9"
+      },
+      "recipe_count": 12
+    },
+    "ohCo": {
+      "pos": "HERB.31v",
+      "gloss": "Herb-31v (aqueous decoction herb, Jar 87r.14)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hCo",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "91co": {
+      "pos": "HERB.33v",
+      "gloss": "Herb-33v (oleum/infusion herb, Jar 89v1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "1co",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "4ohC8": {
+      "pos": "HERB.41r",
+      "gloss": "Herb-41r (salve/honey herb, Jar 90r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hC",
+        "suffix": "8"
+      },
+      "recipe_count": 10
+    },
+    "okc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-29v/34r [raw] (Jar 99v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kc",
+        "suffix": "9"
+      },
+      "recipe_count": 15
+    },
+    "4okC9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-11v/20r [prepared] (Jar 100r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kC",
+        "suffix": "9"
+      },
+      "recipe_count": 18
+    },
+    "ok19": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-2v/5r [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "k1",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "1ohae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r/58v [raw] (Jar 93r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oh",
+        "suffix": "ae"
+      },
+      "recipe_count": 1
+    },
+    "ohc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26r/31r [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hc",
+        "suffix": "89"
+      },
+      "recipe_count": 19
+    },
+    "4ohcc9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-23r/35r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hcc",
+        "suffix": "9"
+      },
+      "recipe_count": 23
+    },
+    "ohc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/34v [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hc",
+        "suffix": "9"
+      },
+      "recipe_count": 15
+    },
+    "okcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-19v/1r [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kcc",
+        "suffix": "9"
+      },
+      "recipe_count": 21
+    },
+    "ohC89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26r/27v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hC",
+        "suffix": "89"
+      },
+      "recipe_count": 15
+    },
+    "okccos": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kccos",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "1cae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42v/45v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cae",
+        "suffix": "-"
+      },
+      "recipe_count": 12
+    },
+    "ohcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/23v [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hc",
+        "suffix": "oe"
+      },
+      "recipe_count": 12
+    },
+    "ohap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24v/31v [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hap",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "1ck9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-2r/34r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ck",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "okcc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/66r [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kcc",
+        "suffix": "89"
+      },
+      "recipe_count": 19
+    },
+    "kcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20r/37v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "kcc",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "4ohcoe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-21r/24r [prepared] (Jar 88r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc",
+        "suffix": "oe"
+      },
+      "recipe_count": 8
+    },
+    "okc79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/34r [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kc7",
+        "suffix": "9"
+      },
+      "recipe_count": 16
+    },
+    "4ohay": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-33r/33v [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hay",
+        "suffix": "-"
+      },
+      "recipe_count": 37
+    },
+    "1cH9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-30v/34r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cH",
+        "suffix": "9"
+      },
+      "recipe_count": 16
+    },
+    "4oh9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-11v/13r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h9",
+        "suffix": "-"
+      },
+      "recipe_count": 27
+    },
+    "1han": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-25r/34v [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "han",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "4okc9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-4r/58r [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kc",
+        "suffix": "9"
+      },
+      "recipe_count": 11
+    },
+    "1cc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20r/24r [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cc",
+        "suffix": "9"
+      },
+      "recipe_count": 31
+    },
+    "k1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-11v/19v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1c",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "oeoy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-35r/39r [raw] (Jar 95v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "eoy",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "1cj9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43v [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cj",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "og19": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/16r [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "g1",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "e1c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/58v [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "e",
+        "stem": "1c",
+        "suffix": "89"
+      },
+      "recipe_count": 30
+    },
+    "okC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/38v [raw] (Jar 90r1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kC",
+        "suffix": "9"
+      },
+      "recipe_count": 32
+    },
+    "1Hc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/51v [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "Hc",
+        "suffix": "9"
+      },
+      "recipe_count": 15
+    },
+    "o8an": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24r/2v [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "8an",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "ohcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-41v/48v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hcc",
+        "suffix": "9"
+      },
+      "recipe_count": 20
+    },
+    "4ohc19": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-30r/7r [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc1",
+        "suffix": "9"
+      },
+      "recipe_count": 8
+    },
+    "hcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24v/2r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hc",
+        "suffix": "oe"
+      },
+      "recipe_count": 6
+    },
+    "4ohc79": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-26r/26v [prepared] (Jar 89r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc7",
+        "suffix": "9"
+      },
+      "recipe_count": 18
+    },
+    "4oh29": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-23r/66r [prepared] (Jar 95v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h2",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "9hcc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31r/39v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hcc",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "okap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-19v/22v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kap",
+        "suffix": "-"
+      },
+      "recipe_count": 15
+    },
+    "oehcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r/66r [raw] (Jar 99v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ehc",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "e1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/34r [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "e",
+        "stem": "1c",
+        "suffix": "9"
+      },
+      "recipe_count": 18
+    },
+    "4okoe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-19v/4v [prepared] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "koe",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "4oh19": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10r/4v [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1",
+        "suffix": "9"
+      },
+      "recipe_count": 13
+    },
+    "4ok9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10r/10v [prepared] (Jar 87r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "k9",
+        "suffix": "-"
+      },
+      "recipe_count": 19
+    },
+    "1ch9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10v/26r [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ch",
+        "suffix": "9"
+      },
+      "recipe_count": 10
+    },
+    "ohcay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hc",
+        "suffix": "ay"
+      },
+      "recipe_count": 3
+    },
+    "2cAy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-4r [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "cAy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "oe29": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-22r [raw] (Jar 99v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "e2",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "2coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/21r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "coe",
+        "suffix": "-"
+      },
+      "recipe_count": 13
+    },
+    "e189": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39v/41r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "e",
+        "stem": "18",
+        "suffix": "9"
+      },
+      "recipe_count": 6
+    },
+    "oe1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/40v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "e1c",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "okae9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r/58v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kae",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "hc79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34v/40v [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hc7",
+        "suffix": "9"
+      },
+      "recipe_count": 8
+    },
+    "5c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39v [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "5c",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "9hC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10v/14r [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hC",
+        "suffix": "9"
+      },
+      "recipe_count": 10
+    },
+    "9kC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43v/48r [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "kC",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "okc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/31v [raw] (Jar 95v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kc",
+        "suffix": "89"
+      },
+      "recipe_count": 32
+    },
+    "9hcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-30r/39r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hcc",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "g1oe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-28v [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "g1",
+        "suffix": "oe"
+      },
+      "recipe_count": 3
+    },
+    "1oham": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-35r/38v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oh",
+        "suffix": "am"
+      },
+      "recipe_count": 6
+    },
+    "1co89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20r/26r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "co",
+        "suffix": "89"
+      },
+      "recipe_count": 22
+    },
+    "1ccs": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24r/26v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ccs",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "1co8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-7r [raw] (Jar 93v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "co8",
+        "suffix": "am"
+      },
+      "recipe_count": 4
+    },
+    "9hay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-18v/33v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hay",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "oko89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-16r/29v [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ko",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "4ohcc79": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-26r/40v [prepared] (Jar 95r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hcc7",
+        "suffix": "9"
+      },
+      "recipe_count": 12
+    },
+    "4o8am": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-28r/3r [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "8am",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "ok179": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43r/48r [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "k17",
+        "suffix": "9"
+      },
+      "recipe_count": 4
+    },
+    "o8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/3r [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "8am",
+        "suffix": "-"
+      },
+      "recipe_count": 12
+    },
+    "ohax": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-50r [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hax",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "o8ay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/26v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "8ay",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "ohay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/23r [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hay",
+        "suffix": "-"
+      },
+      "recipe_count": 29
+    },
+    "4ohoe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10v/13v [prepared] (Jar 88r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hoe",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "okoe9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-37r/48v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "koe",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4okap": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-52r [prepared] (Jar 89v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kap",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "1ohay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oh",
+        "suffix": "ay"
+      },
+      "recipe_count": 4
+    },
+    "okoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/5r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "koe",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "1cohC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-27r [raw] (Jar 90v1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cohC",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "hay9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42r [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hay",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "4oh189": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-34r/34v [prepared] (Jar 95r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1",
+        "suffix": "89"
+      },
+      "recipe_count": 9
+    },
+    "1cay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/6v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cay",
+        "suffix": "-"
+      },
+      "recipe_count": 16
+    },
+    "1coy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-2v/3r [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "coy",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "hcco": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-27v/7v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hcco",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "ohaz": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/40r [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "haz",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "2co89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48r/53v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "co",
+        "suffix": "89"
+      },
+      "recipe_count": 11
+    },
+    "4ohCo": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-3r/66r [prepared] (Jar 102r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hCo",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "ohco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/41v [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hco",
+        "suffix": "89"
+      },
+      "recipe_count": 3
+    },
+    "oh2c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-38r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h2c",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "1ccoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "1co8ae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39v [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "co8",
+        "suffix": "ae"
+      },
+      "recipe_count": 1
+    },
+    "4oam": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-17v/23r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "am",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "4oh1oe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10r/14r [prepared] (Jar 93v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "h1co": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-40r [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h1co",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "4ok189": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-55r/66v [prepared] (Jar 94r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "k1",
+        "suffix": "89"
+      },
+      "recipe_count": 9
+    },
+    "oeham": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/39v [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "eh",
+        "suffix": "am"
+      },
+      "recipe_count": 10
+    },
+    "4ohcoy": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-31r [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hcoy",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "okco": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-51v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kco",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "1oH9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20v/38r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oH",
+        "suffix": "9"
+      },
+      "recipe_count": 6
+    },
+    "oyap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-33v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "yap",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "ohco": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/26v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hco",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "1C89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-33r/66r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "C8",
+        "suffix": "9"
+      },
+      "recipe_count": 14
+    },
+    "s1co": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-30r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "s1co",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "4okcco": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-20r [prepared] (Jar 102v2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kcco",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1cos": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20v/26r [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cos",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "91coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/24r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "1c",
+        "suffix": "oe"
+      },
+      "recipe_count": 6
+    },
+    "1c7ay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "c7",
+        "suffix": "ay"
+      },
+      "recipe_count": 6
+    },
+    "k189": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-33v/41r [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1",
+        "suffix": "89"
+      },
+      "recipe_count": 3
+    },
+    "2C89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-50r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "C8",
+        "suffix": "9"
+      },
+      "recipe_count": 4
+    },
+    "1chae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34v/41r [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ch",
+        "suffix": "ae"
+      },
+      "recipe_count": 2
+    },
+    "1o8an": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/2v [raw] (Jar 93r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "o8",
+        "suffix": "an"
+      },
+      "recipe_count": 4
+    },
+    "4ok19": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10r/4r [prepared] (Jar 102r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "k1",
+        "suffix": "9"
+      },
+      "recipe_count": 6
+    },
+    "4oh1c79": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-43v [prepared] (Jar 94v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1c7",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "2cos": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26r/49r [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "cos",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "4oh1c9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-20r/21r [prepared] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1c",
+        "suffix": "9"
+      },
+      "recipe_count": 13
+    },
+    "1o8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/1v [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "o8",
+        "suffix": "am"
+      },
+      "recipe_count": 8
+    },
+    "9ham": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/22v [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "ham",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "1cAy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24r/30r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cAy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "okoy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10r/16v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "koy",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "1o8ay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1v/27v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "o8",
+        "suffix": "ay"
+      },
+      "recipe_count": 4
+    },
+    "1cco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-8r [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cco",
+        "suffix": "89"
+      },
+      "recipe_count": 5
+    },
+    "k1c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/39r [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1c",
+        "suffix": "89"
+      },
+      "recipe_count": 9
+    },
+    "4ohd": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-17v/35v [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hd",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "ayo89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-40v [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ayo",
+        "suffix": "89"
+      },
+      "recipe_count": 5
+    },
+    "4o89": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-17r/42r [prepared] (Jar 89r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "89",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "9kco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-3r/43r [raw] (Jar 90v1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "kco",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "4ohoy": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-15v/23v [prepared] (Jar 88r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hoy",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "oh1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/23v [raw] (Jar 93v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h1c",
+        "suffix": "9"
+      },
+      "recipe_count": 8
+    },
+    "hcco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/66v [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hcco",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "4ohCo89": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-66r [prepared] (Jar 100r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hCo",
+        "suffix": "89"
+      },
+      "recipe_count": 5
+    },
+    "oyae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-36r [raw] (Jar 96v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "yae",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "okcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/1r [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kc",
+        "suffix": "oe"
+      },
+      "recipe_count": 8
+    },
+    "4oj189": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-34v [prepared] (Jar 95r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "j1",
+        "suffix": "89"
+      },
+      "recipe_count": 4
+    },
+    "4oH9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-22r/44r [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "H9",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "9hap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-18v/43r [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "o7am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/29v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "7am",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "ohoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/2r [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hoe",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "81co": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/30r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "1co",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "okco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-41v/66r [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kco",
+        "suffix": "89"
+      },
+      "recipe_count": 7
+    },
+    "4oh179": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-34r/40v [prepared] (Jar 94v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h17",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "1k19": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42v [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "k1",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "91C9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/1r [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "1C",
+        "suffix": "9"
+      },
+      "recipe_count": 7
+    },
+    "oyam": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/31v [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "yam",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "h1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13v/1r [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h1c",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "1cok": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-65v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cok",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "o8ae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-23r/39r [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "8ae",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "Hcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-52v [raw] (Jar 99r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "Hc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "oj1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-19v/20r [raw] (Jar 99r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "j1c",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "o8oy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "8oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "18am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34v [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "8am",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "2ch9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/29r [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "ch",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "2coy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/32r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "coy",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "ehco": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43v [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "e",
+        "stem": "hco",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "3coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-21r/58r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "3c",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "91oy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-19v/22v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "1oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1oeh9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34v/43r [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oeh",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "hcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/27r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hcc",
+        "suffix": "9"
+      },
+      "recipe_count": 8
+    },
+    "oehC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48v/58v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ehC",
+        "suffix": "9"
+      },
+      "recipe_count": 8
+    },
+    "g1coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-3r [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "g1c",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "4ohCoy": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-30v [prepared] (Jar 90v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hCoy",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "e2c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-66r [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "e",
+        "stem": "2c",
+        "suffix": "89"
+      },
+      "recipe_count": 9
+    },
+    "4ok1oy": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10r/14r [prepared] (Jar 90r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "k1oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "9hae": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/48v [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hae",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "1hay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-27v/2r [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "hay",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "1oh9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-14v/15v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oh",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "k1co": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34r/66r [raw] (Jar 93r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1co",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "oj19": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-16r/39v [raw] (Jar 93v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "j1",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "1cAe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-66r [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cAe",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "82c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-41v/48v [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "2c",
+        "suffix": "89"
+      },
+      "recipe_count": 3
+    },
+    "8ae9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-16r/43r [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "ae",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "17ap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/46r [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "7ap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "9kay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-19v/34r [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "kay",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "oh29": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13v/14v [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h2",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4oho": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-30r/47r [prepared] (Jar 89v2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "ho",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "1ok9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-11r/13v [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ok",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "h2co89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-54r/9v [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h2co",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "ho89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1v/29r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ho",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "g1o8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-14r/20r [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "g1o8",
+        "suffix": "am"
+      },
+      "recipe_count": 1
+    },
+    "2oH9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-28r/58v [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "oH",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "4oHc9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-51r/54v [prepared] (Jar 102r2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "Hc",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "1ham": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-21r/28v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ham",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "81c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10r/23r [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "1c",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "1coH9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48r [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "coH",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "2cc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42v/47v [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "cc",
+        "suffix": "9"
+      },
+      "recipe_count": 13
+    },
+    "k1coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-49r [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1c",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "oe1coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "e1c",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "oyoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-53r/55r [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "yoe",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "4oK9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-13v/37v [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "K9",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "18an": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/42r [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "8an",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "oHc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58v [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "Hc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "9h1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-40r/44r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "h1c",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "9h1c89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-65v [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "h1c",
+        "suffix": "89"
+      },
+      "recipe_count": 3
+    },
+    "okcos": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-21r/43v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kcos",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "2oK9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-15r/16r [raw] (Jar 102r1)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "oK",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "kcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-44v/48r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "kc",
+        "suffix": "oe"
+      },
+      "recipe_count": 3
+    },
+    "hc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/40v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hc",
+        "suffix": "89"
+      },
+      "recipe_count": 8
+    },
+    "2o8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-2r/32r [raw] (Jar 90v2)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "o8",
+        "suffix": "am"
+      },
+      "recipe_count": 3
+    },
+    "ojam": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-57v/58v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "jam",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1co79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31v/43r [raw] (Jar 96r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "co7",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "oe89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/46v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "e8",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "ohom": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20v/37v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hom",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1ohC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-56r/58v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ohC",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "ohCoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hC",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "9kcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-21r/28r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "kc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "1chay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-33r/34r [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ch",
+        "suffix": "ay"
+      },
+      "recipe_count": 1
+    },
+    "oh1c79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-50r [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h1c7",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "okcoy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r/31r [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kcoy",
+        "suffix": "-"
+      },
+      "recipe_count": 4
+    },
+    "9hcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-45r/48v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "ohc79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31r/34r [raw] (Jar 95r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hc7",
+        "suffix": "9"
+      },
+      "recipe_count": 6
+    },
+    "ohoy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-14r/17r [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hoy",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "4okco": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-48r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kco",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "91c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-40r/44v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "1c",
+        "suffix": "9"
+      },
+      "recipe_count": 2
+    },
+    "4okcoe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-3r/41v [prepared] (Jar 100r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "kc",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "ohC79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34v/43v [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hC7",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "1ohcoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-32r [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ohc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "kC89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "kC",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "82coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-46r/66r [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "2c",
+        "suffix": "oe"
+      },
+      "recipe_count": 2
+    },
+    "1cHc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cHc",
+        "suffix": "9"
+      },
+      "recipe_count": 5
+    },
+    "4ohcae": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-58v [prepared] (Jar 94v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hc",
+        "suffix": "ae"
+      },
+      "recipe_count": 2
+    },
+    "2cay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-29r/34v [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "2",
+        "stem": "cay",
+        "suffix": "-"
+      },
+      "recipe_count": 3
+    },
+    "1oh1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-56r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oh1c",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4ohco89": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-31r/41v [prepared] (Jar 88r)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hco",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "4ohco8": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-66r [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "hco",
+        "suffix": "8"
+      },
+      "recipe_count": 2
+    },
+    "4ok1c9": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-10v/15v [prepared] (Jar 95v2)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "k1c",
+        "suffix": "9"
+      },
+      "recipe_count": 6
+    },
+    "1hcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v [raw] (Jar 100r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "hcc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "ohcap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-54r [raw] (Jar 90v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hcap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "81C9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-30r/31r [raw] (Jar 90v1)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "1C",
+        "suffix": "9"
+      },
+      "recipe_count": 3
+    },
+    "oh19": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/13v [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h1",
+        "suffix": "9"
+      },
+      "recipe_count": 4
+    },
+    "1co8an": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-51v [raw] (Jar 96r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "co8",
+        "suffix": "an"
+      },
+      "recipe_count": 1
+    },
+    "1chan": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-1r [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ch",
+        "suffix": "an"
+      },
+      "recipe_count": 2
+    },
+    "1hC9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/30r [raw] (Jar 93v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "hC",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "say9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-47v/9r [raw] (Jar 90r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "say",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4ojoe": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-3r [prepared] (Jar 89v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "joe",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "9hc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/46r [raw] (Jar 99v)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "9hc89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34r/40v [raw] (Jar 95r1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hc",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "1cop": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r [raw] (Jar 88r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "cop",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "sayoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "say",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "ohCoy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hCoy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1hc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-25v/48v [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "hc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "occs": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-24r/6v [raw] (Jar 93v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ccs",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "k1oy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/3v [raw] (Jar 102v2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1Coe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "Coe",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "k1c79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39r/40v [raw] (Jar 95v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1c7",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "aeay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ae",
+        "suffix": "ay"
+      },
+      "recipe_count": 1
+    },
+    "h1oe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10v/11r [raw] (Jar 90r1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h1",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "hccoe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-31r/56v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hcc",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "4oh1co": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-17v/47r [prepared] (Jar 102r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1co",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1okay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42r/58r [raw] (Jar 93r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ok",
+        "suffix": "ay"
+      },
+      "recipe_count": 4
+    },
+    "ohco79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-50r/55v [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hco7",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "1oK9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-10r/19v [raw] (Jar 93r)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oK",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "k1oe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-11r/17v [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1",
+        "suffix": "oe"
+      },
+      "recipe_count": 1
+    },
+    "k1co89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-51r/58v [raw] (Jar 90v2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "k1co",
+        "suffix": "89"
+      },
+      "recipe_count": 2
+    },
+    "oh189": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-26v/57r [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "h1",
+        "suffix": "89"
+      },
+      "recipe_count": 3
+    },
+    "Kcc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-17v/21r [raw] (Jar 101r1-r2)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "Kcc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4oko89": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-49r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "ko",
+        "suffix": "89"
+      },
+      "recipe_count": 4
+    },
+    "1ohap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-52r [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ohap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "okAe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-44r/51r [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kAe",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "4oho89": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-26v/3r [prepared] (Jar 88v)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "ho",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "ok1ay": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-45r/8v [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "k1",
+        "suffix": "ay"
+      },
+      "recipe_count": 1
+    },
+    "okay9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43r/58r [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kay",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "ok1ap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-3v/6r [raw] (Jar 89r1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "k1ap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "98am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-14r/22r [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "8am",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "oho89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-39v/6v [raw] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ho",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "8ae89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13r/45r [raw] (Jar 89v1)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "ae",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "h189": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-33v/34v [raw] (Jar 94r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h1",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "9hco": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34r/41v [raw] (Jar 89r2)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "hco",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "ko8am": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-21v/41v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ko8",
+        "suffix": "am"
+      },
+      "recipe_count": 1
+    },
+    "okCs": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-48v [raw] (Jar 89v2)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "kCs",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "4oho8": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-13v/42v [prepared] (Jar 89r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "ho",
+        "suffix": "8"
+      },
+      "recipe_count": 2
+    },
+    "1ckam": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-42v [raw] (Jar 94v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "ck",
+        "suffix": "am"
+      },
+      "recipe_count": 1
+    },
+    "1oKc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-30v [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oKc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "h1oy": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-13v/2v [raw] (Jar 87v)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h1oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1o79": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-34r/43v [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "o7",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "1coK9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-57r/8r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "coK",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "4oh1o": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-25v/56v [prepared] (Jar 90r1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "h1o",
+        "suffix": "-"
+      },
+      "recipe_count": 2
+    },
+    "81oe": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-11r/13r [raw] (Jar 87r)",
+      "morphology": {
+        "prefix": "8",
+        "stem": "1oe",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "4ooy": {
+      "pos": "ING.4o",
+      "gloss": "Botanical-46r [prepared] (Jar 101v2-v1)",
+      "morphology": {
+        "prefix": "4o",
+        "stem": "oy",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1oes": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-49v/5v [raw] (Jar 100v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oes",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1okap": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-58r [raw] (Jar 88v)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "okap",
+        "suffix": "-"
+      },
+      "recipe_count": 1
+    },
+    "1oJ9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-28r/54r [raw] (Jar 102r2)",
+      "morphology": {
+        "prefix": "1",
+        "stem": "oJ",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "hco89": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-20v/26v [raw] (Jar 99r)",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hco",
+        "suffix": "89"
+      },
+      "recipe_count": 1
+    },
+    "9k1c9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-25r/46v [raw] (Jar 96v)",
+      "morphology": {
+        "prefix": "9",
+        "stem": "k1c",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    },
+    "oehc9": {
+      "pos": "ING.RAW",
+      "gloss": "Botanical-43v/48r [raw] (Jar 102v1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "ehc",
+        "suffix": "9"
+      },
+      "recipe_count": 1
+    }
+  }
+}
