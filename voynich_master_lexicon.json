@@ -1,0 +1,6087 @@
+{
+  "title": "Master Voynich Codex Apothecary & Cosmological Bridge Lexicon",
+  "repository": "probablyapigeon/voynich_xc",
+  "total_verified_tokens": 135,
+  "class_breakdown": {
+    "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)": 69,
+    "3-Way Bridge (Herbal + Pharma + Recipes)": 47,
+    "Pure Apothecary-Only (Pharma + Recipes)": 9,
+    "Zodiac/Balneological-Pharma-Recipe Bridge": 8,
+    "Rosettes-Pharma-Recipe Bridge": 2
+  },
+  "entries": [
+    {
+      "token": "189",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 106,
+      "hits_herbal": 29,
+      "hits_zodiac": 4,
+      "hits_balneological": 15,
+      "hits_rosettes": 7,
+      "hits_pharma": 13,
+      "hits_recipes": 37,
+      "source_pharma_jars": [
+        "94r.9"
+      ],
+      "sample_herbal_folios": [
+        "1r.12",
+        "9r.6",
+        "15r.6",
+        "26r.5",
+        "33v.6"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.30",
+        "85r2.quad_1_1",
+        "86v4.3rd_ring",
+        "86v6.15",
+        "86v6.42",
+        "68v2.radial_4",
+        "69v.3rd_ring",
+        "70r2.13",
+        "73r.2nd_ring",
+        "75r.10",
+        "76r.4",
+        "76r.8",
+        "76r.21",
+        "76r.28"
+      ],
+      "sample_recipe_folios": [
+        "103v.43",
+        "103v.46",
+        "104r.13",
+        "104v.16",
+        "105r.18"
+      ],
+      "xembra_psi_string": "Ψ(c=0.332, p=0.500, r=0.394, s=0.688, Φ=0.599, 𝒯=0.401, E=0.394, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.332,
+        "p": 0.5,
+        "r": 0.394,
+        "s": 0.688,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.394,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "19",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 187,
+      "hits_herbal": 119,
+      "hits_zodiac": 16,
+      "hits_balneological": 12,
+      "hits_rosettes": 5,
+      "hits_pharma": 12,
+      "hits_recipes": 22,
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "1r.19",
+        "1v.6",
+        "2r.3",
+        "2r.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.3",
+        "85r2.quad_4_2",
+        "86v4.2nd_ring",
+        "86v6.43",
+        "86v3.south_3",
+        "67r1.2nd_ring",
+        "67r2.red_outer_ring",
+        "67v1.center_16",
+        "67v1.center_17",
+        "68v2.outer_ring",
+        "75r.7",
+        "75r.16",
+        "76r.23",
+        "77r.14",
+        "77v.6"
+      ],
+      "sample_recipe_folios": [
+        "103v.16",
+        "104r.44",
+        "104v.18",
+        "104v.19",
+        "105r.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.570, p=0.500, r=0.357, s=0.840, Φ=0.599, 𝒯=0.401, E=0.357, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.57,
+        "p": 0.5,
+        "r": 0.357,
+        "s": 0.84,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.357,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1ay",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 79,
+      "hits_herbal": 36,
+      "hits_zodiac": 4,
+      "hits_balneological": 6,
+      "hits_rosettes": 0,
+      "hits_pharma": 4,
+      "hits_recipes": 29,
+      "source_pharma_jars": [
+        "96v.10",
+        "100r.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "1r.13",
+        "1v.1",
+        "1v.2",
+        "3v.5",
+        "4v.12"
+      ],
+      "sample_cosmological_folios": [
+        "67v2.sun_bottom_right",
+        "69v.outer_ring",
+        "71r.center_ring",
+        "71v.2nd_ring",
+        "75r.18",
+        "75v.16",
+        "76v.40",
+        "82r.18",
+        "82v.13"
+      ],
+      "sample_recipe_folios": [
+        "103v.3",
+        "103v.20",
+        "104r.1",
+        "104r.24",
+        "104r.28"
+      ],
+      "xembra_psi_string": "Ψ(c=0.628, p=0.500, r=0.341, s=0.802, Φ=0.599, 𝒯=0.401, E=0.341, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.628,
+        "p": 0.5,
+        "r": 0.341,
+        "s": 0.802,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.341,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1c9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 376,
+      "hits_herbal": 78,
+      "hits_zodiac": 19,
+      "hits_balneological": 107,
+      "hits_rosettes": 13,
+      "hits_pharma": 28,
+      "hits_recipes": 131,
+      "source_pharma_jars": [
+        "95v1.5",
+        "99r.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "1r.17",
+        "1r.18",
+        "1r.23",
+        "1v.5",
+        "2r.13"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.15",
+        "85r2.quad_4_1",
+        "85r2.quad_4_5",
+        "86v6.2",
+        "86v6.14",
+        "68r3.radial_6",
+        "68v3.1",
+        "68v3.outer_ring",
+        "68v2.3",
+        "68v2.outer_ring",
+        "75r.5",
+        "75r.8",
+        "75r.20",
+        "75r.21",
+        "75r.31"
+      ],
+      "sample_recipe_folios": [
+        "103r.7",
+        "103r.11",
+        "103r.14",
+        "103r.19",
+        "103r.25"
+      ],
+      "xembra_psi_string": "Ψ(c=0.863, p=0.500, r=0.414, s=0.617, Φ=0.599, 𝒯=0.401, E=0.414, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.863,
+        "p": 0.5,
+        "r": 0.414,
+        "s": 0.617,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.414,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1cHc9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 10,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 5,
+      "source_pharma_jars": [
+        "96v.11"
+      ],
+      "sample_herbal_folios": [
+        "31r.7"
+      ],
+      "sample_cosmological_folios": [
+        "76v.19"
+      ],
+      "sample_recipe_folios": [
+        "108v.41",
+        "111r.22",
+        "111v.38",
+        "112v.26",
+        "112v.41"
+      ],
+      "xembra_psi_string": "Ψ(c=0.747, p=0.500, r=0.341, s=0.768, Φ=0.599, 𝒯=0.401, E=0.341, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.747,
+        "p": 0.5,
+        "r": 0.341,
+        "s": 0.768,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.341,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1ccoe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93v.10"
+      ],
+      "sample_herbal_folios": [
+        "17v.22"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "104r.35"
+      ],
+      "xembra_psi_string": "Ψ(c=0.887, p=0.500, r=0.415, s=0.811, Φ=0.599, 𝒯=0.401, E=0.415, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.887,
+        "p": 0.5,
+        "r": 0.415,
+        "s": 0.811,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.415,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1ch9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 66,
+      "hits_herbal": 31,
+      "hits_zodiac": 6,
+      "hits_balneological": 11,
+      "hits_rosettes": 0,
+      "hits_pharma": 5,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "100v.9"
+      ],
+      "sample_herbal_folios": [
+        "10v.7",
+        "26r.9",
+        "26v.6",
+        "30r.9",
+        "31r.15"
+      ],
+      "sample_cosmological_folios": [
+        "67v1.center_13",
+        "68v3.3",
+        "68v3.outer_ring",
+        "68v2.outer_ring",
+        "71r.center_ring",
+        "75r.30",
+        "77v.22",
+        "77v.28",
+        "78r.3",
+        "80r.24"
+      ],
+      "sample_recipe_folios": [
+        "103v.5",
+        "104v.14",
+        "105r.34",
+        "107v.4",
+        "111r.19"
+      ],
+      "xembra_psi_string": "Ψ(c=0.630, p=0.500, r=0.346, s=0.532, Φ=0.599, 𝒯=0.401, E=0.346, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.63,
+        "p": 0.5,
+        "r": 0.346,
+        "s": 0.532,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.346,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1co",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 127,
+      "hits_herbal": 15,
+      "hits_zodiac": 8,
+      "hits_balneological": 0,
+      "hits_rosettes": 2,
+      "hits_pharma": 22,
+      "hits_recipes": 79,
+      "source_pharma_jars": [
+        "93r.27"
+      ],
+      "sample_herbal_folios": [
+        "5r.7",
+        "8r.10",
+        "17v.15",
+        "20r.8",
+        "27v.2"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.10",
+        "86v5.37",
+        "67v1.center_3",
+        "68r2.sun",
+        "68v3.outer_ring",
+        "68v2.5",
+        "68v1.2nd_ring"
+      ],
+      "sample_recipe_folios": [
+        "104r.14",
+        "104r.15",
+        "104r.20",
+        "104r.27",
+        "104r.33"
+      ],
+      "xembra_psi_string": "Ψ(c=0.880, p=0.500, r=0.451, s=0.689, Φ=0.599, 𝒯=0.401, E=0.451, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.88,
+        "p": 0.5,
+        "r": 0.451,
+        "s": 0.689,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.451,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1co89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 71,
+      "hits_herbal": 15,
+      "hits_zodiac": 8,
+      "hits_balneological": 0,
+      "hits_rosettes": 2,
+      "hits_pharma": 23,
+      "hits_recipes": 23,
+      "source_pharma_jars": [
+        "89r2.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "3r.13",
+        "7r.2",
+        "20r.8",
+        "20r.12",
+        "26r.10"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.35",
+        "86v3.south_4",
+        "67v1.center_13",
+        "68r2.5",
+        "68r3.outer_ring",
+        "68v3.spiral_4",
+        "69r.radial_11"
+      ],
+      "sample_recipe_folios": [
+        "103v.33",
+        "104r.13",
+        "104r.34",
+        "104v.13",
+        "104v.28"
+      ],
+      "xembra_psi_string": "Ψ(c=0.795, p=0.500, r=0.545, s=0.663, Φ=0.599, 𝒯=0.401, E=0.545, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.795,
+        "p": 0.5,
+        "r": 0.545,
+        "s": 0.663,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.545,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1coK9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 2,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "8r.9",
+        "57r.4"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "115r.16",
+        "115r.17"
+      ],
+      "xembra_psi_string": "Ψ(c=0.899, p=0.500, r=0.482, s=0.792, Φ=0.599, 𝒯=0.401, E=0.482, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.899,
+        "p": 0.5,
+        "r": 0.482,
+        "s": 0.792,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.482,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1coy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 85,
+      "hits_herbal": 29,
+      "hits_zodiac": 12,
+      "hits_balneological": 9,
+      "hits_rosettes": 1,
+      "hits_pharma": 23,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "88v.17",
+        "96v.9",
+        "96v.13",
+        "102v2.labels_top_2",
+        "102v2.17"
+      ],
+      "sample_herbal_folios": [
+        "2v.4",
+        "3r.19",
+        "3v.6",
+        "4v.13",
+        "5r.4"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.15",
+        "67r1.2nd_ring",
+        "68r1.1",
+        "68r2.2",
+        "68r3.outer_ring",
+        "69r.2nd_ring",
+        "76v.11",
+        "78v.32",
+        "79r.5",
+        "79r.10",
+        "82r.21"
+      ],
+      "sample_recipe_folios": [
+        "104r.22",
+        "106r.43",
+        "107r.26",
+        "107r.46",
+        "107v.28"
+      ],
+      "xembra_psi_string": "Ψ(c=0.480, p=0.500, r=0.394, s=0.542, Φ=0.599, 𝒯=0.401, E=0.394, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.48,
+        "p": 0.5,
+        "r": 0.394,
+        "s": 0.542,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.394,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1cs",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 37,
+      "hits_herbal": 5,
+      "hits_zodiac": 7,
+      "hits_balneological": 9,
+      "hits_rosettes": 3,
+      "hits_pharma": 2,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "89r1.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "6v.18",
+        "31v.7",
+        "39r.12",
+        "46r.12",
+        "49v.25"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.23",
+        "86v4.outer_ring",
+        "86v6.1",
+        "67v1.center_2",
+        "68v1.radial.5",
+        "70r2.3rd_ring",
+        "72r3.outer_ring",
+        "72v3.outer_ring",
+        "76r.6",
+        "76v.26",
+        "76v.29",
+        "77r.37",
+        "77v.18"
+      ],
+      "sample_recipe_folios": [
+        "105r.2",
+        "106v.40",
+        "111v.27",
+        "112r.13",
+        "113r.6"
+      ],
+      "xembra_psi_string": "Ψ(c=0.820, p=0.500, r=0.565, s=0.833, Φ=0.599, 𝒯=0.401, E=0.565, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.82,
+        "p": 0.5,
+        "r": 0.565,
+        "s": 0.833,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.565,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1k19",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 3,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v2.labels_bottom"
+      ],
+      "sample_herbal_folios": [
+        "42v.2"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "105v.14"
+      ],
+      "xembra_psi_string": "Ψ(c=0.617, p=0.500, r=0.408, s=0.573, Φ=0.599, 𝒯=0.401, E=0.408, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.617,
+        "p": 0.5,
+        "r": 0.408,
+        "s": 0.573,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.408,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1o",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 115,
+      "hits_herbal": 62,
+      "hits_zodiac": 8,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 11,
+      "hits_recipes": 34,
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_herbal_folios": [
+        "1v.4",
+        "2v.2",
+        "3r.4",
+        "3v.5",
+        "6r.2"
+      ],
+      "sample_cosmological_folios": [
+        "67r1.2nd_ring",
+        "68r3.center",
+        "68v1.outer_ring",
+        "69r.2nd_ring",
+        "69v.outer_ring"
+      ],
+      "sample_recipe_folios": [
+        "103r.46",
+        "104r.15",
+        "104r.23",
+        "104v.15",
+        "104v.34"
+      ],
+      "xembra_psi_string": "Ψ(c=0.653, p=0.500, r=0.438, s=0.691, Φ=0.599, 𝒯=0.401, E=0.438, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.653,
+        "p": 0.5,
+        "r": 0.438,
+        "s": 0.691,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.438,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1o79",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 13,
+      "hits_herbal": 6,
+      "hits_zodiac": 2,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 4,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "34r.14",
+        "43v.8",
+        "54v.3",
+        "58r.30",
+        "66r.3"
+      ],
+      "sample_cosmological_folios": [
+        "68v3.spiral_6",
+        "68v2.5"
+      ],
+      "sample_recipe_folios": [
+        "115r.6"
+      ],
+      "xembra_psi_string": "Ψ(c=0.868, p=0.500, r=0.371, s=0.487, Φ=0.599, 𝒯=0.401, E=0.371, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.868,
+        "p": 0.5,
+        "r": 0.371,
+        "s": 0.487,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.371,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1o8am",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 41,
+      "hits_herbal": 22,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 9,
+      "hits_recipes": 8,
+      "source_pharma_jars": [
+        "93r.28"
+      ],
+      "sample_herbal_folios": [
+        "1r.14",
+        "1v.1",
+        "2v.4",
+        "3v.11",
+        "5v.1"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.30",
+        "76r.21"
+      ],
+      "sample_recipe_folios": [
+        "104v.23",
+        "105v.16",
+        "107r.23",
+        "113r.12",
+        "114r.19"
+      ],
+      "xembra_psi_string": "Ψ(c=0.675, p=0.500, r=0.378, s=0.460, Φ=0.599, 𝒯=0.401, E=0.378, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.675,
+        "p": 0.5,
+        "r": 0.378,
+        "s": 0.46,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.378,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oH9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 23,
+      "hits_herbal": 6,
+      "hits_zodiac": 3,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 8,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "93r.20"
+      ],
+      "sample_herbal_folios": [
+        "6v.15",
+        "20v.6",
+        "38r.1",
+        "42r.5",
+        "57r.2"
+      ],
+      "sample_cosmological_folios": [
+        "67r1.outer_ring",
+        "68v1.outer_ring",
+        "73r.top"
+      ],
+      "sample_recipe_folios": [
+        "104v.2",
+        "113r.33",
+        "113v.6",
+        "114v.22",
+        "115r.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.732, p=0.500, r=0.334, s=0.616, Φ=0.599, 𝒯=0.401, E=0.334, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.732,
+        "p": 0.5,
+        "r": 0.334,
+        "s": 0.616,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.334,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oK9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 18,
+      "hits_herbal": 13,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 2,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.24"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "5r.3",
+        "5r.4",
+        "10r.3",
+        "19v.6"
+      ],
+      "sample_cosmological_folios": [
+        "86v4.4th_ring",
+        "86v6.43"
+      ],
+      "sample_recipe_folios": [
+        "113r.23",
+        "114r.45"
+      ],
+      "xembra_psi_string": "Ψ(c=0.870, p=0.500, r=0.380, s=0.830, Φ=0.599, 𝒯=0.401, E=0.380, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.87,
+        "p": 0.5,
+        "r": 0.38,
+        "s": 0.83,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.38,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 397,
+      "hits_herbal": 221,
+      "hits_zodiac": 19,
+      "hits_balneological": 15,
+      "hits_rosettes": 12,
+      "hits_pharma": 61,
+      "hits_recipes": 69,
+      "source_pharma_jars": [
+        "89r1.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "1r.12",
+        "1r.13",
+        "1r.14",
+        "1r.19",
+        "1r.20"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.23",
+        "85r1.31",
+        "85r1.32",
+        "85r2.quad_1_6",
+        "85r2.quad_2_3",
+        "67r1.2nd_ring",
+        "67v2.outer_ring_east_1",
+        "68r2.labels_6",
+        "68r3.outer_ring",
+        "68v2.4",
+        "76r.13",
+        "76r.28",
+        "76r.34",
+        "76v.18",
+        "77r.3"
+      ],
+      "sample_recipe_folios": [
+        "103r.31",
+        "103r.46",
+        "103v.7",
+        "103v.38",
+        "104r.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.656, p=0.500, r=0.318, s=0.716, Φ=0.599, 𝒯=0.401, E=0.318, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.656,
+        "p": 0.5,
+        "r": 0.318,
+        "s": 0.716,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.318,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oes",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 4,
+      "hits_herbal": 2,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "100v.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "5v.1",
+        "49v.18"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "115r.45"
+      ],
+      "xembra_psi_string": "Ψ(c=0.780, p=0.500, r=0.413, s=0.410, Φ=0.599, 𝒯=0.401, E=0.413, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.78,
+        "p": 0.5,
+        "r": 0.413,
+        "s": 0.41,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.413,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oh9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 39,
+      "hits_herbal": 23,
+      "hits_zodiac": 5,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 7,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "88v.17",
+        "99r.labels_middle_1"
+      ],
+      "sample_herbal_folios": [
+        "1v.6",
+        "6r.3",
+        "14v.6",
+        "15v.4",
+        "16r.3"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.1",
+        "68r3.outer_ring",
+        "69v.2nd_ring",
+        "70r1.1st_ring",
+        "70r2.outside_ring",
+        "70r2.center_ring"
+      ],
+      "sample_recipe_folios": [
+        "106r.35",
+        "114v.16",
+        "115v.18"
+      ],
+      "xembra_psi_string": "Ψ(c=0.866, p=0.500, r=0.439, s=0.849, Φ=0.599, 𝒯=0.401, E=0.439, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.866,
+        "p": 0.5,
+        "r": 0.439,
+        "s": 0.849,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.439,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1ohae",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 8,
+      "hits_herbal": 3,
+      "hits_zodiac": 3,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.32"
+      ],
+      "sample_herbal_folios": [
+        "58r.41",
+        "58v.19",
+        "66v.5"
+      ],
+      "sample_cosmological_folios": [
+        "68r1.3",
+        "70r2.outside_ring",
+        "72r1.3rd_ring"
+      ],
+      "sample_recipe_folios": [
+        "103r.3"
+      ],
+      "xembra_psi_string": "Ψ(c=0.868, p=0.500, r=0.338, s=0.392, Φ=0.599, 𝒯=0.401, E=0.338, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.868,
+        "p": 0.5,
+        "r": 0.338,
+        "s": 0.392,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.338,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1ohap",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 3,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v2.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "52r.6"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "113v.8"
+      ],
+      "xembra_psi_string": "Ψ(c=0.630, p=0.500, r=0.446, s=0.699, Φ=0.599, 𝒯=0.401, E=0.446, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.63,
+        "p": 0.5,
+        "r": 0.446,
+        "s": 0.699,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.446,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1okay",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 9,
+      "hits_herbal": 2,
+      "hits_zodiac": 2,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "93r.25"
+      ],
+      "sample_herbal_folios": [
+        "42r.3",
+        "58r.23"
+      ],
+      "sample_cosmological_folios": [
+        "70r1.1st_ring",
+        "72v1.outer_ring"
+      ],
+      "sample_recipe_folios": [
+        "113r.17",
+        "113v.3",
+        "114r.28",
+        "115r.43"
+      ],
+      "xembra_psi_string": "Ψ(c=0.641, p=0.500, r=0.375, s=0.664, Φ=0.599, 𝒯=0.401, E=0.375, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.641,
+        "p": 0.5,
+        "r": 0.375,
+        "s": 0.664,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.375,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1os",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 39,
+      "hits_herbal": 10,
+      "hits_zodiac": 3,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 14,
+      "hits_recipes": 11,
+      "source_pharma_jars": [
+        "89r2.labels_middle_2",
+        "100r.labels_1",
+        "100v.labels_3"
+      ],
+      "sample_herbal_folios": [
+        "15r.9",
+        "27r.4",
+        "27r.11",
+        "29r.4",
+        "33r.7"
+      ],
+      "sample_cosmological_folios": [
+        "67r2.2nd_ring_11",
+        "67r2.3",
+        "68v1.2nd_ring"
+      ],
+      "sample_recipe_folios": [
+        "106v.31",
+        "106v.46",
+        "112v.26",
+        "113r.7",
+        "113r.8"
+      ],
+      "xembra_psi_string": "Ψ(c=0.864, p=0.500, r=0.438, s=0.534, Φ=0.599, 𝒯=0.401, E=0.438, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.864,
+        "p": 0.5,
+        "r": 0.438,
+        "s": 0.534,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.438,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1oy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 220,
+      "hits_herbal": 154,
+      "hits_zodiac": 5,
+      "hits_balneological": 0,
+      "hits_rosettes": 5,
+      "hits_pharma": 31,
+      "hits_recipes": 22,
+      "source_pharma_jars": [
+        "96v.7",
+        "99v.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "1r.18",
+        "2r.3",
+        "2r.12",
+        "2v.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.6",
+        "85r1.11",
+        "85r1.21",
+        "86v6.3",
+        "86v5.10",
+        "68r2.1",
+        "68r2.4",
+        "68v3.3",
+        "69r.radial_9",
+        "73r.3rd_ring"
+      ],
+      "sample_recipe_folios": [
+        "104r.23",
+        "104v.20",
+        "105v.35",
+        "106r.15",
+        "106r.29"
+      ],
+      "xembra_psi_string": "Ψ(c=0.827, p=0.500, r=0.385, s=0.736, Φ=0.599, 𝒯=0.401, E=0.385, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.827,
+        "p": 0.5,
+        "r": 0.385,
+        "s": 0.736,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.385,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "1s",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 17,
+      "hits_herbal": 4,
+      "hits_zodiac": 2,
+      "hits_balneological": 2,
+      "hits_rosettes": 0,
+      "hits_pharma": 6,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "93r.14",
+        "93v.10"
+      ],
+      "sample_herbal_folios": [
+        "16r.5",
+        "26v.5",
+        "29v.6",
+        "49r.20"
+      ],
+      "sample_cosmological_folios": [
+        "71r.center_ring",
+        "72r2.center_ring",
+        "77v.4",
+        "83r.10"
+      ],
+      "sample_recipe_folios": [
+        "105v.26",
+        "106v.20",
+        "113r.3"
+      ],
+      "xembra_psi_string": "Ψ(c=0.431, p=0.500, r=0.333, s=0.690, Φ=0.599, 𝒯=0.401, E=0.333, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.431,
+        "p": 0.5,
+        "r": 0.333,
+        "s": 0.69,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.333,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2C9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 81,
+      "hits_herbal": 17,
+      "hits_zodiac": 3,
+      "hits_balneological": 14,
+      "hits_rosettes": 5,
+      "hits_pharma": 15,
+      "hits_recipes": 26,
+      "source_pharma_jars": [
+        "96v.4"
+      ],
+      "sample_herbal_folios": [
+        "2r.8",
+        "2r.9",
+        "2r.11",
+        "4v.5",
+        "7r.1"
+      ],
+      "sample_cosmological_folios": [
+        "86v4.2",
+        "86v6.9",
+        "86v6.21",
+        "86v3.east_4",
+        "86v3.west_3",
+        "68v3.2",
+        "72r3.outer_ring",
+        "75v.14",
+        "76r.25",
+        "76r.38",
+        "76v.19",
+        "76v.32"
+      ],
+      "sample_recipe_folios": [
+        "103r.27",
+        "103r.43",
+        "103v.34",
+        "105r.8",
+        "105r.26"
+      ],
+      "xembra_psi_string": "Ψ(c=0.875, p=0.500, r=0.419, s=0.868, Φ=0.599, 𝒯=0.401, E=0.419, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.875,
+        "p": 0.5,
+        "r": 0.419,
+        "s": 0.868,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.419,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2K9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 23,
+      "hits_herbal": 7,
+      "hits_zodiac": 0,
+      "hits_balneological": 8,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "93r.21"
+      ],
+      "sample_herbal_folios": [
+        "10v.6",
+        "11v.2",
+        "16r.12",
+        "26r.3",
+        "44v.3"
+      ],
+      "sample_cosmological_folios": [
+        "76r.26",
+        "80r.13",
+        "80v.10",
+        "83r.14",
+        "83r.15"
+      ],
+      "sample_recipe_folios": [
+        "103r.24",
+        "103r.32",
+        "106v.34",
+        "111v.20",
+        "116r.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.864, p=0.500, r=0.329, s=0.851, Φ=0.599, 𝒯=0.401, E=0.329, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.864,
+        "p": 0.5,
+        "r": 0.329,
+        "s": 0.851,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.329,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2c89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 216,
+      "hits_herbal": 17,
+      "hits_zodiac": 3,
+      "hits_balneological": 124,
+      "hits_rosettes": 8,
+      "hits_pharma": 2,
+      "hits_recipes": 62,
+      "source_pharma_jars": [
+        "95v1.5"
+      ],
+      "sample_herbal_folios": [
+        "26r.5",
+        "26v.1",
+        "33r.3",
+        "34v.5",
+        "41r.10"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.6",
+        "86v4.2nd_ring",
+        "86v6.7",
+        "86v6.27",
+        "86v5.3",
+        "72v3.outer_ring",
+        "72v3.center_ring",
+        "73v.outer_ring",
+        "75r.11",
+        "75r.12",
+        "75r.15",
+        "75r.18",
+        "75r.27"
+      ],
+      "sample_recipe_folios": [
+        "103r.5",
+        "103r.6",
+        "103r.7",
+        "103r.10",
+        "103r.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.711, p=0.500, r=0.336, s=0.355, Φ=0.599, 𝒯=0.401, E=0.336, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.711,
+        "p": 0.5,
+        "r": 0.336,
+        "s": 0.355,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.336,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2c9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 208,
+      "hits_herbal": 26,
+      "hits_zodiac": 13,
+      "hits_balneological": 70,
+      "hits_rosettes": 10,
+      "hits_pharma": 23,
+      "hits_recipes": 65,
+      "source_pharma_jars": [
+        "93r.12",
+        "94v.7"
+      ],
+      "sample_herbal_folios": [
+        "1r.19",
+        "3r.11",
+        "3r.13",
+        "7r.1",
+        "8r.18"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.1",
+        "85r1.6",
+        "86v6.28",
+        "86v6.34",
+        "86v6.45",
+        "67r1.1",
+        "67v1.center_7",
+        "68r1.3",
+        "68v2.2",
+        "68v2.4",
+        "75r.2",
+        "75r.4",
+        "75r.10",
+        "75r.12",
+        "75r.19"
+      ],
+      "sample_recipe_folios": [
+        "103r.9",
+        "103r.14",
+        "103r.17",
+        "103r.19",
+        "103r.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.793, p=0.500, r=0.349, s=0.651, Φ=0.599, 𝒯=0.401, E=0.349, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.793,
+        "p": 0.5,
+        "r": 0.349,
+        "s": 0.651,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.349,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2coh9",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "93r.19"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "103v.21",
+        "108r.6",
+        "113r.27"
+      ],
+      "xembra_psi_string": "Ψ(c=0.573, p=0.500, r=0.502, s=0.689, Φ=0.599, 𝒯=0.401, E=0.502, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.573,
+        "p": 0.5,
+        "r": 0.502,
+        "s": 0.689,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.502,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2o89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 39,
+      "hits_herbal": 16,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 2,
+      "hits_pharma": 10,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "93r.18",
+        "93r.23",
+        "93r.25"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "1r.8",
+        "1r.23",
+        "4v.11",
+        "4v.13"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.27",
+        "86v5.36"
+      ],
+      "sample_recipe_folios": [
+        "103r.40",
+        "104r.29",
+        "105r.21",
+        "106v.6",
+        "106v.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.854, p=0.500, r=0.404, s=0.568, Φ=0.599, 𝒯=0.401, E=0.404, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.854,
+        "p": 0.5,
+        "r": 0.404,
+        "s": 0.568,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.404,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2o8am",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 17,
+      "hits_herbal": 8,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 4,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "93r.13",
+        "93r.30"
+      ],
+      "sample_herbal_folios": [
+        "2r.5",
+        "3r.18",
+        "5r.5",
+        "32r.12",
+        "49v.5"
+      ],
+      "sample_cosmological_folios": [
+        "68v3.1"
+      ],
+      "sample_recipe_folios": [
+        "107v.10",
+        "113r.32",
+        "114r.22"
+      ],
+      "xembra_psi_string": "Ψ(c=0.468, p=0.500, r=0.503, s=0.787, Φ=0.599, 𝒯=0.401, E=0.503, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.468,
+        "p": 0.5,
+        "r": 0.503,
+        "s": 0.787,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.503,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2oe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 139,
+      "hits_herbal": 83,
+      "hits_zodiac": 9,
+      "hits_balneological": 11,
+      "hits_rosettes": 4,
+      "hits_pharma": 15,
+      "hits_recipes": 14,
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "93r.7",
+        "93r.19",
+        "93r.21"
+      ],
+      "sample_herbal_folios": [
+        "1r.1",
+        "1v.5",
+        "1v.6",
+        "1v.9",
+        "2r.8"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.15",
+        "86v6.29",
+        "86v3.center_8",
+        "86v3.west_1",
+        "67r2.2nd_ring_9",
+        "68v3.1",
+        "69r.4",
+        "70r2.9",
+        "70v1.3rd_ring",
+        "76r.3",
+        "76r.40",
+        "77r.5",
+        "78v.30",
+        "79r.6"
+      ],
+      "sample_recipe_folios": [
+        "103r.23",
+        "103r.45",
+        "103v.39",
+        "104v.6",
+        "104v.10"
+      ],
+      "xembra_psi_string": "Ψ(c=0.346, p=0.500, r=0.310, s=0.670, Φ=0.599, 𝒯=0.401, E=0.310, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.346,
+        "p": 0.5,
+        "r": 0.31,
+        "s": 0.67,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.31,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2os",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 10,
+      "hits_herbal": 5,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_herbal_folios": [
+        "1r.8",
+        "6r.10",
+        "20v.6",
+        "32r.11",
+        "50r.2"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "113r.5"
+      ],
+      "xembra_psi_string": "Ψ(c=0.855, p=0.500, r=0.370, s=0.787, Φ=0.599, 𝒯=0.401, E=0.370, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.855,
+        "p": 0.5,
+        "r": 0.37,
+        "s": 0.787,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.37,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "2oy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 66,
+      "hits_herbal": 43,
+      "hits_zodiac": 0,
+      "hits_balneological": 4,
+      "hits_rosettes": 5,
+      "hits_pharma": 8,
+      "hits_recipes": 5,
+      "source_pharma_jars": [
+        "93r.7"
+      ],
+      "sample_herbal_folios": [
+        "1v.9",
+        "2r.2",
+        "2r.7",
+        "4r.10",
+        "8r.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.17",
+        "86v6.4",
+        "86v5.10",
+        "86v3.east_4",
+        "86v3.west_6",
+        "77r.16",
+        "79r.21",
+        "81r.6",
+        "84v.33"
+      ],
+      "sample_recipe_folios": [
+        "104v.27",
+        "106r.6",
+        "108r.14",
+        "115v.11",
+        "115v.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.879, p=0.500, r=0.362, s=0.726, Φ=0.599, 𝒯=0.401, E=0.362, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.879,
+        "p": 0.5,
+        "r": 0.362,
+        "s": 0.726,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.362,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "39",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 14,
+      "hits_herbal": 7,
+      "hits_zodiac": 0,
+      "hits_balneological": 2,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "88v.17"
+      ],
+      "sample_herbal_folios": [
+        "6v.12",
+        "8r.1",
+        "8r.3",
+        "19r.6",
+        "29r.8"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.2",
+        "80v.23",
+        "84r.labels_top_1"
+      ],
+      "sample_recipe_folios": [
+        "107r.31",
+        "111v.25"
+      ],
+      "xembra_psi_string": "Ψ(c=0.514, p=0.500, r=0.322, s=0.775, Φ=0.599, 𝒯=0.401, E=0.322, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.514,
+        "p": 0.5,
+        "r": 0.322,
+        "s": 0.775,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.322,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "4o",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 166,
+      "hits_herbal": 42,
+      "hits_zodiac": 0,
+      "hits_balneological": 29,
+      "hits_rosettes": 6,
+      "hits_pharma": 11,
+      "hits_recipes": 76,
+      "source_pharma_jars": [
+        "94v.7"
+      ],
+      "sample_herbal_folios": [
+        "3r.12",
+        "3r.19",
+        "5r.6",
+        "7r.1",
+        "8r.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.9",
+        "85r2.quad_1_4",
+        "86v4.3",
+        "86v6.25",
+        "86v5.35",
+        "75r.30",
+        "75v.9",
+        "75v.13",
+        "76r.14",
+        "76r.15"
+      ],
+      "sample_recipe_folios": [
+        "103r.25",
+        "103v.34",
+        "103v.41",
+        "104r.5",
+        "104r.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.740, p=0.500, r=0.456, s=0.509, Φ=0.599, 𝒯=0.401, E=0.456, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.74,
+        "p": 0.5,
+        "r": 0.456,
+        "s": 0.509,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.456,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "4oh1o",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 10,
+      "hits_herbal": 5,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.30"
+      ],
+      "sample_herbal_folios": [
+        "7r.4",
+        "9v.8",
+        "25v.6",
+        "56v.8",
+        "57r.5"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "115r.23",
+        "115r.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.516, p=0.500, r=0.380, s=0.572, Φ=0.599, 𝒯=0.401, E=0.380, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.516,
+        "p": 0.5,
+        "r": 0.38,
+        "s": 0.572,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.38,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "4ohay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 144,
+      "hits_herbal": 32,
+      "hits_zodiac": 0,
+      "hits_balneological": 46,
+      "hits_rosettes": 17,
+      "hits_pharma": 8,
+      "hits_recipes": 41,
+      "source_pharma_jars": [
+        "89v1.8"
+      ],
+      "sample_herbal_folios": [
+        "8r.15",
+        "33r.2",
+        "33r.5",
+        "33v.4",
+        "34r.12"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.34",
+        "85r2.quad_3_4",
+        "86v6.5",
+        "86v6.6",
+        "86v6.16",
+        "75r.1",
+        "75r.7",
+        "75r.9",
+        "75r.16",
+        "75r.31"
+      ],
+      "sample_recipe_folios": [
+        "103r.13",
+        "104r.8",
+        "104r.17",
+        "104r.32",
+        "104v.24"
+      ],
+      "xembra_psi_string": "Ψ(c=0.791, p=0.500, r=0.439, s=0.367, Φ=0.599, 𝒯=0.401, E=0.439, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.791,
+        "p": 0.5,
+        "r": 0.439,
+        "s": 0.367,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.439,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "4ohoy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 24,
+      "hits_herbal": 8,
+      "hits_zodiac": 0,
+      "hits_balneological": 4,
+      "hits_rosettes": 1,
+      "hits_pharma": 6,
+      "hits_recipes": 5,
+      "source_pharma_jars": [
+        "93r.12",
+        "93r.16",
+        "93r.27"
+      ],
+      "sample_herbal_folios": [
+        "6v.14",
+        "15v.3",
+        "23v.8",
+        "38r.3",
+        "54r.9"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.34",
+        "77r.17",
+        "78r.27",
+        "84r.33",
+        "84v.16"
+      ],
+      "sample_recipe_folios": [
+        "105r.6",
+        "105v.30",
+        "106v.20",
+        "108r.39",
+        "115v.6"
+      ],
+      "xembra_psi_string": "Ψ(c=0.756, p=0.500, r=0.424, s=0.366, Φ=0.599, 𝒯=0.401, E=0.424, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.756,
+        "p": 0.5,
+        "r": 0.424,
+        "s": 0.366,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.424,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "4ok19",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 59,
+      "hits_herbal": 46,
+      "hits_zodiac": 0,
+      "hits_balneological": 3,
+      "hits_rosettes": 0,
+      "hits_pharma": 4,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "93r.13"
+      ],
+      "sample_herbal_folios": [
+        "4r.5",
+        "7r.3",
+        "7v.5",
+        "10r.3",
+        "10r.12"
+      ],
+      "sample_cosmological_folios": [
+        "77v.31",
+        "80r.4",
+        "80r.16"
+      ],
+      "sample_recipe_folios": [
+        "104v.22",
+        "115r.7",
+        "115r.17",
+        "115r.38",
+        "115v.9"
+      ],
+      "xembra_psi_string": "Ψ(c=0.897, p=0.500, r=0.380, s=0.468, Φ=0.599, 𝒯=0.401, E=0.380, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.897,
+        "p": 0.5,
+        "r": 0.38,
+        "s": 0.468,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.38,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "7an",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 27,
+      "hits_herbal": 6,
+      "hits_zodiac": 1,
+      "hits_balneological": 6,
+      "hits_rosettes": 0,
+      "hits_pharma": 8,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "96v.12"
+      ],
+      "sample_herbal_folios": [
+        "5v.2",
+        "8v.8",
+        "33v.2",
+        "45r.8",
+        "48r.4"
+      ],
+      "sample_cosmological_folios": [
+        "68v1.2nd_ring",
+        "75r.29",
+        "75r.30",
+        "76r.9",
+        "78r.40",
+        "82v.17"
+      ],
+      "sample_recipe_folios": [
+        "103r.1",
+        "106r.17",
+        "107v.4",
+        "108r.12",
+        "108r.47"
+      ],
+      "xembra_psi_string": "Ψ(c=0.662, p=0.500, r=0.270, s=0.346, Φ=0.599, 𝒯=0.401, E=0.270, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.662,
+        "p": 0.5,
+        "r": 0.27,
+        "s": 0.346,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.27,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "7ap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 24,
+      "hits_herbal": 13,
+      "hits_zodiac": 2,
+      "hits_balneological": 2,
+      "hits_rosettes": 1,
+      "hits_pharma": 4,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "23r.6",
+        "34r.4",
+        "34r.12",
+        "39r.6",
+        "43r.5"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.18",
+        "67r1.3",
+        "73r.outer_ring",
+        "78r.2",
+        "82r.15"
+      ],
+      "sample_recipe_folios": [
+        "104r.22",
+        "108v.5"
+      ],
+      "xembra_psi_string": "Ψ(c=0.606, p=0.500, r=0.445, s=0.680, Φ=0.599, 𝒯=0.401, E=0.445, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.606,
+        "p": 0.5,
+        "r": 0.445,
+        "s": 0.68,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.445,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "7ay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 45,
+      "hits_herbal": 16,
+      "hits_zodiac": 9,
+      "hits_balneological": 5,
+      "hits_rosettes": 1,
+      "hits_pharma": 9,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "11v.3",
+        "26v.3",
+        "31r.10",
+        "33v.6",
+        "34v.3"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.14",
+        "67r1.outer_ring",
+        "68v3.outer_ring",
+        "68v3.t_map_3",
+        "68v1.radial.7",
+        "69r.radial_17",
+        "76r.7",
+        "80r.15",
+        "81r.24",
+        "81v.1",
+        "84r.10"
+      ],
+      "sample_recipe_folios": [
+        "103r.54",
+        "106v.2",
+        "111r.11",
+        "116r.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.431, p=0.500, r=0.484, s=0.661, Φ=0.599, 𝒯=0.401, E=0.484, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.431,
+        "p": 0.5,
+        "r": 0.484,
+        "s": 0.661,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.484,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 299,
+      "hits_herbal": 118,
+      "hits_zodiac": 28,
+      "hits_balneological": 64,
+      "hits_rosettes": 10,
+      "hits_pharma": 25,
+      "hits_recipes": 51,
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "99v.19"
+      ],
+      "sample_herbal_folios": [
+        "2r.4",
+        "4r.5",
+        "5r.1",
+        "5r.6",
+        "6v.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.20",
+        "85r1.23",
+        "85r1.25",
+        "86v6.3",
+        "86v6.7",
+        "67r2.2nd_ring_1",
+        "67r2.2nd_ring_10",
+        "68v3.outer_ring",
+        "68v3.t_map_3",
+        "68v2.2",
+        "75r.4",
+        "75r.10",
+        "75r.11",
+        "75r.14",
+        "75r.25"
+      ],
+      "sample_recipe_folios": [
+        "103r.27",
+        "103v.1",
+        "103v.15",
+        "103v.23",
+        "104r.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.763, p=0.500, r=0.306, s=0.839, Φ=0.599, 𝒯=0.401, E=0.306, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.763,
+        "p": 0.5,
+        "r": 0.306,
+        "s": 0.839,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.306,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8am",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 730,
+      "hits_herbal": 388,
+      "hits_zodiac": 27,
+      "hits_balneological": 71,
+      "hits_rosettes": 29,
+      "hits_pharma": 90,
+      "hits_recipes": 120,
+      "source_pharma_jars": [
+        "93r.21",
+        "93r.22",
+        "96v.8",
+        "100v.9"
+      ],
+      "sample_herbal_folios": [
+        "1r.4",
+        "1r.8",
+        "1r.10",
+        "1r.13",
+        "1r.21"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.4",
+        "85r1.8",
+        "85r1.12",
+        "85r1.21",
+        "85r1.26",
+        "67r1.2nd_ring",
+        "67r2.2nd_ring_9",
+        "67r2.2nd_ring_11",
+        "68r1.labels_7",
+        "68r3.outer_ring",
+        "75v.2",
+        "75v.22",
+        "75v.26",
+        "75v.29",
+        "76r.33"
+      ],
+      "sample_recipe_folios": [
+        "103r.10",
+        "103r.23",
+        "103v.1",
+        "103v.2",
+        "103v.7"
+      ],
+      "xembra_psi_string": "Ψ(c=0.897, p=0.500, r=0.338, s=0.885, Φ=0.599, 𝒯=0.401, E=0.338, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.897,
+        "p": 0.5,
+        "r": 0.338,
+        "s": 0.885,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.338,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8am89",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "100r.labels_1"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "105r.10"
+      ],
+      "xembra_psi_string": "Ψ(c=0.573, p=0.500, r=0.418, s=0.577, Φ=0.599, 𝒯=0.401, E=0.418, d=0.303, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.573,
+        "p": 0.5,
+        "r": 0.418,
+        "s": 0.577,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.418,
+        "d": 0.303,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8an",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 191,
+      "hits_herbal": 75,
+      "hits_zodiac": 2,
+      "hits_balneological": 44,
+      "hits_rosettes": 4,
+      "hits_pharma": 12,
+      "hits_recipes": 53,
+      "source_pharma_jars": [
+        "93r.29"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "1r.8",
+        "1r.12",
+        "1r.16",
+        "1r.18"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.15",
+        "85r1.24",
+        "86v4.4th_ring",
+        "86v4.4",
+        "67r1.2nd_ring",
+        "67r2.2nd_ring_1",
+        "75r.2",
+        "75r.26",
+        "75r.29",
+        "75r.30",
+        "75r.46"
+      ],
+      "sample_recipe_folios": [
+        "103r.2",
+        "103r.6",
+        "103r.24",
+        "103v.6",
+        "103v.13"
+      ],
+      "xembra_psi_string": "Ψ(c=0.878, p=0.500, r=0.358, s=0.672, Φ=0.599, 𝒯=0.401, E=0.358, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.878,
+        "p": 0.5,
+        "r": 0.358,
+        "s": 0.672,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.358,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8as",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 4,
+      "hits_herbal": 1,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "17r.9"
+      ],
+      "sample_cosmological_folios": [
+        "70r1.1st_ring"
+      ],
+      "sample_recipe_folios": [
+        "114r.44"
+      ],
+      "xembra_psi_string": "Ψ(c=0.716, p=0.500, r=0.310, s=0.620, Φ=0.599, 𝒯=0.401, E=0.310, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.716,
+        "p": 0.5,
+        "r": 0.31,
+        "s": 0.62,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.31,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8ay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 293,
+      "hits_herbal": 102,
+      "hits_zodiac": 26,
+      "hits_balneological": 64,
+      "hits_rosettes": 27,
+      "hits_pharma": 24,
+      "hits_recipes": 47,
+      "source_pharma_jars": [
+        "88v.5"
+      ],
+      "sample_herbal_folios": [
+        "1r.3",
+        "1r.16",
+        "1r.19",
+        "1r.20",
+        "1v.5"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.12",
+        "85r1.26",
+        "85r1.31",
+        "85r2.outer_ring",
+        "85r2.quad_4_4",
+        "67r1.outer_ring",
+        "67r1.2nd_ring",
+        "67r1.3rd_ring",
+        "67r1.center",
+        "67r2.1",
+        "75r.11",
+        "75r.26",
+        "75r.27",
+        "75r.32",
+        "75r.34"
+      ],
+      "sample_recipe_folios": [
+        "103r.11",
+        "103r.25",
+        "103v.1",
+        "103v.3",
+        "103v.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.502, p=0.500, r=0.325, s=0.886, Φ=0.599, 𝒯=0.401, E=0.325, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.502,
+        "p": 0.5,
+        "r": 0.325,
+        "s": 0.886,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.325,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "8oe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 100,
+      "hits_herbal": 40,
+      "hits_zodiac": 2,
+      "hits_balneological": 26,
+      "hits_rosettes": 2,
+      "hits_pharma": 24,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "93r.15",
+        "93r.21",
+        "93r.32"
+      ],
+      "sample_herbal_folios": [
+        "1v.4",
+        "1v.7",
+        "1v.9",
+        "3v.2",
+        "6v.7"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.2",
+        "86v4.4th_ring",
+        "67r1.2nd_ring",
+        "68r3.outer_ring",
+        "75v.22",
+        "76r.41",
+        "77r.16",
+        "77r.28",
+        "77v.6"
+      ],
+      "sample_recipe_folios": [
+        "105v.3",
+        "105v.31",
+        "106r.38",
+        "114r.19",
+        "115v.26"
+      ],
+      "xembra_psi_string": "Ψ(c=0.751, p=0.500, r=0.296, s=0.758, Φ=0.599, 𝒯=0.401, E=0.296, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.751,
+        "p": 0.5,
+        "r": 0.296,
+        "s": 0.758,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.296,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "91c9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 13,
+      "hits_herbal": 3,
+      "hits_zodiac": 2,
+      "hits_balneological": 2,
+      "hits_rosettes": 2,
+      "hits_pharma": 2,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.14"
+      ],
+      "sample_herbal_folios": [
+        "7r.4",
+        "40r.10",
+        "44v.12"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.35",
+        "86v3.west_2",
+        "69r.4",
+        "69v.2nd_ring",
+        "75r.center_text",
+        "75v.20"
+      ],
+      "sample_recipe_folios": [
+        "108r.44",
+        "115r.39"
+      ],
+      "xembra_psi_string": "Ψ(c=0.808, p=0.500, r=0.412, s=0.573, Φ=0.599, 𝒯=0.401, E=0.412, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.808,
+        "p": 0.5,
+        "r": 0.412,
+        "s": 0.573,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.412,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "91cc9",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 7,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "96v.8"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "77v.27"
+      ],
+      "sample_recipe_folios": [
+        "107v.47",
+        "107v.49",
+        "108v.47",
+        "113v.2"
+      ],
+      "xembra_psi_string": "Ψ(c=0.612, p=0.500, r=0.362, s=0.486, Φ=0.599, 𝒯=0.401, E=0.362, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.612,
+        "p": 0.5,
+        "r": 0.362,
+        "s": 0.486,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.362,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "91oy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 12,
+      "hits_herbal": 7,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 3,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.28",
+        "99r.18"
+      ],
+      "sample_herbal_folios": [
+        "6v.8",
+        "9v.11",
+        "19v.9",
+        "22v.7",
+        "23r.5"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.20"
+      ],
+      "sample_recipe_folios": [
+        "106r.9"
+      ],
+      "xembra_psi_string": "Ψ(c=0.761, p=0.500, r=0.480, s=0.717, Φ=0.599, 𝒯=0.401, E=0.480, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.761,
+        "p": 0.5,
+        "r": 0.48,
+        "s": 0.717,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.48,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "9kcco89",
+      "provenance_class": "Rosettes-Pharma-Recipe Bridge",
+      "total_corpus_hits": 4,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "86v4.2nd_ring"
+      ],
+      "sample_recipe_folios": [
+        "104r.2",
+        "104r.3"
+      ],
+      "xembra_psi_string": "Ψ(c=0.638, p=0.500, r=0.345, s=0.549, Φ=0.599, 𝒯=0.401, E=0.345, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.638,
+        "p": 0.5,
+        "r": 0.345,
+        "s": 0.549,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.345,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "9kcoe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 8,
+      "hits_herbal": 2,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 3,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99r.labels_middle_1"
+      ],
+      "sample_herbal_folios": [
+        "21r.11",
+        "28r.9"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.28",
+        "84r.33"
+      ],
+      "sample_recipe_folios": [
+        "108r.10"
+      ],
+      "xembra_psi_string": "Ψ(c=0.702, p=0.500, r=0.353, s=0.837, Φ=0.599, 𝒯=0.401, E=0.353, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.702,
+        "p": 0.5,
+        "r": 0.353,
+        "s": 0.837,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.353,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "Ay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 44,
+      "hits_herbal": 13,
+      "hits_zodiac": 1,
+      "hits_balneological": 13,
+      "hits_rosettes": 3,
+      "hits_pharma": 4,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "99r.18"
+      ],
+      "sample_herbal_folios": [
+        "6v.13",
+        "24r.13",
+        "31v.5",
+        "33v.9",
+        "37r.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.2",
+        "86v6.6",
+        "86v5.6",
+        "67r2.2nd_ring_4",
+        "75v.15",
+        "75v.17",
+        "76v.19",
+        "77r.10",
+        "77v.28"
+      ],
+      "sample_recipe_folios": [
+        "103r.17",
+        "104v.25",
+        "104v.38",
+        "107r.14",
+        "108r.40"
+      ],
+      "xembra_psi_string": "Ψ(c=0.767, p=0.500, r=0.324, s=0.761, Φ=0.599, 𝒯=0.401, E=0.324, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.767,
+        "p": 0.5,
+        "r": 0.324,
+        "s": 0.761,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.324,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "H9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 41,
+      "hits_herbal": 26,
+      "hits_zodiac": 0,
+      "hits_balneological": 3,
+      "hits_rosettes": 0,
+      "hits_pharma": 7,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "93v.10"
+      ],
+      "sample_herbal_folios": [
+        "1v.3",
+        "2r.7",
+        "3v.11",
+        "6v.3",
+        "8r.13"
+      ],
+      "sample_cosmological_folios": [
+        "75v.11",
+        "80r.33",
+        "84r.12"
+      ],
+      "sample_recipe_folios": [
+        "103v.44",
+        "105v.37",
+        "107v.7",
+        "116r.34"
+      ],
+      "xembra_psi_string": "Ψ(c=0.816, p=0.500, r=0.400, s=0.728, Φ=0.599, 𝒯=0.401, E=0.400, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.816,
+        "p": 0.5,
+        "r": 0.4,
+        "s": 0.728,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.4,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "Hc9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 36,
+      "hits_herbal": 13,
+      "hits_zodiac": 0,
+      "hits_balneological": 4,
+      "hits_rosettes": 0,
+      "hits_pharma": 14,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "96v.10"
+      ],
+      "sample_herbal_folios": [
+        "1r.11",
+        "1r.18",
+        "25v.2",
+        "30r.12",
+        "31v.10"
+      ],
+      "sample_cosmological_folios": [
+        "75r.5",
+        "80r.24",
+        "82r.24",
+        "83r.38"
+      ],
+      "sample_recipe_folios": [
+        "104r.23",
+        "106r.17",
+        "108r.47",
+        "111r.49"
+      ],
+      "xembra_psi_string": "Ψ(c=0.806, p=0.500, r=0.304, s=0.738, Φ=0.599, 𝒯=0.401, E=0.304, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.806,
+        "p": 0.5,
+        "r": 0.304,
+        "s": 0.738,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.304,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "Jcoy",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "105v.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.784, p=0.500, r=0.419, s=0.542, Φ=0.599, 𝒯=0.401, E=0.419, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.784,
+        "p": 0.5,
+        "r": 0.419,
+        "s": 0.542,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.419,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "K9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 103,
+      "hits_herbal": 86,
+      "hits_zodiac": 3,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 7,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "93r.22"
+      ],
+      "sample_herbal_folios": [
+        "1r.12",
+        "1r.15",
+        "1r.23",
+        "1v.3",
+        "1v.6"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.13",
+        "68v2.3",
+        "69r.2",
+        "70r2.3",
+        "84v.21"
+      ],
+      "sample_recipe_folios": [
+        "104r.12",
+        "104v.15",
+        "112r.15",
+        "116r.3"
+      ],
+      "xembra_psi_string": "Ψ(c=0.532, p=0.500, r=0.307, s=0.716, Φ=0.599, 𝒯=0.401, E=0.307, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.532,
+        "p": 0.5,
+        "r": 0.307,
+        "s": 0.716,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.307,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "KC9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 11,
+      "hits_herbal": 2,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 5,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99r.13"
+      ],
+      "sample_herbal_folios": [
+        "31v.9",
+        "56v.12"
+      ],
+      "sample_cosmological_folios": [
+        "70r2.3rd_ring"
+      ],
+      "sample_recipe_folios": [
+        "114v.33"
+      ],
+      "xembra_psi_string": "Ψ(c=0.546, p=0.500, r=0.479, s=0.604, Φ=0.599, 𝒯=0.401, E=0.479, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.546,
+        "p": 0.5,
+        "r": 0.479,
+        "s": 0.604,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.479,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "Koe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 57,
+      "hits_herbal": 43,
+      "hits_zodiac": 1,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 10,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.20",
+        "93r.30"
+      ],
+      "sample_herbal_folios": [
+        "1r.21",
+        "1v.8",
+        "3r.1",
+        "3r.5",
+        "4r.2"
+      ],
+      "sample_cosmological_folios": [
+        "70r2.8",
+        "82r.5"
+      ],
+      "sample_recipe_folios": [
+        "113v.14",
+        "113v.25"
+      ],
+      "xembra_psi_string": "Ψ(c=0.806, p=0.500, r=0.399, s=0.891, Φ=0.599, 𝒯=0.401, E=0.399, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.806,
+        "p": 0.5,
+        "r": 0.399,
+        "s": 0.891,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.399,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "aN",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 9,
+      "hits_herbal": 4,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "2r.12",
+        "30r.4",
+        "36r.6",
+        "55v.2"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_4_5",
+        "72v3.4th_ring"
+      ],
+      "sample_recipe_folios": [
+        "107r.9",
+        "115r.36"
+      ],
+      "xembra_psi_string": "Ψ(c=0.532, p=0.500, r=0.252, s=0.413, Φ=0.599, 𝒯=0.401, E=0.252, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.532,
+        "p": 0.5,
+        "r": 0.252,
+        "s": 0.413,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.252,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ae9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 35,
+      "hits_herbal": 8,
+      "hits_zodiac": 11,
+      "hits_balneological": 7,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 8,
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "39r.4",
+        "39v.6",
+        "46v.11",
+        "58r.17",
+        "58r.40"
+      ],
+      "sample_cosmological_folios": [
+        "68v1.2nd_ring",
+        "69r.outside_ring",
+        "70r1.2nd_ring",
+        "70r1.radials",
+        "70v1.outer_ring",
+        "75r.14",
+        "76v.26",
+        "80v.15",
+        "82v.13",
+        "82v.17"
+      ],
+      "sample_recipe_folios": [
+        "103r.4",
+        "104v.1",
+        "106v.1",
+        "107r.38",
+        "107v.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.588, p=0.500, r=0.598, s=0.416, Φ=0.599, 𝒯=0.401, E=0.598, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.588,
+        "p": 0.5,
+        "r": 0.598,
+        "s": 0.416,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.598,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "am",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 739,
+      "hits_herbal": 150,
+      "hits_zodiac": 50,
+      "hits_balneological": 62,
+      "hits_rosettes": 67,
+      "hits_pharma": 76,
+      "hits_recipes": 321,
+      "source_pharma_jars": [
+        "93r.25",
+        "96v.9",
+        "99r.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "1r.3",
+        "2r.10",
+        "2r.11",
+        "2r.12",
+        "3r.20"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.2",
+        "85r1.3",
+        "85r1.7",
+        "85r1.11",
+        "85r1.13",
+        "67r1.1",
+        "67r1.3",
+        "67r1.outer_ring",
+        "67r2.2nd_ring_1",
+        "67r2.2nd_ring_6",
+        "75v.13",
+        "76r.6",
+        "76r.11",
+        "76r.21",
+        "76r.38"
+      ],
+      "sample_recipe_folios": [
+        "103r.12",
+        "103r.14",
+        "103r.32",
+        "103r.34",
+        "103r.40"
+      ],
+      "xembra_psi_string": "Ψ(c=0.568, p=0.500, r=0.294, s=0.523, Φ=0.599, 𝒯=0.401, E=0.294, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.568,
+        "p": 0.5,
+        "r": 0.294,
+        "s": 0.523,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.294,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "an",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 191,
+      "hits_herbal": 22,
+      "hits_zodiac": 4,
+      "hits_balneological": 34,
+      "hits_rosettes": 7,
+      "hits_pharma": 17,
+      "hits_recipes": 105,
+      "source_pharma_jars": [
+        "89v1.labels_bottom",
+        "93r.23",
+        "99r.labels_top_1",
+        "102v2.17"
+      ],
+      "sample_herbal_folios": [
+        "1r.16",
+        "6v.15",
+        "9r.6",
+        "24v.8",
+        "26r.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.26",
+        "85r2.quad_1_3",
+        "85r2.quad_3_2",
+        "85r2.quad_4_6",
+        "86v4.3rd_ring",
+        "67r2.2nd_ring_2",
+        "67r2.2nd_ring_4",
+        "67r2.3",
+        "67v2.outer_ring_north_1",
+        "75r.5",
+        "76r.2",
+        "76r.7",
+        "76r.11",
+        "76r.17"
+      ],
+      "sample_recipe_folios": [
+        "103r.2",
+        "103r.8",
+        "103r.10",
+        "103r.17",
+        "103r.28"
+      ],
+      "xembra_psi_string": "Ψ(c=0.598, p=0.500, r=0.308, s=0.874, Φ=0.599, 𝒯=0.401, E=0.308, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.598,
+        "p": 0.5,
+        "r": 0.308,
+        "s": 0.874,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.308,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 120,
+      "hits_herbal": 20,
+      "hits_zodiac": 18,
+      "hits_balneological": 7,
+      "hits_rosettes": 13,
+      "hits_pharma": 10,
+      "hits_recipes": 51,
+      "source_pharma_jars": [
+        "101v2-v1.labels_2"
+      ],
+      "sample_herbal_folios": [
+        "1v.1",
+        "3r.20",
+        "10r.7",
+        "17r.3",
+        "17v.10"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_4_4",
+        "85r2.center_ring",
+        "86v4.1",
+        "86v6.17",
+        "86v6.21",
+        "67r1.3",
+        "67r2.2nd_ring_4",
+        "67r2.2nd_ring_6",
+        "67v2.label_lower_right",
+        "67v2.outer_ring_north_1",
+        "75r.21",
+        "76r.33",
+        "78r.32",
+        "81r.19",
+        "81v.10"
+      ],
+      "sample_recipe_folios": [
+        "103r.6",
+        "103r.49",
+        "104r.3",
+        "104v.32",
+        "104v.35"
+      ],
+      "xembra_psi_string": "Ψ(c=0.507, p=0.500, r=0.347, s=0.480, Φ=0.599, 𝒯=0.401, E=0.347, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.507,
+        "p": 0.5,
+        "r": 0.347,
+        "s": 0.48,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.347,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 504,
+      "hits_herbal": 110,
+      "hits_zodiac": 73,
+      "hits_balneological": 33,
+      "hits_rosettes": 43,
+      "hits_pharma": 18,
+      "hits_recipes": 214,
+      "source_pharma_jars": [
+        "99v.labels_middle_1"
+      ],
+      "sample_herbal_folios": [
+        "1r.1",
+        "3v.9",
+        "6v.15",
+        "8v.6",
+        "9v.5"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.9",
+        "85r1.14",
+        "85r1.28",
+        "85r1.32",
+        "85r1.35",
+        "67r1.3",
+        "67r1.4",
+        "67r1.outer_ring",
+        "67r1.2nd_ring",
+        "67r2.2nd_ring_4",
+        "75r.19",
+        "76r.2",
+        "76r.4",
+        "76r.9",
+        "76r.11"
+      ],
+      "sample_recipe_folios": [
+        "103r.2",
+        "103r.9",
+        "103r.17",
+        "103r.22",
+        "103r.48"
+      ],
+      "xembra_psi_string": "Ψ(c=0.661, p=0.500, r=0.397, s=0.839, Φ=0.599, 𝒯=0.401, E=0.397, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.661,
+        "p": 0.5,
+        "r": 0.397,
+        "s": 0.839,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.397,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ay9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 30,
+      "hits_herbal": 6,
+      "hits_zodiac": 9,
+      "hits_balneological": 3,
+      "hits_rosettes": 2,
+      "hits_pharma": 2,
+      "hits_recipes": 7,
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "1r.3",
+        "31v.7",
+        "42v.5",
+        "48v.10",
+        "58r.5"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_2_2",
+        "86v3.center_6",
+        "67r1.2nd_ring",
+        "67r1.center",
+        "67v1.outer_ring",
+        "69r.radial_2",
+        "70r1.3rd_ring",
+        "78v.29",
+        "80r.19",
+        "84r.21"
+      ],
+      "sample_recipe_folios": [
+        "104v.33",
+        "107v.31",
+        "114r.14",
+        "115r.26",
+        "116r.4"
+      ],
+      "xembra_psi_string": "Ψ(c=0.609, p=0.500, r=0.382, s=0.392, Φ=0.599, 𝒯=0.401, E=0.382, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.609,
+        "p": 0.5,
+        "r": 0.382,
+        "s": 0.392,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.382,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ayo",
+      "provenance_class": "Rosettes-Pharma-Recipe Bridge",
+      "total_corpus_hits": 3,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "100r.labels_2"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "86v6.3"
+      ],
+      "sample_recipe_folios": [
+        "107r.34"
+      ],
+      "xembra_psi_string": "Ψ(c=0.847, p=0.500, r=0.405, s=0.635, Φ=0.599, 𝒯=0.401, E=0.405, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.847,
+        "p": 0.5,
+        "r": 0.405,
+        "s": 0.635,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.405,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ayo89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 9,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 5,
+      "source_pharma_jars": [
+        "88v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "40v.19"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_4_3"
+      ],
+      "sample_recipe_folios": [
+        "105r.6",
+        "107v.44",
+        "112r.44",
+        "113r.24",
+        "114v.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.457, p=0.500, r=0.387, s=0.824, Φ=0.599, 𝒯=0.401, E=0.387, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.457,
+        "p": 0.5,
+        "r": 0.387,
+        "s": 0.824,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.387,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ayoe",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 7,
+      "hits_herbal": 0,
+      "hits_zodiac": 1,
+      "hits_balneological": 3,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "71v.outer_ring",
+        "78v.9",
+        "80v.32",
+        "81r.14"
+      ],
+      "sample_recipe_folios": [
+        "103v.42",
+        "113v.45"
+      ],
+      "xembra_psi_string": "Ψ(c=0.554, p=0.500, r=0.406, s=0.506, Φ=0.599, 𝒯=0.401, E=0.406, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.554,
+        "p": 0.5,
+        "r": 0.406,
+        "s": 0.506,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.406,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "e1c",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "103r.35"
+      ],
+      "xembra_psi_string": "Ψ(c=0.357, p=0.500, r=0.415, s=0.681, Φ=0.599, 𝒯=0.401, E=0.415, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.357,
+        "p": 0.5,
+        "r": 0.415,
+        "s": 0.681,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.415,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "eos",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 7,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 2,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.27"
+      ],
+      "sample_herbal_folios": [
+        "48v.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_1_5",
+        "86v5.2",
+        "78v.28"
+      ],
+      "sample_recipe_folios": [
+        "107r.17",
+        "115r.27"
+      ],
+      "xembra_psi_string": "Ψ(c=0.661, p=0.500, r=0.360, s=0.594, Φ=0.599, 𝒯=0.401, E=0.360, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.661,
+        "p": 0.5,
+        "r": 0.36,
+        "s": 0.594,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.36,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "h1oe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 21,
+      "hits_herbal": 16,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.13"
+      ],
+      "sample_herbal_folios": [
+        "8v.7",
+        "9v.10",
+        "10v.3",
+        "11r.2",
+        "17v.9"
+      ],
+      "sample_cosmological_folios": [
+        "86v5.30",
+        "78r.26"
+      ],
+      "sample_recipe_folios": [
+        "113r.6"
+      ],
+      "xembra_psi_string": "Ψ(c=0.647, p=0.500, r=0.299, s=0.724, Φ=0.599, 𝒯=0.401, E=0.299, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.647,
+        "p": 0.5,
+        "r": 0.299,
+        "s": 0.724,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.299,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "h1oy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 21,
+      "hits_herbal": 17,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.22"
+      ],
+      "sample_herbal_folios": [
+        "2v.5",
+        "6v.19",
+        "7v.6",
+        "8v.13",
+        "13v.10"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "115r.4"
+      ],
+      "xembra_psi_string": "Ψ(c=0.873, p=0.500, r=0.412, s=0.577, Φ=0.599, 𝒯=0.401, E=0.412, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.873,
+        "p": 0.5,
+        "r": 0.412,
+        "s": 0.577,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.412,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ham",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 88,
+      "hits_herbal": 19,
+      "hits_zodiac": 2,
+      "hits_balneological": 13,
+      "hits_rosettes": 5,
+      "hits_pharma": 4,
+      "hits_recipes": 45,
+      "source_pharma_jars": [
+        "94v.7"
+      ],
+      "sample_herbal_folios": [
+        "1r.20",
+        "1r.21",
+        "15r.6",
+        "15v.6",
+        "28v.6"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.37",
+        "86v5.11",
+        "86v5.16",
+        "86v5.31",
+        "86v3.north_2",
+        "71v.3rd_ring",
+        "72r1.outer_ring",
+        "76r.10",
+        "77v.10",
+        "77v.35",
+        "77v.37",
+        "79v.26"
+      ],
+      "sample_recipe_folios": [
+        "103r.31",
+        "104r.15",
+        "104r.36",
+        "104v.29",
+        "104v.30"
+      ],
+      "xembra_psi_string": "Ψ(c=0.810, p=0.500, r=0.438, s=0.586, Φ=0.599, 𝒯=0.401, E=0.438, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.81,
+        "p": 0.5,
+        "r": 0.438,
+        "s": 0.586,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.438,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "hcco",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 8,
+      "hits_herbal": 2,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "99v.19"
+      ],
+      "sample_herbal_folios": [
+        "7v.9",
+        "27v.5"
+      ],
+      "sample_cosmological_folios": [
+        "67v1.center_16"
+      ],
+      "sample_recipe_folios": [
+        "104r.24",
+        "112v.1"
+      ],
+      "xembra_psi_string": "Ψ(c=0.444, p=0.500, r=0.269, s=0.338, Φ=0.599, 𝒯=0.401, E=0.269, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.444,
+        "p": 0.5,
+        "r": 0.269,
+        "s": 0.338,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.269,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "k1co",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 6,
+      "hits_herbal": 2,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "93r.17"
+      ],
+      "sample_herbal_folios": [
+        "34r.10",
+        "66r.26"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "106r.37",
+        "115r.14",
+        "115r.42"
+      ],
+      "xembra_psi_string": "Ψ(c=0.839, p=0.500, r=0.469, s=0.731, Φ=0.599, 𝒯=0.401, E=0.469, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.839,
+        "p": 0.5,
+        "r": 0.469,
+        "s": 0.731,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.469,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "k1oy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 18,
+      "hits_herbal": 12,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 4,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "93r.19"
+      ],
+      "sample_herbal_folios": [
+        "3v.7",
+        "3v.11",
+        "3v.12",
+        "6r.10",
+        "13r.6"
+      ],
+      "sample_cosmological_folios": [
+        "77v.30"
+      ],
+      "sample_recipe_folios": [
+        "112v.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.460, p=0.500, r=0.350, s=0.784, Φ=0.599, 𝒯=0.401, E=0.350, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.46,
+        "p": 0.5,
+        "r": 0.35,
+        "s": 0.784,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.35,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "o7am",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 7,
+      "hits_herbal": 3,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "89v1.8"
+      ],
+      "sample_herbal_folios": [
+        "17v.3",
+        "29v.3",
+        "58r.18"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "105r.34",
+        "107v.39"
+      ],
+      "xembra_psi_string": "Ψ(c=0.757, p=0.500, r=0.386, s=0.760, Φ=0.599, 𝒯=0.401, E=0.386, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.757,
+        "p": 0.5,
+        "r": 0.386,
+        "s": 0.76,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.386,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "o89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 42,
+      "hits_herbal": 17,
+      "hits_zodiac": 3,
+      "hits_balneological": 2,
+      "hits_rosettes": 5,
+      "hits_pharma": 6,
+      "hits_recipes": 7,
+      "source_pharma_jars": [
+        "93r.7"
+      ],
+      "sample_herbal_folios": [
+        "4v.12",
+        "10r.4",
+        "16r.2",
+        "20r.11",
+        "33r.3"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.21",
+        "86v6.24",
+        "86v5.14",
+        "86v5.18",
+        "86v5.23",
+        "69v.2nd_ring",
+        "70r1.1st_ring",
+        "70r2.4th_ring",
+        "79r.44",
+        "81r.24"
+      ],
+      "sample_recipe_folios": [
+        "104r.17",
+        "105v.29",
+        "106r.27",
+        "106v.33",
+        "108r.10"
+      ],
+      "xembra_psi_string": "Ψ(c=0.723, p=0.500, r=0.453, s=0.415, Φ=0.599, 𝒯=0.401, E=0.453, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.723,
+        "p": 0.5,
+        "r": 0.453,
+        "s": 0.415,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.453,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "o8am",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 55,
+      "hits_herbal": 24,
+      "hits_zodiac": 1,
+      "hits_balneological": 1,
+      "hits_rosettes": 8,
+      "hits_pharma": 3,
+      "hits_recipes": 13,
+      "source_pharma_jars": [
+        "95v1.5"
+      ],
+      "sample_herbal_folios": [
+        "1r.12",
+        "3r.20",
+        "7r.4",
+        "7v.7",
+        "9r.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.23",
+        "86v4.outer_ring",
+        "86v6.6",
+        "86v6.8",
+        "86v5.28",
+        "68r2.labels_2",
+        "81r.20"
+      ],
+      "sample_recipe_folios": [
+        "104r.7",
+        "104v.3",
+        "105r.4",
+        "105r.19",
+        "105r.29"
+      ],
+      "xembra_psi_string": "Ψ(c=0.819, p=0.500, r=0.281, s=0.688, Φ=0.599, 𝒯=0.401, E=0.281, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.819,
+        "p": 0.5,
+        "r": 0.281,
+        "s": 0.688,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.281,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "o8oy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "101v2-v1.labels_2"
+      ],
+      "sample_herbal_folios": [
+        "24v.13"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.28"
+      ],
+      "sample_recipe_folios": [
+        "105v.28"
+      ],
+      "xembra_psi_string": "Ψ(c=0.565, p=0.500, r=0.335, s=0.512, Φ=0.599, 𝒯=0.401, E=0.335, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.565,
+        "p": 0.5,
+        "r": 0.335,
+        "s": 0.512,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.335,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ochc9",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 3,
+      "hits_herbal": 0,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99r.labels_middle_2"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "67v1.center_16"
+      ],
+      "sample_recipe_folios": [
+        "107v.49"
+      ],
+      "xembra_psi_string": "Ψ(c=0.740, p=0.500, r=0.336, s=0.865, Φ=0.599, 𝒯=0.401, E=0.336, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.74,
+        "p": 0.5,
+        "r": 0.336,
+        "s": 0.865,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.336,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 727,
+      "hits_herbal": 98,
+      "hits_zodiac": 17,
+      "hits_balneological": 303,
+      "hits_rosettes": 44,
+      "hits_pharma": 89,
+      "hits_recipes": 159,
+      "source_pharma_jars": [
+        "99v.19"
+      ],
+      "sample_herbal_folios": [
+        "1r.6",
+        "1v.1",
+        "1v.7",
+        "2r.8",
+        "3r.9"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.4",
+        "85r1.6",
+        "85r1.11",
+        "85r1.13",
+        "85r1.21",
+        "67r1.outer_ring",
+        "67v2.outer_ring_east_2",
+        "68r1.moon",
+        "68v3.outer_ring",
+        "68v3.spiral_7",
+        "75r.5",
+        "75r.9",
+        "75r.12",
+        "75r.21",
+        "75r.24"
+      ],
+      "sample_recipe_folios": [
+        "103r.4",
+        "103r.7",
+        "103r.25",
+        "103r.28",
+        "103r.35"
+      ],
+      "xembra_psi_string": "Ψ(c=0.749, p=0.500, r=0.295, s=0.855, Φ=0.599, 𝒯=0.401, E=0.295, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.749,
+        "p": 0.5,
+        "r": 0.295,
+        "s": 0.855,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.295,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oe1c9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 21,
+      "hits_herbal": 4,
+      "hits_zodiac": 0,
+      "hits_balneological": 11,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_herbal_folios": [
+        "39r.2",
+        "40v.14",
+        "41v.5",
+        "56r.3"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_1_3",
+        "75r.29",
+        "75v.3",
+        "75v.12",
+        "77r.20",
+        "77r.28"
+      ],
+      "sample_recipe_folios": [
+        "103v.15",
+        "108v.48",
+        "113v.12"
+      ],
+      "xembra_psi_string": "Ψ(c=0.524, p=0.500, r=0.391, s=0.690, Φ=0.599, 𝒯=0.401, E=0.391, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.524,
+        "p": 0.5,
+        "r": 0.391,
+        "s": 0.69,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.391,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oeam",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 41,
+      "hits_herbal": 7,
+      "hits_zodiac": 7,
+      "hits_balneological": 6,
+      "hits_rosettes": 2,
+      "hits_pharma": 8,
+      "hits_recipes": 10,
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_herbal_folios": [
+        "17r.4",
+        "33v.6",
+        "40r.9",
+        "41v.5",
+        "46v.6"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.outer_ring",
+        "86v6.38",
+        "70v1.3rd_ring",
+        "72r2.center_ring",
+        "72r3.outer_ring",
+        "72r3.4th_ring",
+        "72r3.5th_ring",
+        "75r.44",
+        "76r.40",
+        "77r.31",
+        "79r.32",
+        "82r.label_bottom_2"
+      ],
+      "sample_recipe_folios": [
+        "103v.18",
+        "106v.19",
+        "107v.22",
+        "107v.24",
+        "108v.14"
+      ],
+      "xembra_psi_string": "Ψ(c=0.875, p=0.500, r=0.419, s=0.868, Φ=0.599, 𝒯=0.401, E=0.419, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.875,
+        "p": 0.5,
+        "r": 0.419,
+        "s": 0.868,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.419,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oehCs",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 3,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.18"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "114v.10",
+        "115r.5"
+      ],
+      "xembra_psi_string": "Ψ(c=0.563, p=0.500, r=0.476, s=0.537, Φ=0.599, 𝒯=0.401, E=0.476, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.563,
+        "p": 0.5,
+        "r": 0.476,
+        "s": 0.537,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.476,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oes",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 18,
+      "hits_herbal": 8,
+      "hits_zodiac": 0,
+      "hits_balneological": 3,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "99r.18"
+      ],
+      "sample_herbal_folios": [
+        "1r.9",
+        "2r.11",
+        "3r.11",
+        "6r.2",
+        "13v.4"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.4",
+        "78v.27",
+        "83v.20",
+        "84v.19"
+      ],
+      "sample_recipe_folios": [
+        "104v.19",
+        "105r.22",
+        "105r.25",
+        "107r.31"
+      ],
+      "xembra_psi_string": "Ψ(c=0.626, p=0.500, r=0.305, s=0.320, Φ=0.599, 𝒯=0.401, E=0.305, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.626,
+        "p": 0.5,
+        "r": 0.305,
+        "s": 0.32,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.305,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "og19",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 10,
+      "hits_herbal": 4,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 5,
+      "source_pharma_jars": [
+        "102v2.labels_top_2"
+      ],
+      "sample_herbal_folios": [
+        "13r.1",
+        "16r.5",
+        "20v.1",
+        "22r.1"
+      ],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "103r.22",
+        "103v.43",
+        "106v.11",
+        "111v.48",
+        "112v.43"
+      ],
+      "xembra_psi_string": "Ψ(c=0.409, p=0.500, r=0.293, s=0.465, Φ=0.599, 𝒯=0.401, E=0.293, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.409,
+        "p": 0.5,
+        "r": 0.293,
+        "s": 0.465,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.293,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ogoe",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 4,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 2,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "81r.16"
+      ],
+      "sample_recipe_folios": [
+        "106v.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.696, p=0.500, r=0.401, s=0.607, Φ=0.599, 𝒯=0.401, E=0.401, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.696,
+        "p": 0.5,
+        "r": 0.401,
+        "s": 0.607,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.401,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oh9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 100,
+      "hits_herbal": 48,
+      "hits_zodiac": 8,
+      "hits_balneological": 14,
+      "hits_rosettes": 4,
+      "hits_pharma": 13,
+      "hits_recipes": 11,
+      "source_pharma_jars": [
+        "99r.labels_top_1",
+        "99r.labels_middle_1"
+      ],
+      "sample_herbal_folios": [
+        "1r.22",
+        "8v.13",
+        "9v.3",
+        "10r.2",
+        "11v.3"
+      ],
+      "sample_cosmological_folios": [
+        "86v6.29",
+        "86v6.32",
+        "86v5.4",
+        "86v5.36",
+        "68r1.moon",
+        "68r2.sun",
+        "68v3.outer_ring",
+        "69r.radial_18",
+        "70v2.2nd_ring",
+        "76r.38",
+        "76r.40",
+        "78r.1",
+        "78r.27",
+        "79r.27"
+      ],
+      "sample_recipe_folios": [
+        "103r.24",
+        "103v.44",
+        "104r.3",
+        "106r.47",
+        "106v.46"
+      ],
+      "xembra_psi_string": "Ψ(c=0.549, p=0.500, r=0.466, s=0.894, Φ=0.599, 𝒯=0.401, E=0.466, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.549,
+        "p": 0.5,
+        "r": 0.466,
+        "s": 0.894,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.466,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oham",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 195,
+      "hits_herbal": 55,
+      "hits_zodiac": 9,
+      "hits_balneological": 31,
+      "hits_rosettes": 7,
+      "hits_pharma": 12,
+      "hits_recipes": 80,
+      "source_pharma_jars": [
+        "88v.labels_middle",
+        "89r1.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "1r.4",
+        "4r.4",
+        "6r.7",
+        "15r.11",
+        "15v.3"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.13",
+        "85r1.15",
+        "85r1.21",
+        "86v6.16",
+        "86v6.43",
+        "68r1.4",
+        "69r.2",
+        "70r2.14",
+        "71v.center_ring",
+        "72r1.3rd_ring",
+        "75r.45",
+        "75v.16",
+        "76r.24",
+        "76v.7",
+        "76v.29"
+      ],
+      "sample_recipe_folios": [
+        "103r.19",
+        "103r.28",
+        "103r.30",
+        "103r.31",
+        "103v.7"
+      ],
+      "xembra_psi_string": "Ψ(c=0.661, p=0.500, r=0.426, s=0.809, Φ=0.599, 𝒯=0.401, E=0.426, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.661,
+        "p": 0.5,
+        "r": 0.426,
+        "s": 0.809,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.426,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohan",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 128,
+      "hits_herbal": 15,
+      "hits_zodiac": 1,
+      "hits_balneological": 46,
+      "hits_rosettes": 0,
+      "hits_pharma": 6,
+      "hits_recipes": 59,
+      "source_pharma_jars": [
+        "89r2.labels_bottom"
+      ],
+      "sample_herbal_folios": [
+        "1r.12",
+        "9r.8",
+        "18r.4",
+        "28v.8",
+        "33r.7"
+      ],
+      "sample_cosmological_folios": [
+        "67r2.2nd_ring_6",
+        "75v.12",
+        "75v.23",
+        "76r.2",
+        "76r.13",
+        "76r.20"
+      ],
+      "sample_recipe_folios": [
+        "103r.3",
+        "103r.11",
+        "103r.14",
+        "103r.18",
+        "103r.22"
+      ],
+      "xembra_psi_string": "Ψ(c=0.437, p=0.500, r=0.304, s=0.453, Φ=0.599, 𝒯=0.401, E=0.304, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.437,
+        "p": 0.5,
+        "r": 0.304,
+        "s": 0.453,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.304,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 128,
+      "hits_herbal": 29,
+      "hits_zodiac": 13,
+      "hits_balneological": 22,
+      "hits_rosettes": 10,
+      "hits_pharma": 15,
+      "hits_recipes": 34,
+      "source_pharma_jars": [
+        "99r.labels_top_1"
+      ],
+      "sample_herbal_folios": [
+        "8r.16",
+        "17v.10",
+        "23r.7",
+        "33v.3",
+        "33v.6"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.16",
+        "85r1.24",
+        "85r1.29",
+        "86v6.3",
+        "86v6.14",
+        "67r2.red_outer_ring",
+        "67v2.moon_bottom_left",
+        "68r2.moon",
+        "69r.radial_1",
+        "69r.radial_4",
+        "75r.11",
+        "75r.30",
+        "75r.34",
+        "75r.36",
+        "75v.12"
+      ],
+      "sample_recipe_folios": [
+        "104r.8",
+        "104r.11",
+        "104r.15",
+        "104r.17",
+        "104r.36"
+      ],
+      "xembra_psi_string": "Ψ(c=0.732, p=0.500, r=0.434, s=0.870, Φ=0.599, 𝒯=0.401, E=0.434, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.732,
+        "p": 0.5,
+        "r": 0.434,
+        "s": 0.87,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.434,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohc19",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 5,
+      "hits_herbal": 0,
+      "hits_zodiac": 1,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "99v.labels_middle_2"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "70r2.13",
+        "82r.28"
+      ],
+      "sample_recipe_folios": [
+        "107v.4",
+        "108r.36"
+      ],
+      "xembra_psi_string": "Ψ(c=0.891, p=0.500, r=0.448, s=0.679, Φ=0.599, 𝒯=0.401, E=0.448, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.891,
+        "p": 0.5,
+        "r": 0.448,
+        "s": 0.679,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.448,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohco89",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 25,
+      "hits_herbal": 8,
+      "hits_zodiac": 7,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 5,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "102v1.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "31v.4",
+        "41v.7",
+        "43v.2",
+        "48r.5",
+        "57r.3"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.12",
+        "67r1.2",
+        "68v2.4",
+        "68v1.outer_ring",
+        "69v.radial_6",
+        "70r1.center"
+      ],
+      "sample_recipe_folios": [
+        "104r.30",
+        "112r.30",
+        "112r.38"
+      ],
+      "xembra_psi_string": "Ψ(c=0.596, p=0.500, r=0.618, s=0.525, Φ=0.599, 𝒯=0.401, E=0.618, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.596,
+        "p": 0.5,
+        "r": 0.618,
+        "s": 0.525,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.618,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohoe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 73,
+      "hits_herbal": 22,
+      "hits_zodiac": 9,
+      "hits_balneological": 7,
+      "hits_rosettes": 2,
+      "hits_pharma": 24,
+      "hits_recipes": 8,
+      "source_pharma_jars": [
+        "88r.labels_middle",
+        "101v2-v1.labels_2"
+      ],
+      "sample_herbal_folios": [
+        "1r.21",
+        "2r.12",
+        "3r.20",
+        "6v.3",
+        "6v.20"
+      ],
+      "sample_cosmological_folios": [
+        "86v4.4",
+        "86v5.23",
+        "67r2.2nd_ring_9",
+        "68r2.3",
+        "68r2.sun",
+        "68r3.center",
+        "68v3.outer_ring",
+        "77v.37",
+        "78v.14",
+        "79r.10",
+        "79r.15",
+        "82v.labels_bottom_1"
+      ],
+      "sample_recipe_folios": [
+        "105v.3",
+        "105v.37",
+        "106r.16",
+        "107v.27",
+        "113r.5"
+      ],
+      "xembra_psi_string": "Ψ(c=0.698, p=0.500, r=0.360, s=0.827, Φ=0.599, 𝒯=0.401, E=0.360, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.698,
+        "p": 0.5,
+        "r": 0.36,
+        "s": 0.827,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.36,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ohoy",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 29,
+      "hits_herbal": 13,
+      "hits_zodiac": 2,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 8,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "93r.23"
+      ],
+      "sample_herbal_folios": [
+        "3v.2",
+        "6v.5",
+        "9r.3",
+        "14r.6",
+        "17r.3"
+      ],
+      "sample_cosmological_folios": [
+        "67v2.outer_ring_north_2",
+        "72r3.outer_ring",
+        "76v.2"
+      ],
+      "sample_recipe_folios": [
+        "108r.40",
+        "115v.7"
+      ],
+      "xembra_psi_string": "Ψ(c=0.875, p=0.500, r=0.419, s=0.868, Φ=0.599, 𝒯=0.401, E=0.419, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.875,
+        "p": 0.5,
+        "r": 0.419,
+        "s": 0.868,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.419,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "ok1ay",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 6,
+      "hits_herbal": 3,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v1.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "8v.5",
+        "8v.13",
+        "45r.6"
+      ],
+      "sample_cosmological_folios": [
+        "79r.11"
+      ],
+      "sample_recipe_folios": [
+        "113v.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.600, p=0.500, r=0.304, s=0.897, Φ=0.599, 𝒯=0.401, E=0.304, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.6,
+        "p": 0.5,
+        "r": 0.304,
+        "s": 0.897,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.304,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okAe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 8,
+      "hits_herbal": 2,
+      "hits_zodiac": 2,
+      "hits_balneological": 2,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "44r.3",
+        "51r.15"
+      ],
+      "sample_cosmological_folios": [
+        "70v2.5th_ring",
+        "70v1.2nd_ring",
+        "79r.16",
+        "79v.1"
+      ],
+      "sample_recipe_folios": [
+        "113v.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.528, p=0.500, r=0.408, s=0.390, Φ=0.599, 𝒯=0.401, E=0.408, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.528,
+        "p": 0.5,
+        "r": 0.408,
+        "s": 0.39,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.408,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okC9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 89,
+      "hits_herbal": 6,
+      "hits_zodiac": 18,
+      "hits_balneological": 13,
+      "hits_rosettes": 5,
+      "hits_pharma": 11,
+      "hits_recipes": 36,
+      "source_pharma_jars": [
+        "90v2.4"
+      ],
+      "sample_herbal_folios": [
+        "8v.16",
+        "31v.1",
+        "38v.1",
+        "41r.4",
+        "47v.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_3_2",
+        "86v5.34",
+        "86v3.east_6",
+        "86v3.west_3",
+        "67r1.center",
+        "68r3.radial_8",
+        "68v2.outer_ring",
+        "68v1.outer_ring",
+        "68v1.2nd_ring",
+        "75v.pond_text_4",
+        "76r.7",
+        "79r.25",
+        "79v.18",
+        "79v.24"
+      ],
+      "sample_recipe_folios": [
+        "103r.24",
+        "103r.25",
+        "103r.52",
+        "103v.7",
+        "103v.26"
+      ],
+      "xembra_psi_string": "Ψ(c=0.782, p=0.500, r=0.448, s=0.661, Φ=0.599, 𝒯=0.401, E=0.448, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.782,
+        "p": 0.5,
+        "r": 0.448,
+        "s": 0.661,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.448,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okCo",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 7,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "96r.13"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "104r.1",
+        "105v.33",
+        "113r.26",
+        "113v.11",
+        "114v.30"
+      ],
+      "xembra_psi_string": "Ψ(c=0.879, p=0.500, r=0.450, s=0.516, Φ=0.599, 𝒯=0.401, E=0.450, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.879,
+        "p": 0.5,
+        "r": 0.45,
+        "s": 0.516,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.45,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okae",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 142,
+      "hits_herbal": 28,
+      "hits_zodiac": 10,
+      "hits_balneological": 22,
+      "hits_rosettes": 14,
+      "hits_pharma": 9,
+      "hits_recipes": 58,
+      "source_pharma_jars": [
+        "95v1.5",
+        "99v.labels_middle_2"
+      ],
+      "sample_herbal_folios": [
+        "9v.7",
+        "13v.9",
+        "24r.6",
+        "26r.10",
+        "27r.12"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.30",
+        "86v6.18",
+        "86v6.37",
+        "86v6.38",
+        "86v6.42",
+        "68v3.outer_ring",
+        "69r.1",
+        "70r2.4",
+        "70r2.6",
+        "70v2.2nd_ring",
+        "75v.pond_text_1",
+        "76r.33",
+        "76r.41",
+        "78r.8",
+        "78r.29"
+      ],
+      "sample_recipe_folios": [
+        "103r.21",
+        "103v.17",
+        "103v.23",
+        "103v.25",
+        "104r.14"
+      ],
+      "xembra_psi_string": "Ψ(c=0.710, p=0.500, r=0.357, s=0.430, Φ=0.599, 𝒯=0.401, E=0.357, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.71,
+        "p": 0.5,
+        "r": 0.357,
+        "s": 0.43,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.357,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okae9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 22,
+      "hits_herbal": 4,
+      "hits_zodiac": 8,
+      "hits_balneological": 4,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 3,
+      "source_pharma_jars": [
+        "88r.labels_top",
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "58r.1",
+        "58r.3",
+        "58v.28",
+        "58v.34"
+      ],
+      "sample_cosmological_folios": [
+        "68v1.radial.5",
+        "70v2.2nd_ring",
+        "70v1.2nd_ring",
+        "71v.3rd_ring",
+        "72r2.3rd_ring",
+        "78v.12",
+        "80r.41",
+        "82v.27",
+        "84r.label_middle_left"
+      ],
+      "sample_recipe_folios": [
+        "103v.15",
+        "103v.35",
+        "105r.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.664, p=0.500, r=0.502, s=0.817, Φ=0.599, 𝒯=0.401, E=0.502, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.664,
+        "p": 0.5,
+        "r": 0.502,
+        "s": 0.817,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.502,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okaes9",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89r2.labels_bottom"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "103r.52"
+      ],
+      "xembra_psi_string": "Ψ(c=0.713, p=0.500, r=0.519, s=0.885, Φ=0.599, 𝒯=0.401, E=0.519, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.713,
+        "p": 0.5,
+        "r": 0.519,
+        "s": 0.885,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.519,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okay",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 151,
+      "hits_herbal": 22,
+      "hits_zodiac": 17,
+      "hits_balneological": 21,
+      "hits_rosettes": 14,
+      "hits_pharma": 9,
+      "hits_recipes": 61,
+      "source_pharma_jars": [
+        "94r.9",
+        "99v.labels_top"
+      ],
+      "sample_herbal_folios": [
+        "10r.11",
+        "31v.6",
+        "33r.2",
+        "34v.8",
+        "36v.3"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.4",
+        "85r1.29",
+        "85r1.33",
+        "85r2.outer_ring",
+        "86v6.9",
+        "67r1.2nd_ring",
+        "69r.radial_21",
+        "70r1.3rd_ring",
+        "70r2.2nd_ring",
+        "70v2.2nd_ring",
+        "75r.14",
+        "75r.27",
+        "75r.34",
+        "75r.36",
+        "75r.43"
+      ],
+      "sample_recipe_folios": [
+        "103r.22",
+        "103v.14",
+        "103v.20",
+        "103v.27",
+        "103v.41"
+      ],
+      "xembra_psi_string": "Ψ(c=0.609, p=0.500, r=0.306, s=0.837, Φ=0.599, 𝒯=0.401, E=0.306, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.609,
+        "p": 0.5,
+        "r": 0.306,
+        "s": 0.837,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.306,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okay9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 2,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "43r.11",
+        "58r.19"
+      ],
+      "sample_cosmological_folios": [
+        "73r.4th_ring"
+      ],
+      "sample_recipe_folios": [
+        "113v.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.589, p=0.500, r=0.297, s=0.887, Φ=0.599, 𝒯=0.401, E=0.297, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.589,
+        "p": 0.5,
+        "r": 0.297,
+        "s": 0.887,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.297,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okayap",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 3,
+      "hits_herbal": 0,
+      "hits_zodiac": 1,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "89v2.labels_bottom"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "73v.center_ring"
+      ],
+      "sample_recipe_folios": [
+        "107r.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.701, p=0.500, r=0.438, s=0.635, Φ=0.599, 𝒯=0.401, E=0.438, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.701,
+        "p": 0.5,
+        "r": 0.438,
+        "s": 0.635,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.438,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okaz",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 28,
+      "hits_herbal": 1,
+      "hits_zodiac": 4,
+      "hits_balneological": 1,
+      "hits_rosettes": 2,
+      "hits_pharma": 1,
+      "hits_recipes": 19,
+      "source_pharma_jars": [
+        "89v2.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "58v.37"
+      ],
+      "sample_cosmological_folios": [
+        "86v3.north_2",
+        "86v3.north_8",
+        "68v3.inner_ring",
+        "70r1.radials",
+        "72r2.2nd_ring",
+        "72v1.outer_ring",
+        "80r.16"
+      ],
+      "sample_recipe_folios": [
+        "104v.2",
+        "104v.30",
+        "105r.37",
+        "105v.7",
+        "105v.20"
+      ],
+      "xembra_psi_string": "Ψ(c=0.346, p=0.500, r=0.331, s=0.562, Φ=0.599, 𝒯=0.401, E=0.331, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.346,
+        "p": 0.5,
+        "r": 0.331,
+        "s": 0.562,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.331,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okcay",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 5,
+      "hits_herbal": 0,
+      "hits_zodiac": 2,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "100r.labels_1"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "70v1.4th_ring",
+        "72v1.outer_ring"
+      ],
+      "sample_recipe_folios": [
+        "103v.23",
+        "112r.37"
+      ],
+      "xembra_psi_string": "Ψ(c=0.798, p=0.500, r=0.476, s=0.692, Φ=0.599, 𝒯=0.401, E=0.476, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.798,
+        "p": 0.5,
+        "r": 0.476,
+        "s": 0.692,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.476,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okcoe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 37,
+      "hits_herbal": 10,
+      "hits_zodiac": 7,
+      "hits_balneological": 3,
+      "hits_rosettes": 0,
+      "hits_pharma": 9,
+      "hits_recipes": 8,
+      "source_pharma_jars": [
+        "100r.labels_3"
+      ],
+      "sample_herbal_folios": [
+        "1r.10",
+        "3r.16",
+        "17v.15",
+        "34r.6",
+        "38v.1"
+      ],
+      "sample_cosmological_folios": [
+        "68v3.outer_ring",
+        "68v1.2nd_ring",
+        "69v.radial_19",
+        "70r2.center_ring",
+        "72r3.3rd_ring",
+        "76v.21",
+        "81r.26",
+        "84v.36"
+      ],
+      "sample_recipe_folios": [
+        "105r.19",
+        "106v.39",
+        "111r.15",
+        "112v.45",
+        "113r.30"
+      ],
+      "xembra_psi_string": "Ψ(c=0.782, p=0.500, r=0.448, s=0.661, Φ=0.599, 𝒯=0.401, E=0.448, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.782,
+        "p": 0.5,
+        "r": 0.448,
+        "s": 0.661,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.448,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okcos",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 26,
+      "hits_herbal": 2,
+      "hits_zodiac": 19,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "102v2.labels_top_1"
+      ],
+      "sample_herbal_folios": [
+        "21r.2",
+        "43v.16"
+      ],
+      "sample_cosmological_folios": [
+        "67r1.3rd_ring",
+        "68r3.radial_2",
+        "70r1.1st_ring",
+        "70r1.2nd_ring",
+        "70r1.3rd_ring"
+      ],
+      "sample_recipe_folios": [
+        "107v.2"
+      ],
+      "xembra_psi_string": "Ψ(c=0.644, p=0.500, r=0.389, s=0.446, Φ=0.599, 𝒯=0.401, E=0.389, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.644,
+        "p": 0.5,
+        "r": 0.389,
+        "s": 0.446,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.389,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okoe",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 85,
+      "hits_herbal": 30,
+      "hits_zodiac": 13,
+      "hits_balneological": 13,
+      "hits_rosettes": 5,
+      "hits_pharma": 9,
+      "hits_recipes": 12,
+      "source_pharma_jars": [
+        "89r2.labels_middle",
+        "102v2.labels_top_1"
+      ],
+      "sample_herbal_folios": [
+        "1r.18",
+        "5r.2",
+        "5v.4",
+        "5v.6",
+        "8v.1"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.35",
+        "86v6.20",
+        "86v6.39",
+        "86v5.5",
+        "86v5.7",
+        "68r1.labels_4",
+        "68v3.outer_ring",
+        "68v1.outer_ring",
+        "68v1.radial.5",
+        "69r.2",
+        "75v.32",
+        "76v.32",
+        "77r.labels_top",
+        "77r.labels_side_2",
+        "77v.labels_top_2"
+      ],
+      "sample_recipe_folios": [
+        "104r.15",
+        "105r.21",
+        "106r.18",
+        "106v.44",
+        "107v.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.800, p=0.500, r=0.331, s=0.824, Φ=0.599, 𝒯=0.401, E=0.331, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.8,
+        "p": 0.5,
+        "r": 0.331,
+        "s": 0.824,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.331,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okoe9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 9,
+      "hits_herbal": 2,
+      "hits_zodiac": 3,
+      "hits_balneological": 2,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "37r.5",
+        "48v.8"
+      ],
+      "sample_cosmological_folios": [
+        "67v2.outer_ring_north_1",
+        "69v.3rd_ring",
+        "72v3.2nd_ring",
+        "75v.label_text_2",
+        "84r.labels_top_1"
+      ],
+      "sample_recipe_folios": [
+        "104r.11"
+      ],
+      "xembra_psi_string": "Ψ(c=0.662, p=0.500, r=0.377, s=0.871, Φ=0.599, 𝒯=0.401, E=0.377, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.662,
+        "p": 0.5,
+        "r": 0.377,
+        "s": 0.871,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.377,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "okoy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 35,
+      "hits_herbal": 17,
+      "hits_zodiac": 3,
+      "hits_balneological": 1,
+      "hits_rosettes": 3,
+      "hits_pharma": 3,
+      "hits_recipes": 8,
+      "source_pharma_jars": [
+        "89v1.labels_bottom"
+      ],
+      "sample_herbal_folios": [
+        "4v.8",
+        "10r.10",
+        "16v.12",
+        "17v.15",
+        "17v.18"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.28",
+        "86v4.outer_ring",
+        "86v3.east_2",
+        "67r1.outer_ring",
+        "68r1.labels_5",
+        "70v1.outer_ring",
+        "83r.18"
+      ],
+      "sample_recipe_folios": [
+        "104v.24",
+        "105v.2",
+        "105v.12",
+        "106v.34",
+        "107r.1"
+      ],
+      "xembra_psi_string": "Ψ(c=0.431, p=0.500, r=0.484, s=0.661, Φ=0.599, 𝒯=0.401, E=0.484, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.431,
+        "p": 0.5,
+        "r": 0.484,
+        "s": 0.661,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.484,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "os",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 34,
+      "hits_herbal": 11,
+      "hits_zodiac": 5,
+      "hits_balneological": 1,
+      "hits_rosettes": 7,
+      "hits_pharma": 4,
+      "hits_recipes": 6,
+      "source_pharma_jars": [
+        "96v.11"
+      ],
+      "sample_herbal_folios": [
+        "1r.7",
+        "6r.3",
+        "6v.4",
+        "7r.1",
+        "10r.2"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.30",
+        "85r1.33",
+        "85r2.outer_ring",
+        "86v4.outer_ring",
+        "86v4.3rd_ring",
+        "69r.outside_ring",
+        "70r1.2nd_ring",
+        "71r.outer_ring",
+        "72r3.outer_ring",
+        "72r3.2nd_ring",
+        "79r.36"
+      ],
+      "sample_recipe_folios": [
+        "104r.2",
+        "104r.10",
+        "105v.11",
+        "113r.28",
+        "113v.43"
+      ],
+      "xembra_psi_string": "Ψ(c=0.456, p=0.500, r=0.488, s=0.868, Φ=0.599, 𝒯=0.401, E=0.488, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.456,
+        "p": 0.5,
+        "r": 0.488,
+        "s": 0.868,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.488,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oy",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 448,
+      "hits_herbal": 113,
+      "hits_zodiac": 13,
+      "hits_balneological": 83,
+      "hits_rosettes": 58,
+      "hits_pharma": 70,
+      "hits_recipes": 94,
+      "source_pharma_jars": [
+        "100r.labels_2"
+      ],
+      "sample_herbal_folios": [
+        "1r.2",
+        "1r.3",
+        "1r.4",
+        "1r.8",
+        "1v.2"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.7",
+        "85r1.21",
+        "85r1.22",
+        "85r1.26",
+        "85r1.29",
+        "67r2.2nd_ring_9",
+        "67v2.outer_ring_north_1",
+        "67v1.center_10",
+        "67v1.center_12",
+        "67v1.center_14",
+        "75r.3",
+        "75r.4",
+        "75r.15",
+        "75r.21",
+        "75r.22"
+      ],
+      "sample_recipe_folios": [
+        "103r.3",
+        "103v.3",
+        "103v.10",
+        "103v.19",
+        "103v.23"
+      ],
+      "xembra_psi_string": "Ψ(c=0.543, p=0.500, r=0.276, s=0.763, Φ=0.599, 𝒯=0.401, E=0.276, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.543,
+        "p": 0.5,
+        "r": 0.276,
+        "s": 0.763,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.276,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oy9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 21,
+      "hits_herbal": 5,
+      "hits_zodiac": 1,
+      "hits_balneological": 9,
+      "hits_rosettes": 0,
+      "hits_pharma": 3,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "96v.7"
+      ],
+      "sample_herbal_folios": [
+        "1r.1",
+        "24r.1",
+        "26v.8",
+        "40r.11",
+        "58v.10"
+      ],
+      "sample_cosmological_folios": [
+        "72r3.4th_ring",
+        "75v.label_text_2",
+        "77v.16",
+        "79r.11",
+        "79r.26",
+        "79r.27"
+      ],
+      "sample_recipe_folios": [
+        "112r.41",
+        "116r.29"
+      ],
+      "xembra_psi_string": "Ψ(c=0.887, p=0.500, r=0.308, s=0.523, Φ=0.599, 𝒯=0.401, E=0.308, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.887,
+        "p": 0.5,
+        "r": 0.308,
+        "s": 0.523,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.308,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oyae",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 5,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "96v.10"
+      ],
+      "sample_herbal_folios": [
+        "36r.2"
+      ],
+      "sample_cosmological_folios": [
+        "82v.29"
+      ],
+      "sample_recipe_folios": [
+        "105r.16"
+      ],
+      "xembra_psi_string": "Ψ(c=0.812, p=0.500, r=0.378, s=0.447, Φ=0.599, 𝒯=0.401, E=0.378, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.812,
+        "p": 0.5,
+        "r": 0.378,
+        "s": 0.447,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.378,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oyap",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 8,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 4,
+      "source_pharma_jars": [
+        "88r.labels_middle"
+      ],
+      "sample_herbal_folios": [
+        "33v.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.8",
+        "79v.17"
+      ],
+      "sample_recipe_folios": [
+        "104v.2",
+        "108v.24",
+        "112r.4",
+        "113r.47"
+      ],
+      "xembra_psi_string": "Ψ(c=0.646, p=0.500, r=0.397, s=0.597, Φ=0.599, 𝒯=0.401, E=0.397, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.646,
+        "p": 0.5,
+        "r": 0.397,
+        "s": 0.597,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.397,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oyay",
+      "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
+      "total_corpus_hits": 4,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 1,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [
+        "85r2.quad_4_6",
+        "81r.18"
+      ],
+      "sample_recipe_folios": [
+        "107r.38"
+      ],
+      "xembra_psi_string": "Ψ(c=0.674, p=0.500, r=0.411, s=0.785, Φ=0.599, 𝒯=0.401, E=0.411, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.674,
+        "p": 0.5,
+        "r": 0.411,
+        "s": 0.785,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.411,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oyoe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 13,
+      "hits_herbal": 2,
+      "hits_zodiac": 1,
+      "hits_balneological": 8,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "100r.labels_4"
+      ],
+      "sample_herbal_folios": [
+        "53r.9",
+        "55r.4"
+      ],
+      "sample_cosmological_folios": [
+        "68v3.inner_ring",
+        "75v.12",
+        "75v.34",
+        "79v.33",
+        "80r.15",
+        "80r.36"
+      ],
+      "sample_recipe_folios": [
+        "107r.27"
+      ],
+      "xembra_psi_string": "Ψ(c=0.882, p=0.500, r=0.448, s=0.837, Φ=0.599, 𝒯=0.401, E=0.448, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.882,
+        "p": 0.5,
+        "r": 0.448,
+        "s": 0.837,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.448,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "oyoy",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "102v2.labels_top_1"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "113v.12"
+      ],
+      "xembra_psi_string": "Ψ(c=0.726, p=0.500, r=0.461, s=0.474, Φ=0.599, 𝒯=0.401, E=0.461, d=0.303, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.726,
+        "p": 0.5,
+        "r": 0.461,
+        "s": 0.474,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.461,
+        "d": 0.303,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "s9",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 33,
+      "hits_herbal": 20,
+      "hits_zodiac": 1,
+      "hits_balneological": 3,
+      "hits_rosettes": 0,
+      "hits_pharma": 6,
+      "hits_recipes": 2,
+      "source_pharma_jars": [
+        "96v.6"
+      ],
+      "sample_herbal_folios": [
+        "1r.3",
+        "8r.3",
+        "8v.3",
+        "9r.6",
+        "14r.9"
+      ],
+      "sample_cosmological_folios": [
+        "67r2.2",
+        "76v.37",
+        "83r.14",
+        "83r.33"
+      ],
+      "sample_recipe_folios": [
+        "105v.30",
+        "112r.21"
+      ],
+      "xembra_psi_string": "Ψ(c=0.391, p=0.500, r=0.334, s=0.768, Φ=0.599, 𝒯=0.401, E=0.334, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.391,
+        "p": 0.5,
+        "r": 0.334,
+        "s": 0.768,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.334,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "saeo",
+      "provenance_class": "Pure Apothecary-Only (Pharma + Recipes)",
+      "total_corpus_hits": 2,
+      "hits_herbal": 0,
+      "hits_zodiac": 0,
+      "hits_balneological": 0,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99r.labels_top_1"
+      ],
+      "sample_herbal_folios": [],
+      "sample_cosmological_folios": [],
+      "sample_recipe_folios": [
+        "116r.23"
+      ],
+      "xembra_psi_string": "Ψ(c=0.308, p=0.500, r=0.298, s=0.486, Φ=0.599, 𝒯=0.401, E=0.298, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.308,
+        "p": 0.5,
+        "r": 0.298,
+        "s": 0.486,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.298,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "sam",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 95,
+      "hits_herbal": 21,
+      "hits_zodiac": 4,
+      "hits_balneological": 27,
+      "hits_rosettes": 3,
+      "hits_pharma": 9,
+      "hits_recipes": 29,
+      "source_pharma_jars": [
+        "88v.17",
+        "90v2.4"
+      ],
+      "sample_herbal_folios": [
+        "2r.6",
+        "8v.1",
+        "15r.6",
+        "16r.9",
+        "16v.11"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.27",
+        "86v6.26",
+        "86v3.center_1",
+        "67r2.2nd_ring_7",
+        "70v1.3rd_ring",
+        "72r2.outer_ring",
+        "72v1.center_ring",
+        "75r.15",
+        "75v.11",
+        "76r.9",
+        "76r.39",
+        "76r.44"
+      ],
+      "sample_recipe_folios": [
+        "103r.31",
+        "103r.51",
+        "103v.36",
+        "105v.13",
+        "106r.29"
+      ],
+      "xembra_psi_string": "Ψ(c=0.601, p=0.500, r=0.357, s=0.461, Φ=0.599, 𝒯=0.401, E=0.357, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.601,
+        "p": 0.5,
+        "r": 0.357,
+        "s": 0.461,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.357,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "say",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 68,
+      "hits_herbal": 10,
+      "hits_zodiac": 9,
+      "hits_balneological": 16,
+      "hits_rosettes": 7,
+      "hits_pharma": 9,
+      "hits_recipes": 15,
+      "source_pharma_jars": [
+        "96v.11",
+        "100r.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "8v.2",
+        "24v.6",
+        "26r.7",
+        "26v.2",
+        "33v.9"
+      ],
+      "sample_cosmological_folios": [
+        "86v4.outer_ring",
+        "86v4.3rd_ring",
+        "86v4.2",
+        "86v6.35",
+        "86v3.center_2",
+        "67r1.2",
+        "67r1.3rd_ring",
+        "67r1.center",
+        "67v2.outer_ring_north_1",
+        "68v2.outer_ring",
+        "76r.10",
+        "76v.17",
+        "77r.20",
+        "77r.25",
+        "79r.14"
+      ],
+      "sample_recipe_folios": [
+        "103r.2",
+        "104r.12",
+        "104v.36",
+        "106r.11",
+        "106r.30"
+      ],
+      "xembra_psi_string": "Ψ(c=0.744, p=0.500, r=0.507, s=0.488, Φ=0.599, 𝒯=0.401, E=0.507, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.744,
+        "p": 0.5,
+        "r": 0.507,
+        "s": 0.488,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.507,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "say9",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 11,
+      "hits_herbal": 3,
+      "hits_zodiac": 4,
+      "hits_balneological": 0,
+      "hits_rosettes": 1,
+      "hits_pharma": 2,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "99v.labels_middle_1"
+      ],
+      "sample_herbal_folios": [
+        "9r.1",
+        "47v.1",
+        "47v.5"
+      ],
+      "sample_cosmological_folios": [
+        "85r2.quad_1_1",
+        "67v2.center_2",
+        "68v2.pieslice_4",
+        "71r.2nd_ring",
+        "72v2.center_ring"
+      ],
+      "sample_recipe_folios": [
+        "111v.49"
+      ],
+      "xembra_psi_string": "Ψ(c=0.863, p=0.500, r=0.431, s=0.782, Φ=0.599, 𝒯=0.401, E=0.431, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.863,
+        "p": 0.5,
+        "r": 0.431,
+        "s": 0.782,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.431,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "sayoe",
+      "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
+      "total_corpus_hits": 4,
+      "hits_herbal": 1,
+      "hits_zodiac": 0,
+      "hits_balneological": 1,
+      "hits_rosettes": 0,
+      "hits_pharma": 1,
+      "hits_recipes": 1,
+      "source_pharma_jars": [
+        "102v2.labels_top_2"
+      ],
+      "sample_herbal_folios": [
+        "39v.11"
+      ],
+      "sample_cosmological_folios": [
+        "77v.32"
+      ],
+      "sample_recipe_folios": [
+        "112r.33"
+      ],
+      "xembra_psi_string": "Ψ(c=0.798, p=0.500, r=0.434, s=0.516, Φ=0.599, 𝒯=0.401, E=0.434, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.798,
+        "p": 0.5,
+        "r": 0.434,
+        "s": 0.516,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.434,
+        "d": 0.301,
+        "a": 0.5
+      }
+    },
+    {
+      "token": "saz",
+      "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
+      "total_corpus_hits": 20,
+      "hits_herbal": 4,
+      "hits_zodiac": 1,
+      "hits_balneological": 3,
+      "hits_rosettes": 3,
+      "hits_pharma": 2,
+      "hits_recipes": 7,
+      "source_pharma_jars": [
+        "101v2-v1.labels_1"
+      ],
+      "sample_herbal_folios": [
+        "8r.17",
+        "26v.7",
+        "34r.15",
+        "66r.19"
+      ],
+      "sample_cosmological_folios": [
+        "85r1.1",
+        "86v6.8",
+        "86v5.25",
+        "69r.radial_3",
+        "75r.14",
+        "76v.28",
+        "76v.31"
+      ],
+      "sample_recipe_folios": [
+        "106v.32",
+        "107r.10",
+        "107r.17",
+        "108v.26",
+        "111v.21"
+      ],
+      "xembra_psi_string": "Ψ(c=0.413, p=0.500, r=0.301, s=0.558, Φ=0.599, 𝒯=0.401, E=0.301, d=0.301, a=0.500)",
+      "xembra_psi_vector": {
+        "c": 0.413,
+        "p": 0.5,
+        "r": 0.301,
+        "s": 0.558,
+        "Phi": 0.599,
+        "T": 0.401,
+        "E": 0.301,
+        "d": 0.301,
+        "a": 0.5
+      }
+    }
+  ]
+}
