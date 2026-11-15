@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 title: "voynich_xc: Structural Visibility, Pharmaceutical Supply Chains, and Falsifiable Grammar Discovery in the Voynich Manuscript"
 message: "If you use this software, lexicon dataset, or synthesis report in your research, please cite it using the metadata from this file."
 type: software
 authors:
   - family-names: "probablyapigeon"
-doi: "10.5281/zenodo.24246276"
+doi: "10.5281/zenodo.24248918"
 repository-code: "https://github.com"
 url: "https://doi.org"
 abstract: "A reproducible suite of 35 computational probes built on the XEMBRA (.xc) morpho-syntactic interpreter analyzing the 15th-century Voynich Manuscript. Identifies 135 verified Pharmaceutical Jar-to-Starred Recipe bridge compounds across all six codicological sections and reconstructs all 359 Starred Recipe cards with 100% lexical coverage."
@@ -18,3 +18,4 @@ keywords:
 license: MIT
 version: 1.2.0
 date-released: 2026-11-15
+

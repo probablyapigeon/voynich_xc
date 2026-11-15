@@ -1,4 +1,6 @@
-﻿# voynich_xc Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
+﻿[![DOI](https://zenodo.org)](https://doi.org)
+
+# voynich_xc Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
 
 [![DOI](https://zenodo.org)](https://doi.org)
 
@@ -150,3 +152,4 @@ Using **XEMBRA Code (`.xc`)**, we projected four sequential symbol streams onto 
 ![XEMBRA 4-Way Cross-Domain Attractor Geometry](voynich_4way_attractors_3d.png)
 
 ![XEMBRA Zoomed Micro-Trajectory t=0 to t=10](voynich_t0_to_t10_micro_3d.png)
+
