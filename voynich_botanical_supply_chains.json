@@ -1,0 +1,638 @@
+{
+  "target_tokens": [
+    "K9",
+    "4ok19",
+    "Koe",
+    "2oy",
+    "8oe",
+    "1ch9",
+    "H9",
+    "1oh9",
+    "ohoe",
+    "1o8am"
+  ],
+  "supply_chains": [
+    {
+      "token": "K9",
+      "state": "RECIPE_HIT",
+      "herbal_total_hits": 86,
+      "herbal_unique_folios": 48,
+      "herbal_folios_ranked": [
+        "15r(5)",
+        "11r(4)",
+        "15v(4)",
+        "22v(4)",
+        "44v(4)",
+        "1r(3)",
+        "6r(3)",
+        "6v(3)",
+        "9r(3)",
+        "45r(3)",
+        "1v(2)",
+        "2r(2)",
+        "3r(2)",
+        "7v(2)",
+        "10r(2)",
+        "14v(2)",
+        "17v(2)",
+        "18r(2)",
+        "20v(2)",
+        "29v(2)",
+        "45v(2)",
+        "51v(2)",
+        "3v(1)",
+        "4r(1)",
+        "4v(1)",
+        "5r(1)",
+        "8r(1)",
+        "9v(1)",
+        "10v(1)",
+        "16r(1)",
+        "16v(1)",
+        "17r(1)",
+        "21r(1)",
+        "22r(1)",
+        "24r(1)",
+        "29r(1)",
+        "32r(1)",
+        "33v(1)",
+        "35v(1)",
+        "46r(1)",
+        "46v(1)",
+        "47v(1)",
+        "49v(1)",
+        "52v(1)",
+        "53v(1)",
+        "54v(1)",
+        "56r(1)",
+        "57r(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.22"
+      ],
+      "recipe_cards": [
+        "#37(104r.12)",
+        "#52(104v.15)",
+        "#226(112r.14)",
+        "#343(116r.3)"
+      ]
+    },
+    {
+      "token": "4ok19",
+      "state": "PREPARED (4o-)",
+      "herbal_total_hits": 46,
+      "herbal_unique_folios": 37,
+      "herbal_folios_ranked": [
+        "10r(2)",
+        "18v(2)",
+        "19r(2)",
+        "19v(2)",
+        "22v(2)",
+        "35r(2)",
+        "37r(2)",
+        "44r(2)",
+        "56r(2)",
+        "4r(1)",
+        "7r(1)",
+        "7v(1)",
+        "10v(1)",
+        "11r(1)",
+        "14r(1)",
+        "14v(1)",
+        "15r(1)",
+        "16v(1)",
+        "20r(1)",
+        "20v(1)",
+        "21v(1)",
+        "24r(1)",
+        "25r(1)",
+        "25v(1)",
+        "29r(1)",
+        "29v(1)",
+        "30r(1)",
+        "32r(1)",
+        "32v(1)",
+        "35v(1)",
+        "36r(1)",
+        "41r(1)",
+        "42v(1)",
+        "49v(1)",
+        "51r(1)",
+        "52r(1)",
+        "54v(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.13"
+      ],
+      "recipe_cards": [
+        "#53(104v.18)",
+        "#312(115r.7)",
+        "#316(115r.16)",
+        "#323(115r.37)",
+        "#329(115v.8)",
+        "#338(115v.31)"
+      ]
+    },
+    {
+      "token": "Koe",
+      "state": "RECIPE_HIT",
+      "herbal_total_hits": 43,
+      "herbal_unique_folios": 30,
+      "herbal_folios_ranked": [
+        "28r(4)",
+        "44v(3)",
+        "3r(2)",
+        "4r(2)",
+        "6v(2)",
+        "17v(2)",
+        "18r(2)",
+        "19v(2)",
+        "36r(2)",
+        "42r(2)",
+        "1r(1)",
+        "1v(1)",
+        "4v(1)",
+        "7r(1)",
+        "7v(1)",
+        "8v(1)",
+        "22r(1)",
+        "23v(1)",
+        "24r(1)",
+        "28v(1)",
+        "30v(1)",
+        "32r(1)",
+        "32v(1)",
+        "35r(1)",
+        "36v(1)",
+        "37v(1)",
+        "49v(1)",
+        "53v(1)",
+        "54v(1)",
+        "56r(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.20",
+        "93r.30"
+      ],
+      "recipe_cards": [
+        "#275(113v.12)",
+        "#279(113v.25)"
+      ]
+    },
+    {
+      "token": "2oy",
+      "state": "RECIPE_HIT",
+      "herbal_total_hits": 43,
+      "herbal_unique_folios": 30,
+      "herbal_folios_ranked": [
+        "29r(3)",
+        "49r(3)",
+        "2r(2)",
+        "10r(2)",
+        "11r(2)",
+        "15r(2)",
+        "18r(2)",
+        "28v(2)",
+        "42r(2)",
+        "52r(2)",
+        "66r(2)",
+        "1v(1)",
+        "4r(1)",
+        "8r(1)",
+        "8v(1)",
+        "9r(1)",
+        "13v(1)",
+        "14v(1)",
+        "17r(1)",
+        "17v(1)",
+        "23v(1)",
+        "28r(1)",
+        "32v(1)",
+        "34v(1)",
+        "39v(1)",
+        "44v(1)",
+        "45v(1)",
+        "46r(1)",
+        "50v(1)",
+        "56v(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.7"
+      ],
+      "recipe_cards": [
+        "#56(104v.27)",
+        "#86(106r.4)",
+        "#152(108r.12)",
+        "#330(115v.10)",
+        "#340(115v.37)"
+      ]
+    },
+    {
+      "token": "8oe",
+      "state": "RECIPE_HIT",
+      "herbal_total_hits": 40,
+      "herbal_unique_folios": 28,
+      "herbal_folios_ranked": [
+        "1v(4)",
+        "7v(3)",
+        "32r(3)",
+        "8r(2)",
+        "23v(2)",
+        "54r(2)",
+        "66r(2)",
+        "66v(2)",
+        "3v(1)",
+        "6v(1)",
+        "13r(1)",
+        "14r(1)",
+        "14v(1)",
+        "17v(1)",
+        "22r(1)",
+        "23r(1)",
+        "24r(1)",
+        "25v(1)",
+        "28r(1)",
+        "29v(1)",
+        "36v(1)",
+        "42r(1)",
+        "44v(1)",
+        "45v(1)",
+        "48r(1)",
+        "49v(1)",
+        "53r(1)",
+        "54v(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.15",
+        "93r.21",
+        "93r.32"
+      ],
+      "recipe_cards": [
+        "#74(105v.3)",
+        "#82(105v.29)",
+        "#96(106r.37)",
+        "#292(114r.19)",
+        "#336(115v.26)",
+        "#349(116r.22)"
+      ]
+    },
+    {
+      "token": "1ch9",
+      "state": "RAW / JAR (o-/1-)",
+      "herbal_total_hits": 31,
+      "herbal_unique_folios": 21,
+      "herbal_folios_ranked": [
+        "66v(4)",
+        "34r(3)",
+        "66r(3)",
+        "33r(2)",
+        "55v(2)",
+        "58v(2)",
+        "10v(1)",
+        "26r(1)",
+        "26v(1)",
+        "30r(1)",
+        "31r(1)",
+        "34v(1)",
+        "39r(1)",
+        "42r(1)",
+        "43r(1)",
+        "43v(1)",
+        "47v(1)",
+        "49v(1)",
+        "54v(1)",
+        "55r(1)",
+        "58r(1)"
+      ],
+      "pharma_jar_tags": [
+        "100v.9"
+      ],
+      "recipe_cards": [
+        "#19(103v.5)",
+        "#51(104v.12)",
+        "#71(105r.34)",
+        "#133(107v.3)",
+        "#192(111r.19)",
+        "#248(112v.34)",
+        "#251(112v.43)",
+        "#282(113v.33)",
+        "#321(115r.32)",
+        "#328(115v.5)"
+      ]
+    },
+    {
+      "token": "H9",
+      "state": "RECIPE_HIT",
+      "herbal_total_hits": 26,
+      "herbal_unique_folios": 24,
+      "herbal_folios_ranked": [
+        "6v(2)",
+        "48r(2)",
+        "1v(1)",
+        "2r(1)",
+        "3v(1)",
+        "8r(1)",
+        "9v(1)",
+        "10v(1)",
+        "17v(1)",
+        "24r(1)",
+        "32r(1)",
+        "35r(1)",
+        "35v(1)",
+        "37r(1)",
+        "39r(1)",
+        "42r(1)",
+        "44v(1)",
+        "49v(1)",
+        "51r(1)",
+        "52v(1)",
+        "53v(1)",
+        "55r(1)",
+        "57r(1)",
+        "58r(1)"
+      ],
+      "pharma_jar_tags": [
+        "93v.10"
+      ],
+      "recipe_cards": [
+        "#11(103r.31)",
+        "#32(103v.41)",
+        "#84(105v.35)",
+        "#135(107v.7)",
+        "#155(108r.22)",
+        "#355(116r.33)"
+      ]
+    },
+    {
+      "token": "1oh9",
+      "state": "RAW / JAR (o-/1-)",
+      "herbal_total_hits": 23,
+      "herbal_unique_folios": 20,
+      "herbal_folios_ranked": [
+        "44r(2)",
+        "49v(2)",
+        "56r(2)",
+        "1v(1)",
+        "6r(1)",
+        "14v(1)",
+        "15v(1)",
+        "16r(1)",
+        "20r(1)",
+        "28r(1)",
+        "29r(1)",
+        "35r(1)",
+        "44v(1)",
+        "46r(1)",
+        "48v(1)",
+        "50v(1)",
+        "56v(1)",
+        "58r(1)",
+        "58v(1)",
+        "65v(1)"
+      ],
+      "pharma_jar_tags": [
+        "88v.17",
+        "99r.labels_middle_1"
+      ],
+      "recipe_cards": [
+        "#95(106r.34)",
+        "#303(114v.12)",
+        "#333(115v.18)"
+      ]
+    },
+    {
+      "token": "ohoe",
+      "state": "RAW / JAR (o-/1-)",
+      "herbal_total_hits": 22,
+      "herbal_unique_folios": 19,
+      "herbal_folios_ranked": [
+        "6v(2)",
+        "17v(2)",
+        "23r(2)",
+        "1r(1)",
+        "2r(1)",
+        "3r(1)",
+        "8v(1)",
+        "14r(1)",
+        "23v(1)",
+        "24r(1)",
+        "24v(1)",
+        "36r(1)",
+        "40r(1)",
+        "42r(1)",
+        "42v(1)",
+        "45v(1)",
+        "51r(1)",
+        "54r(1)",
+        "55r(1)"
+      ],
+      "pharma_jar_tags": [
+        "88r.labels_middle"
+      ],
+      "recipe_cards": [
+        "#74(105v.3)",
+        "#84(105v.35)",
+        "#89(106r.15)",
+        "#142(107v.27)",
+        "#253(113r.4)",
+        "#275(113v.12)",
+        "#294(114r.24)",
+        "#308(114v.28)"
+      ]
+    },
+    {
+      "token": "1o8am",
+      "state": "RAW / JAR (o-/1-)",
+      "herbal_total_hits": 22,
+      "herbal_unique_folios": 21,
+      "herbal_folios_ranked": [
+        "8r(2)",
+        "1r(1)",
+        "1v(1)",
+        "2v(1)",
+        "3v(1)",
+        "5v(1)",
+        "10r(1)",
+        "10v(1)",
+        "15r(1)",
+        "17v(1)",
+        "20r(1)",
+        "20v(1)",
+        "21v(1)",
+        "28r(1)",
+        "30r(1)",
+        "35v(1)",
+        "40v(1)",
+        "42r(1)",
+        "49v(1)",
+        "51v(1)",
+        "58v(1)"
+      ],
+      "pharma_jar_tags": [
+        "93r.28"
+      ],
+      "recipe_cards": [
+        "#54(104v.23)",
+        "#78(105v.16)",
+        "#121(107r.20)",
+        "#257(113r.12)",
+        "#292(114r.19)",
+        "#294(114r.24)",
+        "#308(114v.28)",
+        "#330(115v.10)"
+      ]
+    }
+  ],
+  "top_herbal_source_folios": [
+    {
+      "folio": "49v",
+      "distinct_bridge_tokens": 8,
+      "total_hits": 9,
+      "tokens": "1oh9(2), H9(1), K9(1), 4ok19(1), 1o8am(1), 8oe(1), Koe(1), 1ch9(1)"
+    },
+    {
+      "folio": "1v",
+      "distinct_bridge_tokens": 7,
+      "total_hits": 11,
+      "tokens": "8oe(4), K9(2), 1o8am(1), H9(1), 1oh9(1), Koe(1), 2oy(1)"
+    },
+    {
+      "folio": "17v",
+      "distinct_bridge_tokens": 7,
+      "total_hits": 10,
+      "tokens": "ohoe(2), Koe(2), K9(2), H9(1), 1o8am(1), 8oe(1), 2oy(1)"
+    },
+    {
+      "folio": "42r",
+      "distinct_bridge_tokens": 7,
+      "total_hits": 9,
+      "tokens": "2oy(2), Koe(2), 1ch9(1), 8oe(1), 1o8am(1), H9(1), ohoe(1)"
+    },
+    {
+      "folio": "44v",
+      "distinct_bridge_tokens": 6,
+      "total_hits": 11,
+      "tokens": "K9(4), Koe(3), 2oy(1), 8oe(1), H9(1), 1oh9(1)"
+    },
+    {
+      "folio": "24r",
+      "distinct_bridge_tokens": 6,
+      "total_hits": 6,
+      "tokens": "ohoe(1), H9(1), K9(1), Koe(1), 8oe(1), 4ok19(1)"
+    },
+    {
+      "folio": "6v",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 10,
+      "tokens": "K9(3), H9(2), ohoe(2), Koe(2), 8oe(1)"
+    },
+    {
+      "folio": "28r",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 8,
+      "tokens": "Koe(4), 2oy(1), 1oh9(1), 1o8am(1), 8oe(1)"
+    },
+    {
+      "folio": "8r",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 7,
+      "tokens": "1o8am(2), 8oe(2), 2oy(1), H9(1), K9(1)"
+    },
+    {
+      "folio": "32r",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 7,
+      "tokens": "8oe(3), H9(1), Koe(1), 4ok19(1), K9(1)"
+    },
+    {
+      "folio": "14v",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 6,
+      "tokens": "K9(2), 2oy(1), 4ok19(1), 1oh9(1), 8oe(1)"
+    },
+    {
+      "folio": "10v",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 5,
+      "tokens": "H9(1), 1o8am(1), K9(1), 4ok19(1), 1ch9(1)"
+    },
+    {
+      "folio": "54v",
+      "distinct_bridge_tokens": 5,
+      "total_hits": 5,
+      "tokens": "1ch9(1), K9(1), 4ok19(1), Koe(1), 8oe(1)"
+    },
+    {
+      "folio": "15r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 9,
+      "tokens": "K9(5), 2oy(2), 1o8am(1), 4ok19(1)"
+    },
+    {
+      "folio": "7v",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 7,
+      "tokens": "8oe(3), K9(2), Koe(1), 4ok19(1)"
+    },
+    {
+      "folio": "10r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 7,
+      "tokens": "2oy(2), 4ok19(2), K9(2), 1o8am(1)"
+    },
+    {
+      "folio": "1r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 6,
+      "tokens": "K9(3), 1o8am(1), ohoe(1), Koe(1)"
+    },
+    {
+      "folio": "2r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 6,
+      "tokens": "2oy(2), K9(2), H9(1), ohoe(1)"
+    },
+    {
+      "folio": "29r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 6,
+      "tokens": "2oy(3), 4ok19(1), 1oh9(1), K9(1)"
+    },
+    {
+      "folio": "56r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 6,
+      "tokens": "1oh9(2), 4ok19(2), Koe(1), K9(1)"
+    },
+    {
+      "folio": "4r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 5,
+      "tokens": "Koe(2), K9(1), 4ok19(1), 2oy(1)"
+    },
+    {
+      "folio": "23v",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 5,
+      "tokens": "8oe(2), 2oy(1), ohoe(1), Koe(1)"
+    },
+    {
+      "folio": "35r",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 5,
+      "tokens": "4ok19(2), 1oh9(1), H9(1), Koe(1)"
+    },
+    {
+      "folio": "45v",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 5,
+      "tokens": "K9(2), 2oy(1), ohoe(1), 8oe(1)"
+    },
+    {
+      "folio": "3v",
+      "distinct_bridge_tokens": 4,
+      "total_hits": 4,
+      "tokens": "8oe(1), K9(1), H9(1), 1o8am(1)"
+    }
+  ]
+}
