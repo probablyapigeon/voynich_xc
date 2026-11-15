@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org)](https://doi.org)
 
 Built on **XC (XEMBRA Code)** (`probablyapigeon/xembra-xc`), this repository applies history-dependent state vectors $\Psi(c, p, r, s, \Phi, \mathcal{T}, E, d, a)$, directed coupling links $\tau_{ij}$, and `Ouroboros` evolution operators to uncover explicit, reproducible, and falsifiable structural laws inside the 15th-century **Voynich Manuscript**.
-> **Synthesis Milestone (40 Probes | 135 Master Bridges | 146 Class 2 Operators | 61.29% Codex Lock | 146 Class 2 Operators | 359 / 359 Reconstructed Recipes):** Read the full [**Voynich Codex Synthesis Report (`VOYNICH_CODEX_REPORT.md`)**](VOYNICH_CODEX_REPORT.md) or explore the machine-readable datasets: [`voynich_master_lexicon.json`](voynich_master_lexicon.json), [`voynich_master_lexicon.csv`](voynich_master_lexicon.csv), and [`voynich_reconstructed_codex.json`](voynich_reconstructed_codex.json).
+> **Synthesis Milestone (41 Probes | 135 Master Bridges | 146 Class 2 Operators | 61.29% Codex Lock | 146 Class 2 Operators | 359 / 359 Reconstructed Recipes):** Read the full [**Voynich Codex Synthesis Report (`VOYNICH_CODEX_REPORT.md`)**](VOYNICH_CODEX_REPORT.md) or explore the machine-readable datasets: [`voynich_master_lexicon.json`](voynich_master_lexicon.json), [`voynich_master_lexicon.csv`](voynich_master_lexicon.csv), and [`voynich_reconstructed_codex.json`](voynich_reconstructed_codex.json).
 
 ![Voynich Codex Apothecary Supply-Chain Network](voynich_master_network.png)
 
@@ -122,6 +122,7 @@ A summary of Lisa Fagin Davis's five paleographic hands (`Scribes 1â€“5`) o
 * **Cross-Scribal Supply Chain:** Links Scribe 1 botanical catalogs to Scribe 3 and Scribe 2 recipe systems.
 * **Allograph Resolution & Operators:** Incorporates normalizations and shared Class 2 procedural operators (`voynich_procedural_operators.json`) across Scribes 2, 3, and 5.
 * **Supply Chain B:** Connects Scribe 4 astronomical roundels to Scribe 2 balneological prose.
+
 
 
 
