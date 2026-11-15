@@ -129,3 +129,24 @@ A summary of Lisa Fagin Davis's five paleographic hands (`Scribes 1â€“5`) o
 * **Allograph Resolution & Operators:** Incorporates normalizations and shared Class 2 procedural operators (`voynich_procedural_operators.json`) across Scribes 2, 3, and 5.
 * **Supply Chain B:** Connects Scribe 4 astronomical roundels to Scribe 2 balneological prose.
 36. **`voynich_eva_crosswalk.xc`**, **`voynich_master_lexicon_eva.json`**, & **`voynich_master_lexicon_eva.csv`** — Charts the full FSG/numeric-to-Standard EVA (`qo-`, `chedy`, `daiin`, `ky`) transliteration crosswalk for all `135` Master Lexicon bridge tokens so outside researchers can query every jar-to-recipe ingredient directly in EVA.
+
+---
+
+## Cross-Domain Bioacoustic & 4-Way Attractor Triangulation (`v1.0.6`)
+
+Using **XEMBRA Code (`.xc`)**, we projected four sequential symbol streams onto the same 9-dimensional morpho-syntactic state vector $\Psi(c, p, r, s, \Phi, \mathcal{T}, E, d, a)$ and measured their asymptotic capture geometry under `Ouroboros` contraction:
+
+1. **Voynich Manuscript (`data/voynich_clean.txt`)** ? 15th-century undeciphered codex (`?(c=0.898, p=0.179, r=0.121, s=0.184, ?=0.214, ??=0.143, E=0.055, d=0.107, a=0.179)`).
+2. **Bengalese Finch Song (`data/birds.npz`)** ? Real learned Markovian avian syllable bouts (*Lonchura striata domestica*, Sober Lab repository; `?(c=0.841, p=0.228, r=0.176, s=0.149, ?=0.274, ??=0.182, E=0.096, d=0.137, a=0.228)`).
+3. **Human Natural Prose** ? Syntactic English prose control (`?(c=0.851, p=0.217, r=0.202, s=0.116, ?=0.261, ??=0.174, E=0.111, d=0.130, a=0.217)`).
+4. **Deterministic Substitution Cipher / Null** ? Scrambled-order, monoalphabetically substituted Voynich tokens preserving Zipfian word lengths while destroying grammatical order.
+
+### Key Findings
+* **Avian Syntax Verification:** Scrambling real Bengalese finch syllables more than doubles positional drift ($p = 0.101 \rightarrow 0.215$, $+113\%$) and drops terminal cadence locking ($s = 0.187 \rightarrow 0.144$).
+* **Voynich?Avian Structural Proximity:** Under 200-cycle field coupling, Bengalese finch syntax preserves **$+28.6\%$ higher cadence locking** ($s = 0.054$ vs. $0.042$), **$+5.3\%$ higher coherence** ($\Phi = 0.099$ vs. $0.094$), and **$+4.8\%$ higher temporal stability** ($\mathcal{T} = 0.066$ vs. $0.063$) than Human Natural Prose?placing Voynichese in a **combinatorial Markovian chunk-and-branch regime** rather than open-ended prose.
+
+### 3D Attractor Geometry & Zoomed $t = 0 \rightarrow 10$ Capture Curves
+
+![XEMBRA 4-Way Cross-Domain Attractor Geometry](voynich_4way_attractors_3d.png)
+
+![XEMBRA Zoomed Micro-Trajectory t=0 to t=10](voynich_t0_to_t10_micro_3d.png)
