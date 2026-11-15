@@ -30,7 +30,7 @@
         "stem": "han",
         "suffix": "-"
       },
-      "recipe_count": 0
+      "recipe_count": 12
     },
     "4ohc9": {
       "pos": "VERB.ACT",
@@ -180,7 +180,7 @@
         "stem": "hC",
         "suffix": "89"
       },
-      "recipe_count": 0
+      "recipe_count": 45
     },
     "ohC9": {
       "pos": "BASE.AQ",
@@ -370,7 +370,7 @@
         "stem": "kaz",
         "suffix": "-"
       },
-      "recipe_count": 0
+      "recipe_count": 5
     },
     "ayae": {
       "pos": "HERB.58v",
