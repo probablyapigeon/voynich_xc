@@ -109,3 +109,16 @@ python visualize_supply_chain.py
 33. **`voynich_codex_lexicon_exporter.xc`** ? Compiles and exports the `135`-entry Master Voynich Codex Lexicon (`voynich_master_lexicon.json` and `voynich_master_lexicon.csv`), cataloging all `69` 4-Way Bridges, `47` 3-Way Herbal?Pharma?Recipe Bridges, `8` Zodiac/Balneological Bridges, `2` Rosettes?Pharma?Recipe Bridges (`9kcco89`, `ayo`), and `9` Pure Apothecary-Only compounds with full 6-section hit counts, jar coordinates, and XEMBRA `?` states.
 34. **`voynich_recipe_reconstructor.xc`** ? Uses `voynich_master_lexicon.json` to perform token-by-token cross-section reconstructions of Starred Recipes `Card #33` (`104r.1`), `Card #316` (`115r.16`), and `Card #325` (`115r.43`), mapping every ingredient back to its exact Pharmaceutical jar, Herbal folio, and Cosmological/Rosettes source while verifying recipe-level XEMBRA `?` convergence.
 35. **`voynich_full_codex_reconstructor.xc`** & **`voynich_reconstructed_codex.json`** ? Audits all `359` Starred Recipe cards (`103r?116v`) against the `135`-entry Master Lexicon (`359/359` cards matched, `0` unbridged, `24.54%` mean ingredient density), ranking top formulas (`Card #89` with `19` unique bridges; `Card #284` at `57.58%` density) and top recipe folios (`104r` at `30.19%`, `113v` at `29.03%`, `106v` with `50` unique bridges).
+
+---
+
+## 4. Five-Scribe Partition & Dual-Supply-Chain Synthesis (`v1.0.5`)
+
+![Voynich Codex Five-Scribe & Dual-Supply-Chain Architecture](voynich_five_scribe_network.png)
+
+A summary of Lisa Fagin Davis's five paleographic hands (`Scribes 1–5`) outlines their structural roles across Currier A and Currier B dialects (`voynich_five_scribe_probe.xc`, `voynich_five_scribe_synthesis.json`).
+
+### Key Cross-Scribe Highlights
+* **Cross-Scribal Supply Chain:** Links Scribe 1 botanical catalogs to Scribe 3 and Scribe 2 recipe systems.
+* **Allograph Resolution & Operators:** Incorporates normalizations and shared Class 2 procedural operators (`voynich_procedural_operators.json`) across Scribes 2, 3, and 5.
+* **Supply Chain B:** Connects Scribe 4 astronomical roundels to Scribe 2 balneological prose.
