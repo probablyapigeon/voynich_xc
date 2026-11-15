@@ -1,4 +1,4 @@
-# voynich_xc ? Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
+# voynich_xc Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
 
 [![DOI](https://zenodo.org)](https://doi.org)
 
