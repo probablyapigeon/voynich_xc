@@ -1,4 +1,4 @@
-﻿# Probe #36: FSG/Numeric-to-EVA Transliteration Crosswalk for the 135-Entry Master Lexicon
+﻿# Probe #36 / #44: FSG/Numeric-to-EVA Transliteration Crosswalk for the 135-Entry Master Lexicon
 # Generates voynich_master_lexicon_eva.json and voynich_master_lexicon_eva.csv
 
 import json
@@ -54,32 +54,42 @@ def to_eva(token):
     return "".join(out), sorted(unmapped)
 
 def extract_hits(entry):
-    # Locate nested dict of section counts regardless of exact key name
-    for k in ("section_hits", "hits", "counts", "sections", "section_counts"):
-        if isinstance(entry.get(k), dict):
-            return entry[k]
-    for v in entry.values():
-        if isinstance(v, dict) and any(sec in v for sec in ("herbal", "pharma", "recipes")):
-            return v
-    return {}
+    # Recursively inspect entry for section hit counts regardless of key naming
+    sec_map = {"herbal": 0, "zodiac": 0, "balneo": 0, "rosettes": 0, "pharma": 0, "recipes": 0}
+    for k, v in entry.items():
+        kl = k.lower()
+        if isinstance(v, (int, float)):
+            for sec in sec_map:
+                if sec in kl:
+                    sec_map[sec] = int(v)
+        elif isinstance(v, dict):
+            for sk, sv in v.items():
+                skl = sk.lower()
+                if isinstance(sv, (int, float)):
+                    for sec in sec_map:
+                        if sec in skl:
+                            sec_map[sec] = int(sv)
+    return sec_map
 
 def run_crosswalk():
     lex = json.load(open("voynich_master_lexicon.json", encoding="utf-8"))
+    entries_raw = lex["entries"] if isinstance(lex, dict) and "entries" in lex else lex
     eva_entries = []
     all_unmapped = set()
 
-    for entry in lex["entries"]:
-        raw_tok = entry["token"]
+    for entry in entries_raw:
+        raw_tok = entry.get("token", entry.get("xc_token", ""))
         eva_tok, unmapped = to_eva(raw_tok)
         all_unmapped.update(unmapped)
 
         sh = extract_hits(entry)
-        total_hits = sum(v for v in sh.values() if isinstance(v, (int, float)))
+        total_hits = sum(sh.values())
         if total_hits == 0:
-            for k in ("total_codex_hits", "total_hits", "total", "freq", "count"):
-                if isinstance(entry.get(k), (int, float)) and entry[k] > 0:
-                    total_hits = int(entry[k])
-                    break
+            for k, v in entry.items():
+                if "total" in k.lower() or "freq" in k.lower() or "hits" in k.lower():
+                    if isinstance(v, (int, float)) and v > 0:
+                        total_hits = int(v)
+                        break
 
         jars = entry.get("source_pharma_jars", entry.get("pharma_jars", entry.get("jars", [])))
         cards = entry.get("sample_recipe_cards", entry.get("recipe_cards", entry.get("cards", [])))
@@ -97,11 +107,11 @@ def run_crosswalk():
         }
         eva_entries.append(enriched)
 
-    eva_entries.sort(key=lambda x: x["total_codex_hits"], reverse=True)
+    eva_entries.sort(key=lambda x: (-x["total_codex_hits"], x["xc_token"]))
 
     out_json = {
         "metadata": {
-            "probe": "voynich_eva_crosswalk.xc (Probe #36)",
+            "probe": "voynich_eva_crosswalk.xc",
             "total_entries": len(eva_entries),
             "transliteration_target": "Standard EVA (Extensible Voynich Alphabet)",
             "unmapped_characters": sorted(all_unmapped),
@@ -137,7 +147,7 @@ def run_crosswalk():
 
     print(f"Exported {len(eva_entries)} EVA-crosswalked entries to voynich_master_lexicon_eva.json & .csv")
     print(f"Unmapped characters: {sorted(all_unmapped) if all_unmapped else 'None (100% mapped)'}")
-    print("\nTop 15 Master Bridge Tokens (XC Numeric -> Standard EVA):")
+    print("\nTop 15 Master Bridge Tokens by Codex Frequency (XC Numeric -> Standard EVA):")
     for e in eva_entries[:15]:
         print(f"  {e['xc_token']:10s} -> {e['eva_token']:12s} | Hits: {e['total_codex_hits']:4d} | {e['provenance_class']}")
 
