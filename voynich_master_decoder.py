@@ -6,11 +6,11 @@ codex = json.load(open("voynich_recipe_codex.json", encoding="utf-8"))["cards"]
 
 def normalize_stem(w):
     s = w
-    for p in ("4o", "8", "9", "2", "1", "o", "e"):
+    for p in ("4ok", "4oh", "4o", "og1", "g1", "8", "9", "2", "1", "o", "e", "g"):
         if s.startswith(p) and len(s) - len(p) >= 2:
             s = s[len(p):]
             break
-    for suf in ("89", "am", "ay", "an", "oe", "ae", "9", "8"):
+    for suf in ("89", "am", "ay", "an", "oe", "ae", "9", "8", "7"):
         if s.endswith(suf) and len(s) - len(suf) >= 2:
             s = s[:-len(suf)]
             break

@@ -1,6 +1,6 @@
 {
-  "total_entries": 326,
-  "stem_families": 110,
+  "total_entries": 402,
+  "stem_families": 183,
   "entries": {
     "4ohan": {
       "pos": "VERB.ACT",
@@ -3261,6 +3261,766 @@
         "suffix": "9"
       },
       "recipe_count": 1
+    },
+    "an": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-1r/2r [stem:an], Jar 85r2",
+      "morphology": {
+        "prefix": "-",
+        "stem": "an",
+        "suffix": "-"
+      },
+      "recipe_count": 184
+    },
+    "az": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-66r/58v [stem:az], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "az",
+        "suffix": "-"
+      },
+      "recipe_count": 114
+    },
+    "4o": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:4o]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "4o",
+        "suffix": "-"
+      },
+      "recipe_count": 81
+    },
+    "ap": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-3r/46v [stem:ap], Jar 89r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ap",
+        "suffix": "-"
+      },
+      "recipe_count": 76
+    },
+    "1o": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:1o]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "1o",
+        "suffix": "-"
+      },
+      "recipe_count": 45
+    },
+    "sam": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-15r/22v [stem:sam], Jar 89r2",
+      "morphology": {
+        "prefix": "-",
+        "stem": "sam",
+        "suffix": "-"
+      },
+      "recipe_count": 31
+    },
+    "Ahan": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-50v/58v [stem:ah], Jar 86v6",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ah",
+        "suffix": "-"
+      },
+      "recipe_count": 28
+    },
+    "ehe": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (80r/79r) [stem:he]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "he",
+        "suffix": "-"
+      },
+      "recipe_count": 27
+    },
+    "san": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-10r [stem:san], Jar 86v3",
+      "morphology": {
+        "prefix": "-",
+        "stem": "san",
+        "suffix": "-"
+      },
+      "recipe_count": 26
+    },
+    "19": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:19]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "19",
+        "suffix": "-"
+      },
+      "recipe_count": 26
+    },
+    "aehan": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-58r/66r [stem:aeh], Jar 86v6",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aeh",
+        "suffix": "-"
+      },
+      "recipe_count": 21
+    },
+    "om": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-15v/28v [stem:om], Jar 89r2",
+      "morphology": {
+        "prefix": "-",
+        "stem": "om",
+        "suffix": "-"
+      },
+      "recipe_count": 21
+    },
+    "1os": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-29r/6v [stem:os], Jar 86v4",
+      "morphology": {
+        "prefix": "-",
+        "stem": "os",
+        "suffix": "-"
+      },
+      "recipe_count": 20
+    },
+    "79": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:79]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "79",
+        "suffix": "-"
+      },
+      "recipe_count": 19
+    },
+    "yay": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-66r [stem:yay], Jar 101v2-v1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "yay",
+        "suffix": "-"
+      },
+      "recipe_count": 18
+    },
+    "1e": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:1e]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "1e",
+        "suffix": "-"
+      },
+      "recipe_count": 18
+    },
+    "1cs": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-66r/6v [stem:cs], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "cs",
+        "suffix": "-"
+      },
+      "recipe_count": 18
+    },
+    "eo": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-2v/1v [stem:eo], Jar 86v6",
+      "morphology": {
+        "prefix": "-",
+        "stem": "eo",
+        "suffix": "-"
+      },
+      "recipe_count": 17
+    },
+    "oka": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-58r/1r [stem:ha], Jar 86v3",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ha",
+        "suffix": "-"
+      },
+      "recipe_count": 16
+    },
+    "yan": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-30r/36r [stem:yan], Jar 89r2",
+      "morphology": {
+        "prefix": "-",
+        "stem": "yan",
+        "suffix": "-"
+      },
+      "recipe_count": 16
+    },
+    "2o": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:2o]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "2o",
+        "suffix": "-"
+      },
+      "recipe_count": 14
+    },
+    "saz": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-1r/8r [stem:saz], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "saz",
+        "suffix": "-"
+      },
+      "recipe_count": 14
+    },
+    "8e18": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:e1]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "e1",
+        "suffix": "-"
+      },
+      "recipe_count": 14
+    },
+    "AhC9": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (79v/76r) [stem:ahc]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ahc",
+        "suffix": "-"
+      },
+      "recipe_count": 13
+    },
+    "oehcc89": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (84v/76v) [stem:ehcc]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ehcc",
+        "suffix": "-"
+      },
+      "recipe_count": 13
+    },
+    "aie": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-2r/36v [stem:aie], Jar 86v5",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aie",
+        "suffix": "-"
+      },
+      "recipe_count": 13
+    },
+    "1d9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:d9]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "d9",
+        "suffix": "-"
+      },
+      "recipe_count": 12
+    },
+    "1ca": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-29r/53v [stem:ca], Jar 102v2",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ca",
+        "suffix": "-"
+      },
+      "recipe_count": 12
+    },
+    "op": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-3r/45v [stem:op], Jar 89r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "op",
+        "suffix": "-"
+      },
+      "recipe_count": 12
+    },
+    "sae": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (75v/76r) [stem:sae]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "sae",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "1H89": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:h8]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "h8",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "oe9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:e9]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "e9",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "1cchan": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (77r/80r) [stem:cch]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "cch",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "1l9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:l9]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "l9",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "ehcm": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (80r/78r) [stem:hcm]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hcm",
+        "suffix": "-"
+      },
+      "recipe_count": 11
+    },
+    "29": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:29]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "29",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "yo": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-1r/13r [stem:yo], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "yo",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "es": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-2r/49v [stem:es], Jar 99v",
+      "morphology": {
+        "prefix": "-",
+        "stem": "es",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "ax": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-18r/45r [stem:ax], Jar 93r",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ax",
+        "suffix": "-"
+      },
+      "recipe_count": 10
+    },
+    "ds": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-9v/18v [stem:ds], Jar 86v5",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ds",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "1s": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:1s]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "1s",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "yoy": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (80v/76r) [stem:yoy]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "yoy",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "soy": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-1r/2r [stem:soy], Jar 87r",
+      "morphology": {
+        "prefix": "-",
+        "stem": "soy",
+        "suffix": "-"
+      },
+      "recipe_count": 9
+    },
+    "ey": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-34v/58r [stem:ey]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ey",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "8e": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:8e]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "8e",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "soe": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (83r/80r) [stem:soe]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "soe",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "so": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-14r/35v [stem:so], Jar 100r",
+      "morphology": {
+        "prefix": "-",
+        "stem": "so",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "aiy": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-58r/57r [stem:aiy], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aiy",
+        "suffix": "-"
+      },
+      "recipe_count": 8
+    },
+    "a8": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:a8]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "a8",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "ogam": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-44v/37v [stem:gam]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "gam",
+        "suffix": "-"
+      },
+      "recipe_count": 7
+    },
+    "3H9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:3h]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "3h",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "ayap": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-17r/57v [stem:ayap], Jar 88v",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ayap",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "y9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:y9]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "y9",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "1eay": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-58r/34r [stem:eay], Jar 85r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "eay",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "aeap": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-65r [stem:aeap]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aeap",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "aeo": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-6v/14r [stem:aeo], Jar 86v5",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aeo",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "ohdo": {
+      "pos": "JAR.COMP",
+      "gloss": "Apothecary jar compound (Jar 85r1) [stem:hdo]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hdo",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "ai9": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-47v/3v [stem:ai], Jar 99v",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ai",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "1c69": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:c6]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "c6",
+        "suffix": "-"
+      },
+      "recipe_count": 6
+    },
+    "928ae": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:28]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "28",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "1c19": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:c1]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "c1",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "1ee": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-8r/34r [stem:ee]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ee",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "oean": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-39r/58v [stem:ean], Jar 86v6",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ean",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "ogay": {
+      "pos": "BATH.PROC",
+      "gloss": "Hydrotherapy/bathing procedure (79v) [stem:gay]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "gay",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "e179": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:17]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "17",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "oehCo": {
+      "pos": "JAR.COMP",
+      "gloss": "Apothecary jar compound (Jar 86v6/85r1) [stem:ehco]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ehco",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "yaz": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-18r/66r [stem:yaz]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "yaz",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "og8am": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:g8]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "g8",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "8aehc89": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-58v/66r [stem:aehc]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "aehc",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "g9": {
+      "pos": "PART.GLUE",
+      "gloss": "Grammatical particle/clitic [stem:g9]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "g9",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "1can": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-8r/8v [stem:can]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "can",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "oeap": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-34r [stem:eap]",
+      "morphology": {
+        "prefix": "-",
+        "stem": "eap",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "8cm": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-57r [stem:cm], Jar 95v1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "cm",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "koH9": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-1v/1r [stem:hoh], Jar 87r",
+      "morphology": {
+        "prefix": "-",
+        "stem": "hoh",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "ec": {
+      "pos": "HERB.EXT",
+      "gloss": "Botanical-41v [stem:ec], Jar 102r1",
+      "morphology": {
+        "prefix": "-",
+        "stem": "ec",
+        "suffix": "-"
+      },
+      "recipe_count": 5
+    },
+    "okos": {
+      "pos": "ING.BOT",
+      "gloss": "Botanical-24r/53r [stem:hos] (Jar 89r1)",
+      "morphology": {
+        "prefix": "o",
+        "stem": "hos",
+        "suffix": "-"
+      },
+      "recipe_count": 6
     }
   }
 }
