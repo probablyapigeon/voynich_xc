@@ -36,7 +36,7 @@ xc_token,eva_token,provenance_class,total_codex_hits,herbal_hits,zodiac_hits,bal
 2oe,sol,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89r2.labels_middle; 93r.7; 93r.19; 93r.21
 2os,sos,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,89v1.labels_bottom
 2oy,soi,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,93r.7
-39,3y,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,88v.17
+39,iy,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,88v.17
 4o,qo,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,94v.7
 4oh1o,qohsho,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,93r.30
 4ohay,qohai,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v1.8
@@ -57,14 +57,14 @@ xc_token,eva_token,provenance_class,total_codex_hits,herbal_hits,zodiac_hits,bal
 91oy,yshoi,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,93r.28; 99r.18
 9kcco89,ykccody,Rosettes-Pharma-Recipe Bridge,0,0,0,0,0,0,0,96v.6
 9kcoe,ykcol,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99r.labels_middle_1
-Ay,Ay,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99r.18
+Ay,ay,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99r.18
 H9,ckhy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,93v.10
 Hc9,ckhcy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,96v.10
 Jcoy,cthcoi,Pure Apothecary-Only (Pharma + Recipes),0,0,0,0,0,0,0,88v.labels_top
 K9,ky,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,93r.22
 KC9,kkhy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,99r.13
 Koe,kol,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,93r.20; 93r.30
-aN,aN,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v2.labels_middle
+aN,an,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v2.labels_middle
 ae9,aly,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,101v2-v1.labels_1
 am,aiin,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,93r.25; 96v.9; 99r.labels_middle_2
 an,ain,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v1.labels_bottom; 93r.23; 99r.labels_top_1; 102v2.17
@@ -92,8 +92,8 @@ oe1c9,olchy,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,96
 oeam,olaiin,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v1.labels_bottom
 oehCs,olhkhs,Pure Apothecary-Only (Pharma + Recipes),0,0,0,0,0,0,0,93r.18
 oes,ols,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99r.18
-og19,ogshy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,102v2.labels_top_2
-ogoe,ogol,Zodiac/Balneological-Pharma-Recipe Bridge,0,0,0,0,0,0,0,89v1.labels_bottom
+og19,oqshy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,102v2.labels_top_2
+ogoe,oqol,Zodiac/Balneological-Pharma-Recipe Bridge,0,0,0,0,0,0,0,89v1.labels_bottom
 oh9,ohy,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99r.labels_top_1; 99r.labels_middle_1
 oham,ohaiin,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,88v.labels_middle; 89r1.labels_middle
 ohan,ohain,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,89r2.labels_bottom
@@ -103,7 +103,7 @@ ohco89,ohcody,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,
 ohoe,ohol,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,88r.labels_middle; 101v2-v1.labels_2
 ohoy,ohoi,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,93r.23
 ok1ay,okshai,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,89v1.labels_top
-okAe,okAe,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,101v2-v1.labels_1
+okAe,okae,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,101v2-v1.labels_1
 okC9,okkhy,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,90v2.4
 okCo,okkho,Pure Apothecary-Only (Pharma + Recipes),0,0,0,0,0,0,0,96r.13
 okae,okal,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,95v1.5; 99v.labels_middle_2
@@ -112,7 +112,7 @@ okaes9,okalsy,Pure Apothecary-Only (Pharma + Recipes),0,0,0,0,0,0,0,89r2.labels_
 okay,okai,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,94r.9; 99v.labels_top
 okay9,okaiy,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,89v2.labels_middle
 okayap,okaiap,Zodiac/Balneological-Pharma-Recipe Bridge,0,0,0,0,0,0,0,89v2.labels_bottom
-okaz,okaz,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v2.labels_middle
+okaz,okas,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,89v2.labels_middle
 okcay,okcai,Zodiac/Balneological-Pharma-Recipe Bridge,0,0,0,0,0,0,0,100r.labels_1
 okcoe,okcol,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,100r.labels_3
 okcos,okcos,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,102v2.labels_top_1
@@ -133,4 +133,4 @@ sam,saiin,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,88v.
 say,sai,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,96v.11; 100r.labels_1
 say9,saiy,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,99v.labels_middle_1
 sayoe,saiol,3-Way Bridge (Herbal + Pharma + Recipes),0,0,0,0,0,0,0,102v2.labels_top_2
-saz,saz,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,101v2-v1.labels_1
+saz,sas,4-Way Bridge (Herbal + Rosettes + Pharma + Recipes),0,0,0,0,0,0,0,101v2-v1.labels_1

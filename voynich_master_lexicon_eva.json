@@ -3,13 +3,7 @@
     "probe": "voynich_eva_crosswalk.xc (Probe #36)",
     "total_entries": 135,
     "transliteration_target": "Standard EVA (Extensible Voynich Alphabet)",
-    "unmapped_characters": [
-      "3",
-      "A",
-      "N",
-      "g",
-      "z"
-    ]
+    "unmapped_characters": []
   },
   "entries": [
     {
@@ -476,7 +470,7 @@
     },
     {
       "xc_token": "39",
-      "eva_token": "3y",
+      "eva_token": "iy",
       "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -737,7 +731,7 @@
     },
     {
       "xc_token": "Ay",
-      "eva_token": "Ay",
+      "eva_token": "ay",
       "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -822,7 +816,7 @@
     },
     {
       "xc_token": "aN",
-      "eva_token": "aN",
+      "eva_token": "an",
       "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -1163,7 +1157,7 @@
     },
     {
       "xc_token": "og19",
-      "eva_token": "ogshy",
+      "eva_token": "oqshy",
       "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -1175,7 +1169,7 @@
     },
     {
       "xc_token": "ogoe",
-      "eva_token": "ogol",
+      "eva_token": "oqol",
       "provenance_class": "Zodiac/Balneological-Pharma-Recipe Bridge",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -1298,7 +1292,7 @@
     },
     {
       "xc_token": "okAe",
-      "eva_token": "okAe",
+      "eva_token": "okae",
       "provenance_class": "3-Way Bridge (Herbal + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -1409,7 +1403,7 @@
     },
     {
       "xc_token": "okaz",
-      "eva_token": "okaz",
+      "eva_token": "okas",
       "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},
@@ -1664,7 +1658,7 @@
     },
     {
       "xc_token": "saz",
-      "eva_token": "saz",
+      "eva_token": "sas",
       "provenance_class": "4-Way Bridge (Herbal + Rosettes + Pharma + Recipes)",
       "total_codex_hits": 0,
       "section_hits": {},

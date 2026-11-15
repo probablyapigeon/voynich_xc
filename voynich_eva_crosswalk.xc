@@ -21,11 +21,16 @@ LIGATURE_RULES = [
     ("H", "ckh"),
     ("C", "kh"),
     ("J", "cth"),
+    ("A", "a"),
+    ("N", "n"),
     ("8", "d"),
     ("9", "y"),
     ("1", "sh"),
     ("2", "s"),
+    ("3", "i"),
     ("7", "g"),
+    ("g", "q"),
+    ("z", "s"),
 ]
 
 def to_eva(token):
@@ -43,10 +48,20 @@ def to_eva(token):
         if not matched:
             ch = token[i]
             out.append(ch)
-            if ch not in "oaeiykthpfslrnc":
+            if ch not in "oaeiykthpfslrncqg":
                 unmapped.add(ch)
             i += 1
     return "".join(out), sorted(unmapped)
+
+def extract_hits(entry):
+    # Locate nested dict of section counts regardless of exact key name
+    for k in ("section_hits", "hits", "counts", "sections", "section_counts"):
+        if isinstance(entry.get(k), dict):
+            return entry[k]
+    for v in entry.values():
+        if isinstance(v, dict) and any(sec in v for sec in ("herbal", "pharma", "recipes")):
+            return v
+    return {}
 
 def run_crosswalk():
     lex = json.load(open("voynich_master_lexicon.json", encoding="utf-8"))
@@ -58,18 +73,27 @@ def run_crosswalk():
         eva_tok, unmapped = to_eva(raw_tok)
         all_unmapped.update(unmapped)
 
-        sh = entry.get("section_hits", {})
-        total_hits = entry.get("total_codex_hits", entry.get("total_hits", sum(sh.values())))
+        sh = extract_hits(entry)
+        total_hits = sum(v for v in sh.values() if isinstance(v, (int, float)))
+        if total_hits == 0:
+            for k in ("total_codex_hits", "total_hits", "total", "freq", "count"):
+                if isinstance(entry.get(k), (int, float)) and entry[k] > 0:
+                    total_hits = int(entry[k])
+                    break
+
+        jars = entry.get("source_pharma_jars", entry.get("pharma_jars", entry.get("jars", [])))
+        cards = entry.get("sample_recipe_cards", entry.get("recipe_cards", entry.get("cards", [])))
+        state = entry.get("xembra_state", entry.get("psi_state", entry.get("state", {})))
 
         enriched = {
             "xc_token": raw_tok,
             "eva_token": eva_tok,
-            "provenance_class": entry.get("provenance_class", ""),
-            "total_codex_hits": total_hits,
+            "provenance_class": entry.get("provenance_class", entry.get("class", "")),
+            "total_codex_hits": int(total_hits),
             "section_hits": sh,
-            "source_pharma_jars": entry.get("source_pharma_jars", []),
-            "sample_recipe_cards": entry.get("sample_recipe_cards", []),
-            "xembra_state": entry.get("xembra_state", {}),
+            "source_pharma_jars": jars,
+            "sample_recipe_cards": cards,
+            "xembra_state": state,
         }
         eva_entries.append(enriched)
 
@@ -108,7 +132,7 @@ def run_crosswalk():
                 sh.get("rosettes", 0),
                 sh.get("pharma", 0),
                 sh.get("recipes", 0),
-                "; ".join(e["source_pharma_jars"]),
+                "; ".join(str(j) for j in e["source_pharma_jars"]),
             ])
 
     print(f"Exported {len(eva_entries)} EVA-crosswalked entries to voynich_master_lexicon_eva.json & .csv")
