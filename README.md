@@ -45,7 +45,7 @@ Built on **XC (XEMBRA Code)** (`probablyapigeon/xembra-xc`), this repository app
 
 ![Voynich Codex Five-Scribe & Dual-Supply-Chain Architecture](voynich_five_scribe_network.png)
 
-Partitioning 40,240 tokens across Lisa Fagin Davis's five scribes yields a 61.29% Combined Codex Lock and cross-scribe supply chains. For a complete breakdown of the scribe metrics, dialect distributions, and structural roles, refer to the documentation on {Link: GitHub Repository https://github.com}.
+Partitioning 40,240 tokens across Lisa Fagin Davis's five scribes yields a 61.29% Combined Codex Lock and cross-scribe supply chains. For a complete breakdown of the scribe metrics, dialect distributions, and structural roles, refer to the documentation on [{Link: GitHub Repository ](https://github.com/probablyapigeon/voynich_xc)
 
 ## Repository Contents & Quickstart
 
