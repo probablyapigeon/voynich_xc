@@ -25,7 +25,7 @@ Built on **XC (XEMBRA Code)** (`probablyapigeon/xembra-xc`), this repository app
 
 ### 3. Starred Recipe Cards & 3-Way Supply Chain (`1r-66v` -> `87r-102v` -> `103r-116v`)
 * **359 Segmented Recipe Cards (`voynich_recipe_cards.xc`):** Extracts all `359` star-marked recipe paragraphs across folios `103r-116v` into a 4-slot grammar schema: `[1. OPENER] -> [2. INGREDIENT/PREP] -> [3. ACTION] -> [4. CLOSER]`.
-* **287 Three-Way Verified Ingredients (`voynich_ingredient_index.xc`):** Cross-matches `[2. INGREDIENT/PREP]` nouns directly against **Herbal Plant labels (`1r-66v`)** and **Apothecary Jar labels (`87r-102v`)**:
+* **312 Three-Way Verified Ingredients (`voynich_ingredient_index.xc`):** Cross-matches `[2. INGREDIENT/PREP]` nouns directly against **Herbal Plant labels (`1r-66v`)** and **Apothecary Jar labels (`87r-102v`)**:
   * **`oham` -> `4oham` Activation Pair:** Raw `oham` dominates Herbal (`55` hits, `24` label hits) and Apothecary jar labels (`88v`, `89r1`), while activated `4oham` surges into `75` Starred Recipe Cards.
   * **`1coe` (Jar Staple #1):** Appears `51` times in Apothecary Jars (`87r.15[LABEL]`, `87r.16[LABEL]`, `87v.12[LABEL]`) and feeds `42` Starred Recipe Cards.
   * **`4ohC9` (Universal Recipe Base):** Appears in `86` of `359` Starred Recipe Cards (~24% of all recipes), traced back to Herbal labels (`3r.14`, `17v.8`, `31r.3`) and Jar folios (`88r-89r2`).
@@ -59,6 +59,7 @@ python xc_interpreter.py voynich_recipe_phrasebook.xc
 python xc_interpreter.py voynich_recipe_cards.xc
 python xc_interpreter.py voynich_ingredient_index.xc
 python xc_interpreter.py voynich_translated_cards.xc
+python xc_interpreter.py voynich_codex_summary.xc  # Verifies all 359 cards in voynich_recipe_codex.md & .json
 
 # 3. 3D XEMBRA Lattice Visualizers
 python visualize_voynich.py
