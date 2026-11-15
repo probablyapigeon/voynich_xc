@@ -41,6 +41,12 @@ Built on **XC (XEMBRA Code)** (`probablyapigeon/xembra-xc`), this repository app
 
 ---
 
+### 4. Five-Scribe Partition, Dual Supply Chains & 61.29% Global Codex Lock (1.1.0)
+
+![Voynich Codex Five-Scribe & Dual-Supply-Chain Architecture](voynich_five_scribe_network.png)
+
+Partitioning 40,240 tokens across Lisa Fagin Davis's five scribes yields a 61.29% Combined Codex Lock and cross-scribe supply chains. For a complete breakdown of the scribe metrics, dialect distributions, and structural roles, refer to the documentation on {Link: GitHub Repository https://github.com}.
+
 ## Repository Contents & Quickstart
 
 ```bash
@@ -122,6 +128,7 @@ A summary of Lisa Fagin Davis's five paleographic hands (`Scribes 1â€“5`) o
 * **Cross-Scribal Supply Chain:** Links Scribe 1 botanical catalogs to Scribe 3 and Scribe 2 recipe systems.
 * **Allograph Resolution & Operators:** Incorporates normalizations and shared Class 2 procedural operators (`voynich_procedural_operators.json`) across Scribes 2, 3, and 5.
 * **Supply Chain B:** Connects Scribe 4 astronomical roundels to Scribe 2 balneological prose.
+
 
 
 
