@@ -1,0 +1,10 @@
+# XC is a project source format. Official GitHub language recognition still
+# requires an upstream GitHub Linguist language definition.
+*.xc text eol=lf linguist-detectable=true
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.pdf binary
