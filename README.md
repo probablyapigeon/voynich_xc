@@ -1,4 +1,4 @@
-[![DOI](https://shields.io)](https://doi.org)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24248918-blue.svg)](https://doi.org/10.5281/zenodo.24248918)
 
 # voynich_xc Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
 
