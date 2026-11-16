@@ -1,4 +1,4 @@
-﻿[![DOI](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org)](https://doi.org)
 
 # voynich_xc Structural Visibility, Pharmaceutical Supply Chains & Falsifiable Grammar Discovery
 
@@ -165,6 +165,8 @@ Using an identical, domain-agnostic `.xc` projection across 300-token streams an
 Full numerical tables and Z-score profiles are documented in [`EMPIRICAL_7WAY_ISOMORPHISM.md`](EMPIRICAL_7WAY_ISOMORPHISM.md) and reproducible via [`empirical_7way_isomorphism.xc`](empirical_7way_isomorphism.xc).
 
 ## Currier A / B Dialect Split, 3-Stage Morphological Ablation & 72-Folio Classifier (`v1.1.1`)
+
+![Currier A/B Three-Stage Morphological Triangulation](currier_ab_triangulation.png)
 
 Expanding the 7-domain `.xc` Monte Carlo benchmark (`EMPIRICAL_7WAY_ISOMORPHISM.md`) across all 225 parsed folios (`78` dense folios $\ge 150$ tokens; `72` paleographically assigned) isolates the structural mechanics separating **Currier Language A** from **Currier Language B** (`VOYNICH_SYNTHESIS_REPORT.md`):
 
