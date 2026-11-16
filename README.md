@@ -190,7 +190,7 @@ Using an identical, domain-agnostic `.xc` projection across 300-token streams an
 
 Full numerical tables and Z-score profiles are documented in [`EMPIRICAL_7WAY_ISOMORPHISM.md`](EMPIRICAL_7WAY_ISOMORPHISM.md) and reproducible via [`empirical_7way_isomorphism.xc`](empirical_7way_isomorphism.xc).
 
-## Currier A / B Dialect Split, 3-Stage Morphological Ablation & 72-Folio Classifier (`v1.1.1`)
+## Currier A / B Dialect Split, 3-Stage Morphological Ablation & 72-Folio Classifier (`v1.3.0`)
 
 ![Currier A/B Three-Stage Morphological Triangulation](currier_ab_triangulation.png)
 
