@@ -1,5 +1,8 @@
 # Multi-Window Cross-Domain Stability Benchmark (Split Currier A & Currier B)
 
+![XEMBRA Multi-Window Cross-Domain Stability](multi_window_isomorphism.png)
+
+
 Evaluates up to **10 non-overlapping 300-token windows per domain** (`30` Monte Carlo shuffles per window, `seed=42`), separating **Currier A (`offset=0`)** from **Currier B (`offset=30000`)**.
 
 | Domain | Wins | $Z_c$ (`Mean ± SD`) | $Z_s$ (`Mean ± SD`) | $Z_\Phi$ (`Mean ± SD`) | `cos(Currier A)` | `cos(Currier B)` |
