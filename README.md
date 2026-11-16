@@ -11,6 +11,33 @@ Built on **XC (XEMBRA Code)** (`probablyapigeon/xembra-xc`), this repository app
 
 ---
 
+## TL;DR: What Is This Repo? (Plain-English Pigeon Edition)
+
+Full disclosure from an independent researcher pigeon: **I am not claiming to "translate" the Voynich Manuscript.** If you are looking for someone who thinks it's secret medieval Hebrew or a recipe for alien soup, keep flying. 
+
+Instead of guessing what individual letters mean, I built a custom mathematical tracking language (**XEMBRA Code / `.xc`**) to act like an X-ray machine for the **structure, rhythm, and grammar** of all 40,545 words in the book (`1r`–`116v`). Every claim in this repo is backed by reproducible scripts, Monte Carlo shuffle controls, and machine-readable JSON/CSV datasets.
+
+Here is what pecking through the math actually uncovered:
+
+* **1. It is a real, rule-bound system—not random gibberish.**
+  When you scramble the word order of the opening pages, suffix patterns break (+76% spike in artificial collisions). I also tested the old theory that tall, ornate "gallows" letters act as cipher reset buttons. Forcing resets on them degrades state coherence—meaning they are normal, integrated parts of words.
+* **2. The book is organized like an apothecary supply chain (`Plants` $\rightarrow$ `Jars` $\rightarrow$ `Recipes`).**
+  By tracking 135 recurring "bridge words" across the illustrations, a 3-stage pipeline jumps right out of the data. Words appear in their raw form next to **Herbal plant drawings**, show up again on **Apothecary jar labels**, and then get a specific prefix (`qo-` / `4o-`) bolted onto the front when they enter the **359 Starred Recipes** at the back—acting like a grammatical tag that switches *"raw herb"* to *"prepared ingredient."*
+* **3. Voynichese moves like birdsong and human writing—not computer code.**
+  I ran the exact same `.xc` pattern scanner across 7 totally different systems: the Voynich Manuscript, Mary Shelley's *Frankenstein*, real Bengalese finch songs, folk music, human DNA, runtime opcodes, and live LLM output. The systems split into two opposite families. Voynich clusters tightly with **human prose (`0.985`)**, **songbirds (`0.979`)**, and **folk music (`0.927`)**—meaning it follows organic phrasing rhythms rather than robotic code or DNA sequences.
+* **4. Solving the "Two Dialects" puzzle (`Currier A` vs. `Currier B`).**
+  Historians have known for decades that the manuscript seems split into two dialects that look completely opposite on the surface (`-0.609` anti-correlation). By digitally peeling off prefixes and suffixes layer by layer, the reason becomes obvious:
+  * **Strip the affixes (Stems):** Quire 20 recipes collapse right onto Currier A Herbal pages (`+0.5755`), proving they are talking about the **same botanical ingredients** underneath different suffixes.
+  * **Strip down to the core skeleton (Gallows Radicals):** The Bathing section (`Quire 13`) uses completely different vocabulary words, yet locks onto the **exact same core letter skeleton** as the Starred Recipes (`+0.7650`). Both Currier B sections run on the same underlying grammar rules even when describing totally different topics.
+* **5. An automated dialect detector with 94.4% precision.**
+  Using these state-space fingerprints, the `.xc` classifier scans 72 assigned folios and identifies **Currier B** pages with **94.4% precision** (`34/36` true positives) without knowing what a single word means.
+
+### How to Poke Around the Repo
+* **Want the big picture?** Read [`VOYNICH_SYNTHESIS_REPORT.md`](VOYNICH_SYNTHESIS_REPORT.md) or [`VOYNICH_CODEX_REPORT.md`](VOYNICH_CODEX_REPORT.md).
+* **Want the raw data?** Grab [`voynich_master_lexicon_eva.csv`](voynich_master_lexicon_eva.csv) (all 135 cross-section bridge words transliterated to standard EVA) or [`voynich_reconstructed_codex.json`](voynich_reconstructed_codex.json) (all 359 segmented recipes).
+* **Want to run the probes yourself?** Install `requirements.txt` and run `python xc_interpreter.py <probe_name>.xc`.
+
+---
 ## Key Discoveries Surfaced by `.xc`
 
 ### 1. Macro-Structural & Codicological Probes
