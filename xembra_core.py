@@ -96,8 +96,10 @@ def H(psi: PsiVector) -> PsiVector:
     return psi
 
 
-def Ouroboros(psi: PsiVector, target: PsiVector) -> PsiVector:
-    return H(V(D(F(psi)), target))
+def Ouroboros(psi: PsiVector, target: PsiVector, alpha: float = 0.05) -> PsiVector:
+    link = tau_ij.get((psi, target))
+    eff_alpha = float(alpha) * float(link["weight"]) if link is not None else float(alpha)
+    return H(V(D(F(psi)), target, alpha=eff_alpha))
 
 
 def QTC(psi: PsiVector, order: str = "A→N→G") -> PsiVector:

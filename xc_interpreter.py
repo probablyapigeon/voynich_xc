@@ -10,6 +10,8 @@ files you trust.
 from __future__ import annotations
 
 import argparse
+from math import sqrt
+from random import Random
 from pathlib import Path
 
 from xembra_core import PsiVector, Ψ, connect, tau, F, D, V, H, Ouroboros, QTC, tau_ij
@@ -25,7 +27,7 @@ def run_xc(path: str | Path, *, capabilities: dict | None = None) -> dict:
     path = Path(path)
     source = preprocess(path.read_text(encoding="utf-8"))
     env = {
-        "__builtins__": {"print": print},
+        "__builtins__": {"print": print, "len": len, "range": range, "sum": sum, "min": min, "max": max, "round": round, "sorted": sorted, "set": set, "list": list, "dict": dict, "int": int, "float": float, "str": str, "enumerate": enumerate, "zip": zip, "abs": abs, "isinstance": isinstance}, "sqrt": sqrt, "Random": Random, "read_text": lambda p: Path(p).read_text(encoding="utf-8", errors="replace"),
         "PsiVector": PsiVector,
         "Ψ": Ψ,
         "connect": connect,
