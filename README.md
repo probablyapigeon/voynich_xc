@@ -163,3 +163,15 @@ Using an identical, domain-agnostic `.xc` projection across 300-token streams an
 * **Algorithmic / Biochemical Cluster (`cos ? = 0.531?0.844`):** Live Neural LLM Prose (`0.844` with Human *HBB* DNA, `0.531` with Runtime Execution Opcodes).
 
 Full numerical tables and Z-score profiles are documented in [`EMPIRICAL_7WAY_ISOMORPHISM.md`](EMPIRICAL_7WAY_ISOMORPHISM.md) and reproducible via [`empirical_7way_isomorphism.xc`](empirical_7way_isomorphism.xc).
+
+## Currier A / B Dialect Split, 3-Stage Morphological Ablation & 72-Folio Classifier (`v1.1.1`)
+
+Expanding the 7-domain `.xc` Monte Carlo benchmark (`EMPIRICAL_7WAY_ISOMORPHISM.md`) across all 225 parsed folios (`78` dense folios $\ge 150$ tokens; `72` paleographically assigned) isolates the structural mechanics separating **Currier Language A** from **Currier Language B** (`VOYNICH_SYNTHESIS_REPORT.md`):
+
+- **Surface Dialect Anti-Correlation (`CURRIER_AB_ISOMORPHISM.md`):** Currier A (`1r` Herbal) and Currier B (`116r` Starred Recipes) are strongly anti-correlated at the surface word level ($\cos\theta = -0.6090$). Currier A locks onto the organic narrative/bioacoustic cluster (`+0.9840` with Human Prose, `+0.9828` with Bengalese Finch Song;  = +3.54, Z_\Phi = -4.36$), whereas Currier B inverts into positive state coherence (\Phi = +1.37$ to $+2.12$).
+- **Three-Stage Morphological Ablation (`Surface` $\rightarrow$ `Stem` $\rightarrow$ `Gallows Core`):**
+  - **Surface Words:** Quire 13 Balneological (`30000`) and Quire 20 Starred Recipes (`40245`) lock together tightly ($\cos\theta = +0.9154$) against Currier A.
+  - **Affix-Stripped Stems (`voynich_stem_ablation.xc`):** Stripping prefixes (`4o-`, `o-`, `y-`) and suffixes (`-89`, `-79`, `-an`, `-9`) collapses Quire 20 Recipes onto Currier A ($\cos\theta = -0.6090 \rightarrow +0.5755$) due to shared botanical vocabulary, while Quire 13 remains orthogonal ($\cos\theta = -0.8758$).
+  - **Gallows-Core Radicals (`voynich_gallows_ablation.xc`):** Extracting gallows/bench skeletons reunifies Quire 13 and Quire 20 ($\cos\theta = +0.7650$), proving both Currier B sections share a single underlying syntactic skeleton across distinct lexicons.
+- **Full-Corpus Dual-Prototype Classifier (`CURRIER_CLASSIFIER_BENCHMARK.md`):** Evaluating a dual-prototype surface model (`CB_Q13 + CB_Q20` vs. `CA_Herbal`) across all 72 paleographically assigned folios achieves **94.4% Currier B precision** (`34/36` true positives, `61.8%` recall, `74.7%` F1).
+- **Folio & Section Atlases:** Full per-folio projections (`1r`–`116v`) and section triangulations are documented in `VOYNICH_FOLIO_ATTRACTORS.md`, `VOYNICH_5SECTION_TRIANGULATION.md`, `QUIRE13_TOP_VS_BOTTOM.md`, `VOYNICH_DIALECT_SWEEP.md`, and `VOYNICH_FINE_ZOOM.md`.
