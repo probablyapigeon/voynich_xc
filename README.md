@@ -153,3 +153,13 @@ Using **XEMBRA Code (`.xc`)**, we projected four sequential symbol streams onto 
 
 ![XEMBRA Zoomed Micro-Trajectory t=0 to t=10](voynich_t0_to_t10_micro_3d.png)
 
+## Cross-Domain Structural Isomorphism (7 Empirical Systems)
+
+Using an identical, domain-agnostic `.xc` projection across 300-token streams and 50 Monte Carlo shuffle controls per domain (`357` total `Ouroboros` runs), XEMBRA separates sequential systems into two anti-correlated dynamical regimes:
+
+![XEMBRA Cross-Domain Structural Isomorphism](empirical_7way_isomorphism.png)
+
+* **Expressive / Organic Cluster (`cos ? = 0.887?0.985`):** Voynich MS 408 (`0.985` with 1818 Human Prose, `0.979` with Bengalese Finch Song, `0.927` with Norbeck ABC Music).
+* **Algorithmic / Biochemical Cluster (`cos ? = 0.531?0.844`):** Live Neural LLM Prose (`0.844` with Human *HBB* DNA, `0.531` with Runtime Execution Opcodes).
+
+Full numerical tables and Z-score profiles are documented in [`EMPIRICAL_7WAY_ISOMORPHISM.md`](EMPIRICAL_7WAY_ISOMORPHISM.md) and reproducible via [`empirical_7way_isomorphism.xc`](empirical_7way_isomorphism.xc).
