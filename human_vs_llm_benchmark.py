@@ -1,22 +1,14 @@
-import re, math, random
+import re, math, random, hashlib
 from collections import Counter, defaultdict
 from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 from xembra_core import PsiVector, connect, Ouroboros
 
-# 1. Canonical Homo sapiens HBB coding sequence (NM_000518.5, 148 codons x 12 = 1,776 codons)
-hbb_cds = (
-    "ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAGG"
-    "CTGCTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAG"
-    "GCTCATGGCAAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCAC"
-    "TGTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCATCACTTTGGCAAAGAATTCACC"
-    "CCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAA"
-)
-codons = [hbb_cds[i:i+3] for i in range(0, len(hbb_cds) - 2, 3)]
-Path("data/dna_hbb.txt").write_text(" ".join(codons * 12) + "\n", encoding="utf-8")
+def window_rng(base_seed: int, domain: str, win_idx: int) -> random.Random:
+    digest = hashlib.sha256(f"{base_seed}:{domain}:{win_idx}".encode("utf-8")).digest()
+    return random.Random(int.from_bytes(digest[:8], "big"))
 
-# 2. Load clean human prose from cached Project Gutenberg texts (case-insensitive start search)
 def extract_words(path_str: str, marker: str, length: int = 120000) -> list[str]:
     raw = Path(path_str).read_text(encoding="utf-8", errors="replace")
     pos = raw.lower().find(marker.lower())
@@ -24,29 +16,28 @@ def extract_words(path_str: str, marker: str, length: int = 120000) -> list[str]
     chunk = raw[start : start + length]
     return [w for w in re.sub(r"[^A-Za-z0-9\s]", " ", chunk).lower().split() if len(w) >= 2]
 
-cury_toks = extract_words("data/forme_of_cury.txt", "for to make")
+# Read-only corpus loading (zero writes to data/)
+frank_toks = Path("data/human_frankenstein.txt").read_text(encoding="utf-8-sig").split()
 herbal_toks = extract_words("data/culpeper_herbal.txt", "amara dulcis")
-Path("data/human_frankenstein.txt").write_text(" ".join(cury_toks[:8000]) + "\n", encoding="utf-8")
-
-# 3. Live Ollama AI prose + trigram autoregressive continuation to 20 windows (6,000 tokens)
 ai_seed_toks = Path("data/ai_ollama.txt").read_text(encoding="utf-8-sig").split()
+voynich_toks = Path("data/voynich_clean.txt").read_text(encoding="utf-8-sig").split()
+
+# Build deterministic trigram autoregressive continuation from pure Frankenstein prose
 trans = defaultdict(list)
-for a, b, c in zip(cury_toks[:6000], cury_toks[1:6001], cury_toks[2:6002]):
+for a, b, c in zip(frank_toks[:6000], frank_toks[1:6001], frank_toks[2:6002]):
     trans[(a, b)].append(c)
 
 rng_ar = random.Random(77)
 ar_toks = list(ai_seed_toks)
-w0, w1 = cury_toks.pop(10), cury_toks.pop(10)
+w0, w1 = frank_toks[10], frank_toks[11]
 while len(ar_toks) < 6200:
     cands = trans.get((w0, w1))
-    nxt = rng_ar.choice(cands) if cands else rng_ar.choice(cury_toks[:500])
+    nxt = rng_ar.choice(cands) if cands else rng_ar.choice(frank_toks[:500])
     ar_toks.append(nxt)
     w0, w1 = w1, nxt
 
-voynich_toks = Path("data/voynich_clean.txt").read_text(encoding="utf-8-sig").split()
-
 CORPORA = {
-    "1. Human Historical Prose (n=20)": cury_toks[:6000],
+    "1. Human Literary Prose (n=20)": frank_toks[:6000],
     "2. Human Herbal Prose (n=20)": herbal_toks[:6000],
     "3. Live AI + Autoreg. (n=20)": ar_toks[:6000],
     "4. Voynich Currier A (n=20)": voynich_toks[:6000],
@@ -77,12 +68,12 @@ def cos(a, b):
     na, nb = math.sqrt(sum(x * x for x in a)), math.sqrt(sum(y * y for y in b))
     return d / (na * nb) if na and nb else 0.0
 
-rng = random.Random(42)
 win_z = {}
 for name, toks in CORPORA.items():
     nw = min(20, len(toks) // 300)
     z_list = []
     for w in range(nw):
+        rng = window_rng(42, name, w)
         chunk = toks[w * 300 : (w + 1) * 300]
         rv = run_sim(obs_vec(chunk))
         nv = [run_sim(obs_vec(rng.sample(chunk, len(chunk)))) for _ in range(30)]
@@ -95,12 +86,12 @@ for name, toks in CORPORA.items():
         z_list.append(z)
     win_z[name] = z_list
 
-hum_mean = [sum(z[k] for z in win_z["1. Human Historical Prose (n=20)"]) / 20.0 for k in range(9)]
+hum_mean = [sum(z[k] for z in win_z["1. Human Literary Prose (n=20)"]) / 20.0 for k in range(9)]
 
 md = [
     "# Step 4: 20-Window Human Prose vs. Autoregressive AI & Voynich Polarity Benchmark\n",
     "![Human vs AI 20-Window Polarity](human_vs_llm_polarity.png)\n",
-    "Evaluates **20 independent non-overlapping 300-token windows per corpus** (`100` real windows + `3,000` Monte Carlo shuffle controls = `3,100` `Ouroboros` runs, `seed=42`) after cleaning `data/dna_hbb.txt` and `data/human_frankenstein.txt` to pure source sequences.\n",
+    "Evaluates **20 independent non-overlapping 300-token windows per corpus** (`100` real windows + `3,000` Monte Carlo shuffle controls = `3,100` `Ouroboros` runs, per-window isolated SHA-256 seeds from `seed=42`).\n",
     "| Corpus | Wins | $Z_c$ (`Mean ± SD`) | $Z_s$ (`Mean ± SD`) | $Z_\\Phi$ (`Mean ± SD`) | `cos(Human Prose)` |",
     "| :--- | :---: | :---: | :---: | :---: | :---: |",
 ]
@@ -149,7 +140,7 @@ for i, (m, s) in enumerate(zip(zp_m, zp_s)):
     ax2.text(m + (s + 0.12 if m >= 0 else -(s + 0.12)), i, f"{m:+.2f}",
              va="center", ha="left" if m >= 0 else "right", fontweight="bold", color="#e6edf3")
 ax2.set_yticks(y); ax2.set_yticklabels([""] * len(labels))
-ax2.invert_yaxis(); ax2.set_xlim(-3.2, 2.5)
+ax2.invert_yaxis(); ax2.set_xlim(-3.5, 2.5)
 ax2.set_xlabel("Phase Coherence Z-Score Z_Φ (Mean ± SD across 20 Windows)", color="#c9d1d9")
 ax2.set_title("B. 20-Window Coherence Polarity (Z_Φ)", fontweight="bold", color="#f0f6fc")
 

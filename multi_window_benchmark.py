@@ -1,4 +1,4 @@
-import math, random
+import math, random, hashlib, hashlib
 from collections import Counter
 from pathlib import Path
 import numpy as np
@@ -46,13 +46,13 @@ def cos(a, b):
     na, nb = math.sqrt(sum(x * x for x in a)), math.sqrt(sum(y * y for y in b))
     return d / (na * nb) if na and nb else 0.0
 
-rng = random.Random(42)
+
 win_z = {}
 for dom, (fn, offset) in SOURCES.items():
     toks = load_tokens(Path("data") / fn)[offset:]
     nw = min(10, len(toks) // 300)
     z_list = []
-    for w in range(nw):
+    for w in range(nw):`n        rng = random.Random(int.from_bytes(hashlib.sha256(f"42:{dom}:{w}".encode("utf-8")).digest()[:8], "big"))`n        rng = random.Random(int.from_bytes(hashlib.sha256(f"42:{dom}:{w}".encode("utf-8")).digest()[:8], "big"))
         chunk = toks[w * 300 : (w + 1) * 300]
         rv = run_sim(obs_vec(chunk))
         nv = [run_sim(obs_vec(rng.sample(chunk, len(chunk)))) for _ in range(30)]
