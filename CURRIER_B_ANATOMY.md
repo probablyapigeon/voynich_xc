@@ -6,7 +6,7 @@ Tests **Apothecary Ledger + Vowel-Dropped Abjad Shorthand** (with and without mo
 
 | Mechanism | Wins | $Z_c$ (`Mean ± SD`) | $Z_s$ (`Mean ± SD`) | $Z_\Phi$ (`Mean ± SD`) | `cos(Currier B)` |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **1. Vowel-Dropped Abjad** | `10` | `-5.41 ± 3.92` | `+6.60 ± 4.50` | `-0.68 ± 1.73` | `+0.0683` |
+| **1. Vowel-Dropped Abjad** | `10` | `-0.68 ± 1.05` | `+0.94 ± 0.98` | `-0.72 ± 1.84` | `-0.0172` |
 | **2. Apothecary Ledger (4-Slot)** | `10` | `-1.02 ± 0.51` | `+5.15 ± 2.02` | `-0.01 ± 0.90` | `+0.2818` |
 | **3. Ledger + Abjad Combined** | `10` | `-1.42 ± 1.34` | `+4.72 ± 2.34` | `-0.29 ± 0.75` | `+0.1090` |
 | **4. Ledger + Abjad + Affixes** | `10` | `-0.35 ± 0.46` | `+0.82 ± 0.65` | `-0.30 ± 0.76` | `+0.0191` |
