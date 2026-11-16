@@ -52,7 +52,8 @@ for dom, (fn, offset) in SOURCES.items():
     toks = load_tokens(Path("data") / fn)[offset:]
     nw = min(10, len(toks) // 300)
     z_list = []
-    for w in range(nw):`n        rng = random.Random(int.from_bytes(hashlib.sha256(f"42:{dom}:{w}".encode("utf-8")).digest()[:8], "big"))`n        rng = random.Random(int.from_bytes(hashlib.sha256(f"42:{dom}:{w}".encode("utf-8")).digest()[:8], "big"))
+    for w in range(nw):
+        rng = random.Random(int.from_bytes(hashlib.sha256(f"42:{dom}:{w}".encode("utf-8")).digest()[:8], "big"))
         chunk = toks[w * 300 : (w + 1) * 300]
         rv = run_sim(obs_vec(chunk))
         nv = [run_sim(obs_vec(rng.sample(chunk, len(chunk)))) for _ in range(30)]
