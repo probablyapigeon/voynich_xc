@@ -8,35 +8,49 @@ from xembra_core import PsiVector, connect, Ouroboros
 voynich_toks = Path("data/voynich_clean.txt").read_text(encoding="utf-8-sig").split()
 cb_toks = voynich_toks[30000:36000]
 
-# Load authentic historical prose from Step 2 as base text for transformations
 cury_raw = Path("data/forme_of_cury.txt").read_text(encoding="utf-8", errors="replace")
 pos = max(0, cury_raw.lower().find("for to make"))
 base_words = [w for w in re.sub(r"[^a-z\s]", " ", cury_raw[pos:pos+120000].lower()).split() if len(w) >= 2]
 
-# Candidate 1: Vowel-Dropped Abjad Shorthand (medieval consonantal abbreviation)
-abjad_toks = []
-for w in base_words[:6000]:
-    cons = re.sub(r"[aeiouy]", "", w)
-    abjad_toks.append(cons if len(cons) >= 2 else w[:2])
+def to_abjad(word: str) -> str:
+    cons = re.sub(r"[aeiouy]", "", word.lower())
+    return cons if len(cons) >= 2 else word.lower()[:2]
 
-# Candidate 2: Positional Combinatorial Grille (Column A x Column B x Column C, Rullus-style)
-rng_g = random.Random(202)
-col_a = ["4o", "o", "1", "2", "8", "y", "k", "h", ""]
-col_b = ["h", "k", "K", "H", "1c", "9k", "ch", "sh", "oh", "ok", "1o", "8o"]
-col_c = ["89", "9", "am", "oe", "ay", "79", "an", "y", "e", ""]
-grille_toks = [rng_g.choice(col_a) + rng_g.choice(col_b) + rng_g.choice(col_c) for _ in range(6000)]
+# 1. Vowel-Dropped Abjad Shorthand
+abjad_toks = [to_abjad(w) for w in base_words[:6000]]
 
-# Candidate 3: Apothecary Inventory Ledger ([QTY] [ITEM] [PREP] [UNIT])
+# 2. Apothecary Ledger (4-Slot: Qty + Item + Prep + Unit)
 rng_l = random.Random(303)
-qtys = ["i", "ii", "iii", "iv", "vi", "ss", "ana", "q.s."]
-items = ["rad.gent", "fol.salv", "flos.ros", "sem.aneth", "gum.arab", "ol.oliv", "aq.ros", "mel.disp", "pulv.cin", "cort.gran"]
-preps = ["coq", "inf", "pulv", "dist", "calc", "lav", "subt", "clar"]
-units = ["dr.i", "unc.ii", "scr.iii", "lb.ss", "m.i", "gtt.x", "cyath", "manip"]
+qtys = ["i", "ii", "iii", "iv", "vi", "ss", "ana", "qs"]
+items = ["radgent", "folsalv", "flosros", "semaneth", "gumarab", "ololiv", "aqros", "meldisp", "pulvcin", "cortgran", "herbrut", "semfen"]
+preps = ["coq", "inf", "pulv", "dist", "calc", "lav", "subt", "clar", "ter", "misc"]
+units = ["dri", "uncii", "scriii", "lbss", "mi", "gttx", "cyath", "manip"]
 ledger_toks = []
 for _ in range(1500):
     ledger_toks.extend([rng_l.choice(qtys), rng_l.choice(items), rng_l.choice(preps), rng_l.choice(units)])
 
-# Candidate 4: Affix-Stripped Currier B Stems (testing if stripping affixes reverts Z_Phi!)
+# 3. Combined: Apothecary Ledger + Vowel-Dropped Abjad
+rng_c1 = random.Random(404)
+ledger_abjad_toks = []
+for _ in range(1500):
+    ledger_abjad_toks.extend([
+        to_abjad(rng_c1.choice(qtys)),
+        to_abjad(rng_c1.choice(items)),
+        to_abjad(rng_c1.choice(preps)),
+        to_abjad(rng_c1.choice(units)),
+    ])
+
+# 4. Combined + Affix State Tags (4o- / o- / -89 / -am on Abjad Ledger)
+rng_c2 = random.Random(505)
+ledger_abjad_affix_toks = []
+for _ in range(1500):
+    q = rng_c2.choice(["1", "2", "8", "o"]) + to_abjad(rng_c2.choice(qtys))
+    it = rng_c2.choice(["4o", "o"]) + to_abjad(rng_c2.choice(items)) + rng_c2.choice(["9", "am", "oe"])
+    pr = "4o" + to_abjad(rng_c2.choice(preps)) + rng_c2.choice(["9", "an"])
+    un = to_abjad(rng_c2.choice(units)) + "89"
+    ledger_abjad_affix_toks.extend([q, it, pr, un])
+
+# 5. Currier B Affix-Stripped Stems
 PREFS = ("4o", "o", "y", "1", "2", "8", "9")
 SUFFS = ("89", "79", "am", "an", "oe", "ay", "9", "y")
 cb_stems = []
@@ -54,10 +68,11 @@ for w in cb_toks:
 
 CANDIDATES = {
     "1. Vowel-Dropped Abjad": abjad_toks,
-    "2. Combinatorial Grille (AxBxC)": grille_toks,
-    "3. Apothecary Ledger (4-Slot)": ledger_toks,
-    "4. Currier B Affix-Stripped": cb_stems,
-    "5. Voynich Currier B (Actual)": cb_toks,
+    "2. Apothecary Ledger (4-Slot)": ledger_toks,
+    "3. Ledger + Abjad Combined": ledger_abjad_toks,
+    "4. Ledger + Abjad + Affixes": ledger_abjad_affix_toks,
+    "5. Currier B Affix-Stripped": cb_stems,
+    "6. Voynich Currier B (Actual)": cb_toks,
 }
 
 def obs_vec(tokens: list[str]):
@@ -102,17 +117,17 @@ for name, toks in CANDIDATES.items():
         z_list.append(z)
     win_z[name] = z_list
 
-cb_mean = [sum(z[k] for z in win_z["5. Voynich Currier B (Actual)"]) / 10.0 for k in range(9)]
+cb_mean = [sum(z[k] for z in win_z["6. Voynich Currier B (Actual)"]) / 10.0 for k in range(9)]
 
 md = [
-    "# Currier B Anatomy Probe: What Generative Mechanism Matches Currier B?\n",
+    "# Currier B Anatomy Probe: Combined Apothecary Ledger + Abjad Shorthand\n",
     "![Currier B Anatomy Comparison](currier_b_anatomy.png)\n",
-    "Tests four candidate generative mechanisms against actual **Voynich Currier B** across **10 independent 300-token windows** (`30` Monte Carlo shuffles/window, `seed=42`).\n",
+    "Tests **Apothecary Ledger + Vowel-Dropped Abjad Shorthand** (with and without morphological affix tags) against actual **Voynich Currier B** across **10 independent 300-token windows** (`30` Monte Carlo shuffles/window, `seed=42`).\n",
     "| Mechanism | Wins | $Z_c$ (`Mean ± SD`) | $Z_s$ (`Mean ± SD`) | $Z_\\Phi$ (`Mean ± SD`) | `cos(Currier B)` |",
     "| :--- | :---: | :---: | :---: | :---: | :---: |",
 ]
 
-print(f"\n=== CURRIER B ANATOMY PROBE: WHAT MATCHES CURRIER B? (10 x 300 Windows, Seed=42) ===")
+print(f"\n=== CURRIER B ANATOMY: LEDGER + ABJAD COMBINED (10 x 300 Windows, Seed=42) ===")
 print(f"{'Mechanism':31s} | {'W':>2s} | {'Zc Mean(SD)':>13s} | {'Zs Mean(SD)':>13s} | {'ZPhi Mean(SD)':>14s} | {'cos(CB)':>8s}")
 print("-" * 96)
 
@@ -129,7 +144,7 @@ for name, zl in win_z.items():
 Path("CURRIER_B_ANATOMY.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
 plt.style.use("dark_background")
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14.2, 5.2), dpi=220)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14.5, 5.6), dpi=220)
 fig.patch.set_facecolor("#0d1117")
 for ax in (ax1, ax2):
     ax.set_facecolor("#161b22")
@@ -138,28 +153,29 @@ for ax in (ax1, ax2):
     ax.spines["right"].set_visible(False)
 
 y = np.arange(len(labels))
+bar_cols1 = ["#a371f7" if "Combined" in l or "Affixes" in l else "#58a6ff" for l in labels]
 ax1.axvline(0, color="#8b949e", linewidth=1.0)
-ax1.barh(y, cb_c_list, height=0.5, color="#58a6ff", edgecolor="#79c0ff")
+ax1.barh(y, cb_c_list, height=0.52, color=bar_cols1)
 for i, v in enumerate(cb_c_list):
-    ax1.text(v + (0.04 if v >= 0 else -0.04), i, f"{v:+.3f}", va="center",
+    ax1.text(v + (0.03 if v >= 0 else -0.03), i, f"{v:+.3f}", va="center",
              ha="left" if v >= 0 else "right", fontweight="bold", color="#e6edf3")
 ax1.set_yticks(y); ax1.set_yticklabels(labels, fontweight="bold", color="#e6edf3")
-ax1.invert_yaxis(); ax1.set_xlim(-0.85, 1.05)
+ax1.invert_yaxis(); ax1.set_xlim(-0.35, 0.85)
 ax1.set_xlabel("Mean Cosine Similarity to Actual Currier B", color="#c9d1d9")
 ax1.set_title("A. Structural Match to Voynich Currier B", fontweight="bold", color="#f0f6fc")
 
 colors2 = ["#ff7b72" if m < 0 else "#79c0ff" for m in zp_m]
 ax2.axvline(0, color="#8b949e", linewidth=1.0)
-ax2.barh(y, zp_m, xerr=zp_s, height=0.5, color=colors2, error_kw=dict(ecolor="#f0f6fc", elinewidth=1.2, capsize=3))
+ax2.barh(y, zp_m, xerr=zp_s, height=0.52, color=colors2, error_kw=dict(ecolor="#f0f6fc", elinewidth=1.2, capsize=3))
 for i, (m, s) in enumerate(zip(zp_m, zp_s)):
     ax2.text(m + (s + 0.14 if m >= 0 else -(s + 0.14)), i, f"{m:+.2f}",
              va="center", ha="left" if m >= 0 else "right", fontweight="bold", color="#e6edf3")
 ax2.set_yticks(y); ax2.set_yticklabels([""] * len(labels))
-ax2.invert_yaxis(); ax2.set_xlim(-3.5, 2.5)
+ax2.invert_yaxis(); ax2.set_xlim(-3.2, 2.5)
 ax2.set_xlabel("Phase Coherence Z-Score Z_Φ (Mean ± SD)", color="#c9d1d9")
-ax2.set_title("B. Which Mechanism Flips Z_Φ Positive?", fontweight="bold", color="#f0f6fc")
+ax2.set_title("B. Coherence Polarity (Z_Φ)", fontweight="bold", color="#f0f6fc")
 
-fig.suptitle("XEMBRA (.xc) Currier B Anatomy Probe: Testing Generative Mechanisms (10 x 300 Windows)",
+fig.suptitle("XEMBRA (.xc) Currier B Anatomy: Combined Apothecary Ledger + Abjad Shorthand (10 x 300 Windows)",
              fontsize=12.5, fontweight="bold", color="#ffffff", y=0.98)
 plt.tight_layout(rect=[0, 0, 1, 0.92])
 plt.savefig("currier_b_anatomy.png", dpi=220, facecolor=fig.get_facecolor())
