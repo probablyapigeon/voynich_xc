@@ -1,0 +1,138 @@
+"""Build the seven-domain XC probe from local data, without network access.
+
+Text inputs are already tokenized and are split on whitespace as supplied.
+Bird tokens are canonical numeric syllable labels (35.0 becomes '35').
+This reproduces the documented feature equations, not an undocumented historic
+tokenization or shuffle seed. It does not authenticate corpus provenance.
+Requires numpy to read birds.npz; no recording/audio array is loaded.
+"""
+from __future__ import annotations
+
+import argparse
+from collections import Counter
+import hashlib
+import json
+from pathlib import Path
+import random
+
+
+SOURCES = {
+    "1_DNA_Human_HBB": "dna_hbb.txt",
+    "2_Music_Norbeck_ABC": "music_nottingham.txt",
+    "3_Runtime_Opcodes": "malware_api.txt",
+    "4_AI_Prose_Live_LLM": "ai_ollama.txt",
+    "5_Human_Frankenstein": "human_frankenstein.txt",
+    "6_Voynich_MS408": "voynich_clean.txt",
+    "7_Bengalese_Finch": "birds.npz",
+}
+
+RUNTIME = '''
+def run_ouroboros(obs):
+    reader = Ψ(c=0.5, p=0.5, r=0.5, s=0.5, Φ=0.5, 𝒯=0.5, E=0.5, d=0.5, a=0.5)
+    for c_val, s_val, e_val in obs:
+        tok = Ψ(c=c_val, p=0.5, r=e_val, s=s_val, Φ=0.6, 𝒯=0.4, E=e_val, d=0.3, a=0.5)
+        τᵢⱼ(reader, tok, weight=0.25, type='empirical_isomorphism')
+        reader = Ouroboros(reader, target=tok)
+    return reader
+
+for name in data:
+    real_state = run_ouroboros(data[name]['real'])
+    print('REAL|' + name + '|', real_state)
+    for n_obs in data[name]['nulls']:
+        n_state = run_ouroboros(n_obs)
+        print('NULL|' + name + '|', n_state)
+'''
+
+
+def observations(tokens: list[str]) -> list[tuple[float, float, float]]:
+    """Use empirical outgoing bigram probabilities within this sequence.
+
+    Recompute all features after every shuffle; the final token has s=0.5.
+    Quantize observations to three decimals like the existing XC artifact.
+    """
+    pairs = Counter(zip(tokens, tokens[1:]))
+    outgoing = Counter(tokens[:-1])
+    result = []
+    for i, token in enumerate(tokens):
+        c = 0.88 if token in tokens[max(0, i - 8):i] else 0.25
+        s = (min(0.15 + 0.85 * pairs[token, tokens[i + 1]] / outgoing[token], 0.95)
+             if i + 1 < len(tokens) else 0.5)
+        energy = min(len(set(token)) / 10.0, 1.0)
+        result.append((c, round(s, 3), round(energy, 3)))
+    return result
+
+
+def load_tokens(path: Path) -> list[str]:
+    if path.suffix != ".npz":
+        return path.read_text(encoding="utf-8-sig").split()
+    import numpy as np
+
+    with np.load(path, allow_pickle=False) as archive:
+        labels = archive["syllable_types"]
+        if labels.ndim != 1 or not np.issubdtype(labels.dtype, np.number):
+            raise ValueError("syllable_types must be a one-dimensional numeric array")
+        if not np.isfinite(labels).all():
+            raise ValueError("syllable_types contains non-finite labels")
+        return [str(int(v)) if float(v).is_integer() else str(float(v)) for v in labels]
+
+
+def file_hash(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def main() -> None:
+    root = Path(__file__).resolve().parent
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data-dir", type=Path, default=root / "data")
+    parser.add_argument("--output", type=Path, default=root / "empirical_7way_isomorphism.xc")
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--tokens", type=int, default=300)
+    parser.add_argument("--nulls", type=int, default=50)
+    args = parser.parse_args()
+    if args.tokens < 2 or args.nulls < 1:
+        parser.error("--tokens must be >= 2 and --nulls must be >= 1")
+
+    rng = random.Random(args.seed)
+    data = {}
+    provenance = {}
+    for domain, filename in SOURCES.items():
+        path = args.data_dir / filename
+        tokens = load_tokens(path)
+        if len(tokens) < args.tokens:
+            raise ValueError(f"{filename}: need {args.tokens} tokens, found {len(tokens)}")
+        window = tokens[:args.tokens]
+        nulls = []
+        for _ in range(args.nulls):
+            shuffled = window.copy()
+            rng.shuffle(shuffled)
+            nulls.append(observations(shuffled))
+        data[domain] = {"real": observations(window), "nulls": nulls}
+        provenance[domain] = {"file": filename, "sha256": file_hash(path),
+                              "available_tokens": len(tokens)}
+
+    metadata = {"seed": args.seed, "tokens": args.tokens, "nulls": args.nulls,
+                "shuffle": "Python random.Random; shared RNG in domain order; fresh copy each trial",
+                "tokenization": "whitespace text; canonical numeric bird syllable labels",
+                "probability_denominator": "outgoing transitions within each sequence",
+                "observation_decimals": 3, "sources": provenance}
+    lines = ["# Generated by build_7way_from_raw.py; inputs used as supplied.",
+             "# Build metadata: " + json.dumps(metadata, sort_keys=True), "data = {"]
+    for domain, values in data.items():
+        lines.extend([f"    {domain!r}: {{", f"        'real': {values['real']!r},",
+                      "        'nulls': ["])
+        lines.extend(f"            {obs!r}," for obs in values["nulls"])
+        lines.extend(["        ],", "    },"])
+    lines.append("}\n" + RUNTIME)
+    # Finish loading/validating all inputs before replacing the requested output.
+    with args.output.open("w", encoding="utf-8", newline="\n") as output:
+        output.write("\n".join(lines))
+    print(f"Built {args.output}: {len(data)} domains, {args.tokens} tokens, "
+          f"{args.nulls} nulls each, seed {args.seed}")
+
+
+if __name__ == "__main__":
+    main()
