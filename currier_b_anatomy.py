@@ -10,7 +10,7 @@ cb_toks = voynich_toks[30000:36000]
 
 # Load authentic historical prose from Step 2 as base text for transformations
 cury_raw = Path("data/forme_of_cury.txt").read_text(encoding="utf-8", errors="replace")
-pos = cury_raw.lower().find("for to make")
+pos = max(0, cury_raw.lower().find("for to make"))
 base_words = [w for w in re.sub(r"[^a-z\s]", " ", cury_raw[pos:pos+120000].lower()).split() if len(w) >= 2]
 
 # Candidate 1: Vowel-Dropped Abjad Shorthand (medieval consonantal abbreviation)
