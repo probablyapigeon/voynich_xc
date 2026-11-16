@@ -121,7 +121,7 @@ cb_mean = [sum(z[k] for z in win_z["6. Voynich Currier B (Actual)"]) / 10.0 for 
 
 md = [
     "# Currier B Anatomy Probe: Combined Apothecary Ledger + Abjad Shorthand\n",
-    "![Currier B Anatomy Comparison](currier_b_anatomy.png)\n",
+    "![Currier B Anatomy Comparison](currier_b_anatomy_v2.png)\n",
     "Tests **Apothecary Ledger + Vowel-Dropped Abjad Shorthand** (with and without morphological affix tags) against actual **Voynich Currier B** across **10 independent 300-token windows** (`30` Monte Carlo shuffles/window, `seed=42`).\n",
     "| Mechanism | Wins | $Z_c$ (`Mean ± SD`) | $Z_s$ (`Mean ± SD`) | $Z_\\Phi$ (`Mean ± SD`) | `cos(Currier B)` |",
     "| :--- | :---: | :---: | :---: | :---: | :---: |",
@@ -178,5 +178,5 @@ ax2.set_title("B. Coherence Polarity (Z_Φ)", fontweight="bold", color="#f0f6fc"
 fig.suptitle("XEMBRA (.xc) Currier B Anatomy: Combined Apothecary Ledger + Abjad Shorthand (10 x 300 Windows)",
              fontsize=12.5, fontweight="bold", color="#ffffff", y=0.98)
 plt.tight_layout(rect=[0, 0, 1, 0.92])
-plt.savefig("currier_b_anatomy.png", dpi=220, facecolor=fig.get_facecolor())
-print("\nSaved CURRIER_B_ANATOMY.md and currier_b_anatomy.png")
+plt.savefig("currier_b_anatomy_v2.png", dpi=220, facecolor=fig.get_facecolor())
+print("\nSaved CURRIER_B_ANATOMY.md and currier_b_anatomy_v2.png")

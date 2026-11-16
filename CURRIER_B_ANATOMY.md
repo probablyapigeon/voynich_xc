@@ -1,6 +1,6 @@
 # Currier B Anatomy Probe: Combined Apothecary Ledger + Abjad Shorthand
 
-![Currier B Anatomy Comparison](currier_b_anatomy.png)
+![Currier B Anatomy Comparison](currier_b_anatomy_v2.png)
 
 Tests **Apothecary Ledger + Vowel-Dropped Abjad Shorthand** (with and without morphological affix tags) against actual **Voynich Currier B** across **10 independent 300-token windows** (`30` Monte Carlo shuffles/window, `seed=42`).
 
